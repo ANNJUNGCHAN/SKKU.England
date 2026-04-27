@@ -28,7 +28,19 @@
 - [x] **[background-search]** 만약, 파워포인트에서 이미지(표, 그래프) 추출이 어려운 경우, 해당 파일의 pdf 문서에서 이미지(표, 그래프) 추출 후, 해당 이미지(표, 그래프)를 claude로 분석 — 점검 산출물: `db/data/_background_notes/09_pdf_fallback_check.md` (8회차에서 PDF 경유 절차로 이미 충족됨을 확인. PPT 직접 렌더링 한계·임베디드 이미지 부재·PDF 31페이지↔PPT 31슬라이드 1:1 정렬 검증 포함)
 - [x] **[web-search]** 영국 ONS 특화 분류·세분류·표기 규칙 및 영국 ONS 기준 분류를 검색하고, 해당 내용을 정리하여 background_note 업로드 — 산출물: `db/data/_background_notes/10_ons_web_research.md` (高 5건·中 5건 충족, 항등식 NEO 부호 규약/FDI 10%/거주자 1년/EBOPS 12분류/CDID 4자/결측 표기/개정 정책 정량 확정. Pink Book 표 식별자는 부분 확정 — Phase 1 시트명 추출로 보강 예정)
 - [x] 모든 _background_note를 background 폴더로 이관. note 폴더 내에 해당 md 파일들을 모두 넣기 — `git mv`로 노트 10건은 `background/note/`로, slide_images PNG 31장은 `background/slide_images/`로 이관 완료. 노트 본문 내 옛 경로 참조 일괄 갱신, INDEX.md 자료 목록 표도 보강
-- [ ] 모든 배경 지식 사전 정리를 다시 한번 점검하고, 빠진 부분이 있는지 다시 한번 검토한 후, 추가적인 사항들을 '0.2 배경지식 사전 정리' 항목에 add on 할 것
+- [x] 모든 배경 지식 사전 정리를 다시 한번 점검하고, 빠진 부분이 있는지 다시 한번 검토한 후, 추가적인 사항들을 '0.2 배경지식 사전 정리' 항목에 add on 할 것 — 산출물: `background/note/11_final_review.md`. 빠진 부분 26건 중 12건 후속 회차 해소·14건 미해결 식별. Phase 1 즉시 진입 가능 평가. 신규 후보 12건(高 4·中 5·低 3) 아래 add on
+- [ ] **[background-search]** 高 — `db/source/balanceofpayments2025q4.xlsx`의 시트명 전체 + 시트별 상단 메타 텍스트 추출해 `background/note/12_xlsx_sheet_inventory.md`로 정리. Pink Book 챕터 1~11 구조와 매핑하고 ONS 표 코드 사전(D1.3·D4.6·D7.9·K·BX 등)을 시트명에서 직접 도출
+- [ ] **[background-search]** 高 — xlsx 시트별 CDID 행 위치·코드 목록 추출해 `background/note/13_cdid_dictionary.md`로 정리. ECOS ITEM_CODE1과 직접 매핑 가능한 1차 사전
+- [ ] **[background-search]** 高 — 슬라이드 28(J-curve)·29(흡수 접근법 도식) 멀티모달 분석을 8회차 누락분으로 보강
+- [ ] **[background-search]** 高 — xlsx 시트별 단위 표기(£ million·£ billion·% of GDP) 인벤토리와 결측 표기 등장 위치(`x` vs 빈 셀) 카탈로그 작성 → `background/note/14_units_and_missing.md`
+- [ ] **[web-search]** 中 — OECD Benchmark Definition of Foreign Direct Investment 4판(BD4)의 SPE·FATS 보강 정의 확인
+- [ ] **[web-search]** 中 — BoE Bankstats(Tables A–C) 또는 BoE Statistical Release에서 영국 보유 준비자산(IR) 시계열 확보. 슬라이드 24의 NFA(중앙은행)와 슬라이드 11의 Net IIP(국가 전체) 정량 분리
+- [ ] **[background-search]** 中 — ONS Pink Book Chapter 9 (IIP) xlsx에서 영국의 재평가(가격·환율·기타) 3분해 시계열 추출 → 슬라이드 26 매트릭스 비거래요인 정량 검증
+- [ ] **[background-search]** 中 — xlsx에서 금융계정 5분류 각각의 자산(NAFA)·부채(NIL) 양면 컬럼이 어떤 시트·열에 저장되어 있는지 매핑
+- [ ] **[web-search]** 中 — ONS Errors and omissions 분기 시계열 변동성 직접 확인(BoP revision triangles 또는 분기 통계 불러틴 부록). 영국 NEO의 절대값·표준편차 수치 확보
+- [ ] **[background-search]** 低 — 슬라이드 22~25 NIA·BoP↔IIP 도식 부분 멀티모달 정밀 분석(텍스트는 04회차에서 인용됨, 학생용 시각 자료 가치 평가)
+- [ ] **[web-search]** 低 — HMRC OTS·ITIS·IPS·FDI Survey·BIS 국제은행통계 등 BoP 작성 다중 출처의 발표 일정·갱신 주기 카탈로그화
+- [ ] **[web-search]** 低 — ONS 국가별(geographical breakdown) Pink Book Ch.10·11 분류 체계 확보 — EU/non-EU 분해 시트 매핑 사전
 ---
 
 ## Phase 1. 원본 구조 정밀 조사
