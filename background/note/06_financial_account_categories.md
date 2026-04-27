@@ -64,4 +64,4 @@
 
 - 1차 근거: `background/BoP.pptx`, `background/BoP.pdf` (슬라이드 6, 7, 8, 9, 11, 14)
 - 색인: `background/INDEX.md`
-- 인접 산출물: `db/data/_background_notes/01_inventory.md` ~ `05_iip_nfa.md`
+- 인접 산출물: `background/note/01_inventory.md` ~ `05_iip_nfa.md`

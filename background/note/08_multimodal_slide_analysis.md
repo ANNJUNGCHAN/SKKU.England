@@ -2,7 +2,7 @@
 
 본 문서는 `db/CHECKLIST.md` §0.2 항목 "표나 그래프가 있는 장표의 경우, 우선 해당 파워포인트에서 이미지를 추출한 후, 해당 이미지를 claude로 분석"의 산출물이다.
 
-`background/BoP.pdf`의 31페이지를 200 DPI PNG으로 렌더링해 `db/data/_background_notes/slide_images/slide_NN.png`에 보관(추후 §0.2 라인 30 메모 이관 단계에서 `background/note/` 또는 `background/slide_images/`로 이전 예정). PPT/PDF 텍스트 추출이 비어 있던 핵심 장표 10장(15·16·17·18·19·20·21·26·30·31)을 Claude 멀티모달 시각 분석으로 해독한 결과를 정리한다.
+`background/BoP.pdf`의 31페이지를 200 DPI PNG으로 렌더링해 `background/slide_images/slide_NN.png`에 보관(추후 §0.2 라인 30 메모 이관 단계에서 `background/note/` 또는 `background/slide_images/`로 이전 예정). PPT/PDF 텍스트 추출이 비어 있던 핵심 장표 10장(15·16·17·18·19·20·21·26·30·31)을 Claude 멀티모달 시각 분석으로 해독한 결과를 정리한다.
 
 **임시 산출물 안내**: PNG 31장은 강의 자료의 시각적 보완 자료이며, 분석 결과 자체는 본 메모에 텍스트로 옮긴다. PNG는 추후 정리 단계에서 `background/` 영역으로 이관하거나 일괄 삭제 가능하다(`db/data/CLAUDE.md`의 임시 파일 규약과 정합).
 
@@ -147,7 +147,7 @@
 
 ## 관련 절대경로
 
-- 1차 근거 이미지: `db/data/_background_notes/slide_images/slide_NN.png` (NN = 01~31)
+- 1차 근거 이미지: `background/slide_images/slide_NN.png` (NN = 01~31)
 - 1차 근거 PDF: `background/BoP.pdf`
-- 인접 산출물: `db/data/_background_notes/01_inventory.md` ~ `07_glossary.md`
+- 인접 산출물: `background/note/01_inventory.md` ~ `07_glossary.md`
 - 추후 이관 대상: 본 문서 + slide_images/ → §0.2 라인 30 메모 이관 단계에서 처리

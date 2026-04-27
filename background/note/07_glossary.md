@@ -154,4 +154,4 @@
 
 ## 관련 절대경로
 
-- 1차 근거: `db/data/_background_notes/01_inventory.md` ~ `06_financial_account_categories.md`, `background/BoP.pptx`, `background/BoP.pdf`
+- 1차 근거: `background/note/01_inventory.md` ~ `06_financial_account_categories.md`, `background/BoP.pptx`, `background/BoP.pdf`

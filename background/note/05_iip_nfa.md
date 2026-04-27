@@ -59,5 +59,5 @@
 ## 관련 절대경로
 
 - 1차 근거: `background/BoP.pptx`, `background/BoP.pdf` (슬라이드 4, 6, 8, 11, 14, 24, 25, 26)
-- 인접 산출물: `db/data/_background_notes/01_inventory.md`, `02_bop_components.md`, `03_sign_conventions.md`, `04_identities.md`
+- 인접 산출물: `background/note/01_inventory.md`, `02_bop_components.md`, `03_sign_conventions.md`, `04_identities.md`
 - 실측 참조: `db/REPORT.md` §3.3 (Net IIP 영국 분기말 잔액)

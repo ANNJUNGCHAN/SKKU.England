@@ -51,5 +51,5 @@
 ## 관련 절대경로
 
 - 1차 근거: `background/BoP.pptx`, `background/BoP.pdf`
-- 인접 산출물: `db/data/_background_notes/01_inventory.md`, `02_bop_components.md`, `03_sign_conventions.md`
+- 인접 산출물: `background/note/01_inventory.md`, `02_bop_components.md`, `03_sign_conventions.md`
 - 신규 환경 변경: `requirements.txt`에 `pypdf==6.10.2` 추가

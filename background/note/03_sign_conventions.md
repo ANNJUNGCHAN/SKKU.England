@@ -42,5 +42,5 @@
 ## 관련 절대경로
 
 - 1차 근거: `background/BoP.pptx` (슬라이드 6~14)
-- 인접 산출물: `db/data/_background_notes/01_inventory.md`, `02_bop_components.md`
+- 인접 산출물: `background/note/01_inventory.md`, `02_bop_components.md`
 - 연결 분석 시 참고: `db/REPORT.md`, `db/source/balanceofpayments2025q4.xlsx`

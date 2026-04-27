@@ -36,4 +36,4 @@
 
 - 1차 근거: `background/BoP.pptx` (슬라이드 4–14, 21 중심)
 - 색인: `background/INDEX.md`
-- 인접 산출물: `db/data/_background_notes/01_inventory.md`
+- 인접 산출물: `background/note/01_inventory.md`

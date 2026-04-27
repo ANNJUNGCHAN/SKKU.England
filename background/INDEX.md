@@ -9,6 +9,9 @@
 | 파일 | 형식 | 주제 | 비고 |
 | --- | --- | --- | --- |
 | `BoP.pptx` | PowerPoint | 국제수지(Balance of Payments) 강의 슬라이드 | `python-pptx`로 텍스트 추출 |
+| `BoP.pdf` | PDF | BoP.pptx의 PDF 본 | `pypdf`/`pymupdf`로 추출 |
+| `slide_images/slide_NN.png` | PNG | BoP.pdf 31페이지를 200 DPI로 렌더링한 시각 자료 | 멀티모달 분석 입력 |
+| `note/01_inventory.md` ~ `10_ons_web_research.md` | Markdown | `background-search`·`web-search`로 작성한 한국어 발췌·정리 노트 (10건) | Phase 3 명세서 작성의 1차 근거 |
 
 > 새 자료를 추가할 때마다 위 표를 갱신합니다. 폴더 구조를 분류별로 나누는 경우 폴더 단위 주제도 같이 표기합니다.
 

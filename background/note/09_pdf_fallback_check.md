@@ -10,7 +10,7 @@
 
 1. PPT 자체 슬라이드 이미지 렌더링은 `python-pptx`만으로는 불가(슬라이드를 PNG으로 저장하는 API 없음).
 2. LibreOffice headless(`soffice --headless --convert-to pdf`) 등 외부 의존성 도구 대신, **사용자가 이미 둔 `background/BoP.pdf`를 직접 입력으로 사용**.
-3. `pymupdf==1.27.2.3`로 PDF 31페이지를 200 DPI PNG으로 렌더링 → `db/data/_background_notes/slide_images/slide_NN.png`.
+3. `pymupdf==1.27.2.3`로 PDF 31페이지를 200 DPI PNG으로 렌더링 → `background/slide_images/slide_NN.png`.
 4. 핵심 10장(15·16·17·18·19·20·21·26·30·31) `Read` 도구를 통한 멀티모달 시각 분석 → `08_multimodal_slide_analysis.md`.
 
 ## 본 항목 추가 점검
@@ -87,6 +87,6 @@ for i, slide in enumerate(prs.slides, 1):
 
 ## 관련 절대경로
 
-- 8회차 산출물: `db/data/_background_notes/08_multimodal_slide_analysis.md`
-- 추출 이미지: `db/data/_background_notes/slide_images/slide_01.png` ~ `slide_31.png`
+- 8회차 산출물: `background/note/08_multimodal_slide_analysis.md`
+- 추출 이미지: `background/slide_images/slide_01.png` ~ `slide_31.png`
 - 1차 근거: `background/BoP.pdf`, `background/BoP.pptx`
