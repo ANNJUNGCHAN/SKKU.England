@@ -1,0 +1,55 @@
+classification,side,sheet,sub_table,column_position,column_label,cdid,sign_prefix,table_code
+Direct investment,asset,Table_J,1,5,"Direct investment abroad, Total",N2SV,true,J
+Direct investment,liability,Table_J,2,5,"Direct investment in the UK, Total",N2SA,false,J
+Direct investment,net,Table_J,3,5,"Net direct investment, Total",MU7M,true,J
+Direct investment,asset,Table_D1_3,2,2,"Financial account transactions, Direct investment",N2SV,true,D1.3
+Direct investment,liability,Table_D4_6,2,2,"Financial account transactions, Direct investment",N2SA,false,D4.6
+Direct investment,net,Table_D7_9,2,2,"Financial account transactions, Direct investment",MU7M,true,D7.9
+Direct investment,asset_stock,Table_D1_3,1,2,"IIP, Direct investment",N2V3,false,D1.3
+Direct investment,liability_stock,Table_D4_6,1,2,"IIP, Direct investment",N2UG,false,D4.6
+Direct investment,net_stock,Table_D7_9,1,2,"IIP, Direct investment",MU7O,false,D7.9
+Direct investment,asset_stock,Table_K,1,4,"Direct investment abroad, Total",N2V3,false,K
+Direct investment,liability_stock,Table_K,2,4,"Direct investment in the UK, Total",N2UG,false,K
+Direct investment,net_stock,Table_K,3,4,"Direct investment, Net total",MU7O,false,K
+Portfolio investment,asset,Table_J,1,8,"Portfolio investment abroad, Total",HHZC,true,J
+Portfolio investment,liability,Table_J,2,8,"Portfolio investment in the UK, Total",HHZF,false,J
+Portfolio investment,net,Table_J,3,8,"Net portfolio investment, Total",HHZD,true,J
+Portfolio investment,asset,Table_D1_3,2,3,"Financial account transactions, Portfolio investment",HHZC,true,D1.3
+Portfolio investment,liability,Table_D4_6,2,3,"Financial account transactions, Portfolio investment",HHZF,false,D4.6
+Portfolio investment,net,Table_D7_9,2,3,"Financial account transactions, Portfolio investment",HHZD,true,D7.9
+Portfolio investment,asset_stock,Table_D1_3,1,3,"IIP, Portfolio investment",HHZZ,false,D1.3
+Portfolio investment,liability_stock,Table_D4_6,1,3,"IIP, Portfolio investment",HLXW,false,D4.6
+Portfolio investment,net_stock,Table_D7_9,1,3,"IIP, Portfolio investment",CGNH,false,D7.9
+Portfolio investment,asset_stock,Table_K,1,7,"Portfolio investment abroad, Total",HHZZ,false,K
+Portfolio investment,liability_stock,Table_K,2,7,"Portfolio investment in the UK, Total",HLXW,false,K
+Portfolio investment,net_stock,Table_K,3,7,"Portfolio investment, Net total",CGNH,false,K
+Financial derivatives,net,Table_J,1,9,Financial derivatives and employee stock options,ZPNN,true,J
+Financial derivatives,net,Table_J,3,9,Financial derivatives and employee stock options,ZPNN,true,J
+Financial derivatives,net,Table_D1_3,2,4,"Financial account transactions, Financial derivatives (net)",ZPNN,true,D1.3
+Financial derivatives,net,Table_D7_9,2,4,"Financial account transactions, Financial derivatives",ZPNN,true,D7.9
+Financial derivatives,asset_stock,Table_D1_3,1,4,"IIP, Financial derivatives",JX96,false,D1.3
+Financial derivatives,liability_stock,Table_D4_6,1,4,"IIP, Financial derivatives",JX97,false,D4.6
+Financial derivatives,net_stock,Table_D7_9,1,4,"IIP, Financial derivatives",JX98,false,D7.9
+Financial derivatives,asset_stock,Table_K,1,8,Financial derivatives and employee stock options,JX96,false,K
+Financial derivatives,liability_stock,Table_K,2,8,Financial derivatives and employee stock options,JX97,false,K
+Financial derivatives,net_stock,Table_K,3,8,Financial derivatives and employee stock options,JX98,false,K
+Other investment,asset,Table_J,1,10,Other investment abroad,XBMM,true,J
+Other investment,liability,Table_J,2,9,Other investment in the UK,XBMN,false,J
+Other investment,net,Table_J,3,10,Other net investment,HHYR,true,J
+Other investment,asset,Table_D1_3,2,5,"Financial account transactions, Other investment",XBMM,true,D1.3
+Other investment,liability,Table_D4_6,2,4,"Financial account transactions, Other investment",XBMN,false,D4.6
+Other investment,net,Table_D7_9,2,5,"Financial account transactions, Other investment",HHYR,true,D7.9
+Other investment,asset_stock,Table_D1_3,1,5,"IIP, Other investment",HLXV,false,D1.3
+Other investment,liability_stock,Table_D4_6,1,5,"IIP, Other investment",HLYD,false,D4.6
+Other investment,net_stock,Table_D7_9,1,5,"IIP, Other investment",CGNG,false,D7.9
+Other investment,asset_stock,Table_K,1,9,Other investment abroad,HLXV,false,K
+Other investment,liability_stock,Table_K,2,9,Other investment in the UK,HLYD,false,K
+Other investment,net_stock,Table_K,3,9,Other investment,CGNG,false,K
+Reserve assets,asset,Table_J,1,11,Reserve assets,LTCV,true,J
+Reserve assets,asset,Table_J,3,11,Reserve assets,LTCV,true,J
+Reserve assets,asset,Table_D1_3,2,6,"Financial account transactions, Reserve assets",LTCV,true,D1.3
+Reserve assets,asset,Table_D7_9,2,6,"Financial account transactions, Reserve assets",LTCV,true,D7.9
+Reserve assets,asset_stock,Table_D1_3,1,6,"IIP, Reserve assets",LTEB,false,D1.3
+Reserve assets,asset_stock,Table_D7_9,1,6,"IIP, Reserve assets",LTEB,false,D7.9
+Reserve assets,asset_stock,Table_K,1,10,Reserve assets,LTEB,false,K
+Reserve assets,asset_stock,Table_K,3,10,Reserve assets,LTEB,false,K
