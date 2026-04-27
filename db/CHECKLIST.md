@@ -56,7 +56,7 @@
 - [x] 시점 컬럼 형식(연 `YYYY` / 분기 `YYYY Qn` / 월 `YYYY MMM` 등) 기록 — 산출물: `db/data/_inventory/08_time_period_formats.csv` + `08_time_period_formats.md`. 본표 17개 모두 `YYYY`(1997~2025) + `YYYY Qn`(1997Q1~2025Q4) 적층. 월간·일간 없음. R계열은 한 분기 짧음(2025Q3까지). ECOS CYCLE=A/Q 매핑 명시
 - [x] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록 — 산출물: `db/data/_inventory/09_units.csv` + `09_units.md`. 시트 단위 매핑(GBP_million 9·GBP_billion 5·MIXED 3·meta 2). MIXED 시트(Table_B/BX/R2) 4번째 부표 %GDP 처리 규약 명시
 - [x] **[background-search]** 강의 자료에서 GDP 대비 비율 표기의 통상적 해석 방식 확인 요청 — 산출물: `db/data/_inventory/10_gdp_ratio_validation.md`. GDP 대비 표기는 슬라이드 15(Korea CA/GDP·FA/GDP)만 등장. NIA 항등식(슬라이드 22~24) 모두 level. 분모 정의·임계비율·만성 적자국 분류는 강의 미수록. ONS Table_B/BX/R2 4번째 부표는 YBHA(명목 GDP 현행가) 분모 사용. 영국 적용 권고 4건
-- [ ] 빈 행으로 구분되는 부표 경계 행 번호 기록
+- [x] 빈 행으로 구분되는 부표 경계 행 번호 기록 — 산출물: `db/data/_inventory/11_subtable_boundaries.csv` + `11_subtable_boundaries.md`. 일반 본표 빈 행 154·303·452·601·750, R계열 빈 행 152·299·446·593·740·887·1034·1181. 부표 수 (빈+1) = 12회차와 100% 정합. Phase 2.1 분할 규칙 명시
 - [ ] 사용된 결측 표기(`x`, 빈 셀, `..` 등)의 종류와 등장 위치 기록
 - [ ] **[background-search]** 강의 자료에서 결측 표기의 일반적 의미(비공개 vs 미산출 vs 적용 불가)에 대한 설명 발췌 요청
 
