@@ -1,0 +1,18 @@
+org,title,url,frequency,unit,note
+ONS,Pink Book 2025 bulletin,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2025,annual (Oct),GBP_bn / GBP_m,Figure 12-13 IIP 4-decomp 2008-2024
+ONS,Pink Book 2024 bulletin,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2024,annual,GBP_bn / GBP_m,Figure 12-13 source for 2008-2023
+ONS,Figure 12 CSV (assets 4-decomp),"https://www.ons.gov.uk/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2024/efce8bb1&format=csv",annual,GBP_bn,Year/Flows/Currency/Price/Other/Total
+ONS,Figure 13 CSV (liabilities 4-decomp),"https://www.ons.gov.uk/generator?uri=/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2024/6a074849&format=csv",annual,GBP_bn,Year/Flows/Currency/Price/Other/Total
+ONS,chapter8.xlsx (Dataset 08 IIP 13-sheet),https://www.ons.gov.uk/file?uri=/economy/nationalaccounts/balanceofpayments/datasets/8internationalinvestmentpositionthepinkbook2016/thepinkbook2025/chapter8.xlsx,annual,GBP_m,172KB sheet inventory pending
+ONS,Dataset 08 page,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/8internationalinvestmentpositionthepinkbook2016,annual,GBP_m,Detailed IIP balance sheets sector analysis
+ONS,Pink Book series datasets,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/pinkbook,annual,various,All Pink Book datasets index
+ONS,Understanding UK net IIP 2020 article,https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/understandingtheuksnetinternationalinvestmentposition/2020-04-27,one-off,-,Sector x 4-decomp Q1 2000-Q4 2019
+ONS,BoP Quality and Methodology Information,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/methodologies/balanceofpaymentsqmi,-,-,No separate IIP decomp methodology chapter
+ONS,UK Economic Accounts BoP-IIP discontinued 2022-04,https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/datasets/unitedkingdomeconomicaccountsbalanceofpaymentsinternationalinvestment,-,-,Reference only
+ONS,BoP October-December 2025 bulletin,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/balanceofpayments/octobertodecember2025,quarterly,GBP_m,Quarterly does NOT decompose IIP
+IMF,BPM6 Reconciliation Guidance B.4,https://www.imf.org/-/media/Files/Data/Statistics/BPM6/approved-guidance-notes/b4-reconciliation-between-flows-and-stocks.ashx,-,-,Only ~10 of 52 economies do full reconciliation
+IMF,BPM6 Chapter 9 PDF,https://www.imf.org/external/pubs/ft/bop/2007/pdf/chap9.pdf,-,-,Other Changes account standard
+IMF,BOP IIP dataset catalog,https://data.imf.org/en/datasets/IMF.STA:BOP,quarterly/annual,USD_m,GBR Other Flows availability TBD
+Eurostat,BoP IIP BPM6 Statistics Explained,https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Balance_of_payments_and_international_investment_position_manual_(BPM6),-,-,Stock-flow reconciliation standard
+Eurostat,tipsii ESMS metadata,https://ec.europa.eu/eurostat/cache/metadata/en/tipsii_esms.htm,-,-,UK variable coverage TBD
+Eurostat,NIIP quarterly tipsii40,https://ec.europa.eu/eurostat/databrowser/view/tipsii40/default/table?lang=en,quarterly,EUR_m,Brexit-era UK coverage TBD

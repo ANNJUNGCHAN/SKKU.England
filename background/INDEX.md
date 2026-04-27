@@ -11,8 +11,8 @@
 | `BoP.pptx` | PowerPoint | 국제수지(Balance of Payments) 강의 슬라이드 | `python-pptx`로 텍스트 추출 |
 | `BoP.pdf` | PDF | BoP.pptx의 PDF 본 | `pypdf`/`pymupdf`로 추출 |
 | `slide_images/slide_NN.png` | PNG | BoP.pdf 31페이지를 200 DPI로 렌더링한 시각 자료 | 멀티모달 분석 입력 |
-| `note/01_inventory.md` ~ `17_boe_reserve_assets.md` | Markdown | `background-search`·`web-search`로 작성한 한국어 발췌·정리 노트 (17건) | Phase 3 명세서 작성의 1차 근거 |
-| `note/12_xlsx_sheet_inventory.csv`, `13_cdid_dictionary.csv`, `15_units.csv`, `15_missing.csv`, `17_boe_reserve_assets.csv` | CSV | 노트 부속 정형 데이터(시트 인벤토리·CDID 사전·단위·결측·BoE/HMT/ONS/IMF 출처 카탈로그) | 1 CSV = 1 평면 표 원칙 |
+| `note/01_inventory.md` ~ `18_iip_revaluation_decomp.md` | Markdown | `background-search`·`web-search`로 작성한 한국어 발췌·정리 노트 (18건) | Phase 3 명세서 작성의 1차 근거 |
+| `note/12_xlsx_sheet_inventory.csv`, `13_cdid_dictionary.csv`, `15_units.csv`, `15_missing.csv`, `17_boe_reserve_assets.csv`, `18_iip_revaluation_decomp.csv` | CSV | 노트 부속 정형 데이터(시트 인벤토리·CDID 사전·단위·결측·BoE/HMT/ONS/IMF 출처 카탈로그·IIP 4분해 출처) | 1 CSV = 1 평면 표 원칙 |
 
 > 새 자료를 추가할 때마다 위 표를 갱신합니다. 폴더 구조를 분류별로 나누는 경우 폴더 단위 주제도 같이 표기합니다.
 
