@@ -1,0 +1,26 @@
+# Python virtual environment
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# 사용자 개인 작업 기록 (편집 금지 파일)
+PROMPT.md
+NOTE.md
+
+# 임시 산출물
+db/data/_tmp/
