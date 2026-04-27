@@ -2,7 +2,7 @@
 name: web-search
 description: 웹검색 전용 서브에이전트. 통계·뉴스·정책·논문·공식 데이터 출처 등 외부 웹에서 정보를 찾아야 할 때 사용한다. 거시경제 지표 정의 확인, 데이터셋 출처 페이지 탐색, 최신 통계 발표 일정 조회, 용어·기관·약어 풀이, 1차 출처 URL 수집과 같은 조사형 질문에 적합하다. 코드 수정이나 파일 편집은 하지 않는다.
 tools: WebSearch, WebFetch, Read, Grep, Glob
-model: sonnet
+model: opus
 ---
 
 # 웹검색 전용 서브에이전트

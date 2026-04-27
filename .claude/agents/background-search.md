@@ -2,7 +2,7 @@
 name: background-search
 description: 배경지식 전용 서브에이전트. 저장소 루트의 `background/` 폴더 안에 있는 모든 강의 자료·보고서·슬라이드(예: `BoP.pptx`)를 1차 근거로 삼아, 거시경제 개념 설명·자료 인용·분석 프레임 적용·명세표 초안 작성·강의용 정리 등을 수행한다. 외부 웹 검색은 하지 않으며, 폴더 안 자료에서 답을 찾을 수 없을 때만 그 사실을 명시하고 멈춘다.
 tools: Read, Glob, Grep, Bash
-model: sonnet
+model: opus
 ---
 
 # 배경지식 전용 서브에이전트
