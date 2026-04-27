@@ -40,7 +40,7 @@
 - [x] **[web-search]** 中 — ONS Errors and omissions 분기 시계열 변동성 직접 확인(BoP revision triangles 또는 분기 통계 불러틴 부록). 영국 NEO의 절대값·표준편차 수치 확보 — 산출물: `background/note/20_neo_volatility.md`. CDID HHDH, 2020Q1~2025Q4 24분기 평균 −1,503£m·SD ~6,840·절대값 평균 ~5,872(GDP 0.92%)·최대 +14,457(2024Q1)·최소 −11,752(2020Q4). 슬라이드 14 "통계불일치=0" 가정과 정량적으로 어긋남 확정
 - [x] **[background-search]** 低 — 슬라이드 22~25 NIA·BoP↔IIP 도식 부분 멀티모달 정밀 분석(텍스트는 04회차에서 인용됨, 학생용 시각 자료 가치 평가) — 산출물: `background/note/21_slide_22_25_visual_check.md`. 4장 모두 텍스트 본문 위주(NIA 식 3-1~3-3, CA=S−I, ΔNFA·H 식 3-4~3-6, BoP vs IIP)로 도식·차트 없음. 04회차 인용으로 100% 커버 확인. 종결
 - [x] **[web-search]** 低 — HMRC OTS·ITIS·IPS·FDI Survey·BIS 국제은행통계 등 BoP 작성 다중 출처의 발표 일정·갱신 주기 카탈로그화 — 산출물: `background/note/22_bop_data_sources.md`. 5종 자료원(월간 1·분기 3·연간 1) 발표 시점·반영 시트·CDID·개정 정책 카탈로그. ONS BoP 분기 발표 동시·시차 관계 정리. 2025 Pink Book에서 2021년 이후 전체 개정 예정
-- [ ] **[web-search]** 低 — ONS 국가별(geographical breakdown) Pink Book Ch.10·11 분류 체계 확보 — EU/non-EU 분해 시트 매핑 사전
+- [x] **[web-search]** 低 — ONS 국가별(geographical breakdown) Pink Book Ch.10·11 분류 체계 확보 — EU/non-EU 분해 시트 매핑 사전 — 산출물: `background/note/23_geographic_breakdown.md`. **챕터 번호 보정**: 실제 ONS 분류는 Ch.9(CA)+Ch.10(IIP). 67개 개별국 + 5대륙 + EU27 집계, Brexit(2020-02-01) EU28→EU27 전환, Table_C ↔ Pink Book Ch.9 EU 합계 라인 1:1 대응 매핑. 10·12회차 매핑표 챕터 번호 보정 권고
 ---
 
 ## Phase 1. 원본 구조 정밀 조사
