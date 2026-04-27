@@ -46,7 +46,7 @@
 ## Phase 1. 원본 구조 정밀 조사
 
 ### 1.1 인벤토리 추출
-- [ ] 시트 목록과 각 시트의 행·열 수를 추출
+- [x] 시트 목록과 각 시트의 행·열 수를 추출 — 산출물: `db/data/_inventory/01_sheet_dimensions.csv` + `01_sheet_dimensions.md`. 시트 20개 dimension 추출(Cover/Notes/Records 메타 3 + Table_A~K + Table_R1~R3). 12회차 background 인벤토리와 100% 일치 확인
 - [ ] 각 시트를 7분류(메타·주석 / 전체 잔액 요약 / 경상수지 본표 / 경상수지 세부 / 자본·금융계정 / 국제투자대조표 / 직전 발표 대비 개정) 중 하나로 분류
 - [ ] **[background-search]** 위 7분류가 강의 자료의 BoP 분류 체계와 일치하는지 검증 요청. 강의 자료에 없는 분류(예: 개정 시트)는 별도로 표시
 - [ ] **[background-search]** EU/非EU 분해 시트의 경제학적 의미를 강의 자료에서 확인 요청
