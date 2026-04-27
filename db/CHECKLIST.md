@@ -17,7 +17,7 @@
 - [x] 사용자 대상 문서는 한국어로 작성 — README/PLAN/CHECKLIST/REPORT/CLAUDE 등 주요 문서 모두 한국어 본문(한글 25~52%) 확인. 운영 원칙으로 유지
 
 ### 0.2 배경지식 사전 정리 (background-search 1회차)
-- [ ] **[background-search]** `background/` 폴더 전체 자료 목록과 각 자료의 주제·범위·발행 시점 요약 요청
+- [x] **[background-search]** `background/` 폴더 전체 자료 목록과 각 자료의 주제·범위·발행 시점 요약 요청 — 산출물: `db/data/_background_notes/01_inventory.md` (총 2개 파일: INDEX.md, BoP.pptx 31슬라이드. python-pptx 등 설치 후 requirements.txt 동기화 완료)
 - [ ] **[background-search]** `BoP.pptx`에서 다루는 BoP 5대 구성요소(상품·서비스·1차소득·2차소득·자본·금융계정)의 강의용 정의 발췌
 - [ ] **[background-search]** 강의 자료에서 사용된 부호 규약(차변·대변, 자산·부채 증감)의 한국어 진술 발췌
 - [ ] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인
