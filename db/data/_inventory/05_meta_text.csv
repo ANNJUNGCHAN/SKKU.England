@@ -1,0 +1,121 @@
+sheet,row,text
+Cover_sheet,1,"Balance of Payments, Quarter 4 (Oct to Dec) 2025: Published 31 March 2026"
+Cover_sheet,2,This worksheet contains two tables presented underneath each other vertically with one blank row between.
+Cover_sheet,3,Contents
+Cover_sheet,4,Notes | Notes for all tables
+Cover_sheet,5,Records | Summary of Statistics
+Cover_sheet,6,Table A | Summary of Balance of Payments
+Notes,1,Notes
+Notes,2,This worksheet contains ten tables presented underneath each other vertically with one blank row between each table.
+Notes,3,Table A notes
+Notes,4,Note Number | Note Text
+Notes,5,1 | When downloading data from the Pink Book dataset users should reverse the sign of series that have an identifier that is prefixed with a minus sign.
+Notes,6,"2 | This series represents net errors and omissions in the balance of payments accounts. It is the converse of the current and capital balances (HBOG and FKMJ) and net financial account transactions (HBNT) and is required to balance these three accounts, not seasonally adjusted."
+Records,1,Summary of statistics for Quarter 4 (Oct to Dec) 2025
+Records,2,This worksheet contains four tables presented underneath each other vertically with one blank row between each table.
+Records,3,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Records,4,All tables in this worksheet are in pounds billion
+Records,5,Current account (net) (£ billion)
+Records,6,Account | Latest quarter value | Record since | Record highest | Record lowest
+Table_A,1,"Table A: Summary of Balance of Payments, Balances (net transactions)"
+Table_A,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_A,3,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_A,4,All tables in this worksheet are in £ million.
+Table_A,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_A,6,"Table A.1, Current Account, seasonally adjusted (£ million)"
+Table_B,1,"Table B: Current account, seasonally adjusted"
+Table_B,2,This worksheet contains four tables presented underneath each other vertically with one blank row between each table.
+Table_B,3,"The first three tables are in pounds million, the fourth table displays percentages of GDP."
+Table_B,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_B,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_B,6,"Table B.1, Current Account Credits (£ million)"
+Table_BX,1,"Table BX: Current account excluding precious metals [note 1], seasonally adjusted"
+Table_BX,2,This worksheet contains four tables presented underneath each other vertically with one blank row between each table.
+Table_BX,3,"The first three tables are in pounds million, the fourth table displays percentages of GDP."
+Table_BX,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_BX,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_BX,6,"Table BX.1, Current Account Credits, excluding precious metals (£ million)"
+Table_C,1,"Table C: Current account, Transactions with the European Union (EU) and with non-EU countries, seasonally adjusted"
+Table_C,2,This worksheet contains six tables presented underneath each other vertically with one blank row between each table.
+Table_C,3,All tables in this worksheet are in pounds million.
+Table_C,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_C,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_C,6,"Table C.1, Transactions with the European Union, Credits [note 1] [note 2] [note 3] [note 4] [note 5] (£ million)"
+Table_D1_3,1,"Table D: Summary of international investment position (IIP), financial account transactions, and investment income, not seasonally adjusted"
+Table_D1_3,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_D1_3,3,All tables in this worksheet are in pounds billion.
+Table_D1_3,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec"
+Table_D1_3,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_D1_3,6,"Table D.1, Investment abroad, International investment position (£ billion)"
+Table_D4_6,1,"Table D: Summary of international investment position (IIP), financial account transactions, and Investment income, not seasonally adjusted"
+Table_D4_6,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_D4_6,3,All tables in this worksheet are in pounds billion.
+Table_D4_6,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_D4_6,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_D4_6,6,"Table D.4, Investment in the UK, International investment position (£ billion)"
+Table_D7_9,1,"Table D: Summary of international investment position (IIP), financial account transactions, and Investment income, not seasonally adjusted"
+Table_D7_9,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_D7_9,3,All tables in this worksheet are in pounds billion.
+Table_D7_9,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_D7_9,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_D7_9,6,"Table D.7, Net investment, International investment position (£ billion)"
+Table_E,1,"Table E: Trade in goods, seasonally adjusted"
+Table_E,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_E,3,All tables in this worksheet are in pounds million.
+Table_E,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_E,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_E,6,"Table E.1, Exports of goods (£ million)"
+Table_F,1,"Table F: Trade in services, seasonally adjusted"
+Table_F,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_F,3,All tables in this worksheet are in pounds million.
+Table_F,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_F,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_F,6,"Table F.1, Exports of services (£ million)"
+Table_G,1,"Table G: Primary income, seasonally adjusted"
+Table_G,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_G,3,All tables in this worksheet are in pounds million.
+Table_G,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_G,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_G,6,"Table G.1, Primary income, credits (£ million)"
+Table_H,1,"Table H: Secondary income, seasonally adjusted"
+Table_H,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_H,3,All tables in this worksheet are in pounds million.
+Table_H,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_H,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_H,6,"Table H.1, Secondary income, credits (£ million)"
+Table_I,1,"Table I: Capital account, seasonally adjusted"
+Table_I,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_I,3,All tables in this worksheet are in pounds million.
+Table_I,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_I,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_I,6,"Table I.1, Capital account, credits (£ million)"
+Table_J,1,"Table J: Financial account [note 1] [note 2], not seasonally adjusted"
+Table_J,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_J,3,All tables in this worksheet are in pounds million.
+Table_J,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_J,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_J,6,"Table J.1, UK Investment Abroad (net acquisition of financial assets) (£ million)"
+Table_K,1,"Table K: International investment position [note 1], Balance sheets valued at end of period, not seasonally adjusted"
+Table_K,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_K,3,All tables in this worksheet are in pounds billion.
+Table_K,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_K,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_K,6,"Table K.1, UK Assets (£ billion)"
+Table_R1,1,"Table R1: Summary of revisions since last Balance of Payments Statistical Bulletin, Balances (net transactions)"
+Table_R1,2,This worksheet contains three tables presented underneath each other vertically with one blank row between each table.
+Table_R1,3,All tables in this worksheet are in pounds million.
+Table_R1,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_R1,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_R1,6,"Table R1.1, Current account, seasonally adjusted (£ million)"
+Table_R2,1,"Table R2: Current account revisions since last Balance of Payments Statistical Bulletin, seasonally adjusted"
+Table_R2,2,This worksheet contains four tables presented underneath each other vertically with one blank row between each table.
+Table_R2,3,"The first three tables are in pounds million, the fourth table displays percentages of GDP."
+Table_R2,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_R2,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_R2,6,"Table R2.1, Current Account Credits (£ million)"
+Table_R3,1,"Table R3: Revisions to international investment since last Balance of Payments Statistical Bulletin, not seasonally adjusted"
+Table_R3,2,This worksheet contains nine tables presented underneath each other vertically with one blank row between each table.
+Table_R3,3,All tables in this worksheet are in pounds billion.
+Table_R3,4,"The tables in this worksheet refer to, Q1 = Jan to Mar, Q2 = Apr to June, Q3 = July to Sept, Q4 = Oct to Dec."
+Table_R3,5,"These tables refer to CDID's which stands for Central Database Identifier, the codes used to identify specific datasets."
+Table_R3,6,"Table R3.1, Investment Abroad, International Investment Position (£ billion)"
