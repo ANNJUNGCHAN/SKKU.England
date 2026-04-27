@@ -10,7 +10,7 @@
 
 ### 0.1 환경
 - [x] 저장소 루트의 가상환경 인터프리터(`env/`)가 활성화되어 있는지 확인 — 확인 완료(`env/Scripts/python.exe`, Python 3.12.10, venv 활성)
-- [ ] `requirements.txt`에 등록된 패키지가 모두 설치되어 있는지 확인 (`pip freeze` 비교)
+- [x] `requirements.txt`에 등록된 패키지가 모두 설치되어 있는지 확인 (`pip freeze` 비교) — 일치 확인(et_xmlfile==2.0.0, openpyxl==3.1.5 두 패키지 모두 설치됨)
 - [ ] 신규 패키지 설치 시 즉시 `requirements.txt` 갱신
 - [ ] `db/source/` 원본 파일은 읽기 전용으로만 접근 (절대 수정·이동·삭제 금지)
 - [ ] 작업 결과물 저장 위치는 `db/data/` 하위로만 한정
