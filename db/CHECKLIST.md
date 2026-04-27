@@ -18,12 +18,14 @@
 
 ### 0.2 배경지식 사전 정리 (background-search 1회차)
 - [x] **[background-search]** `background/` 폴더 전체 자료 목록과 각 자료의 주제·범위·발행 시점 요약 요청 — 산출물: `db/data/_background_notes/01_inventory.md` (총 2개 파일: INDEX.md, BoP.pptx 31슬라이드. python-pptx 등 설치 후 requirements.txt 동기화 완료)
-- [ ] **[background-search]** `BoP.pptx`에서 다루는 BoP 5대 구성요소(상품·서비스·1차소득·2차소득·자본·금융계정)의 강의용 정의 발췌
+- [x] **[background-search]** `BoP.pptx`에서 다루는 BoP 5대 구성요소(상품·서비스·1차소득·2차소득·자본·금융계정)의 강의용 정의 발췌 — 산출물: `db/data/_background_notes/02_bop_components.md` (3대 축 + 경상계정 4 하위항목, 슬라이드 4~14·21 인용. 슬라이드 21·15~20·26~27 이미지 텍스트 미추출 — §0.2 신규 항목으로 이월)
 - [ ] **[background-search]** 강의 자료에서 사용된 부호 규약(차변·대변, 자산·부채 증감)의 한국어 진술 발췌
 - [ ] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인
 - [ ] **[background-search]** 강의 자료에서 IIP(국제투자대조표)·순대외자산 개념의 정의 발췌
 - [ ] **[background-search]** 강의 자료에서 직접투자·증권투자·기타투자·준비자산의 분류 기준 발췌
 - [ ] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관
+- [ ] **[background-search]** 표나 그래프가 있는 장표의 경우, 우선 해당 파워포인트에서 이미지를 추출한 후, 해당 이미지를 claude로 분석
+- [ ] **[background-search]** 만약, 파워포인트에서 이미지(표, 그래프) 추출이 어려운 경우, 해당 파일의 pdf 문서에서 이미지(표, 그래프) 추출 후, 해당 이미지(표, 그래프)를 claude로 분석
 
 ---
 
