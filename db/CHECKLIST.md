@@ -21,7 +21,7 @@
 - [x] **[background-search]** `BoP.pptx`에서 다루는 BoP 5대 구성요소(상품·서비스·1차소득·2차소득·자본·금융계정)의 강의용 정의 발췌 — 산출물: `db/data/_background_notes/02_bop_components.md` (3대 축 + 경상계정 4 하위항목, 슬라이드 4~14·21 인용. 슬라이드 21·15~20·26~27 이미지 텍스트 미추출 — §0.2 신규 항목으로 이월)
 - [x] **[background-search]** 강의 자료에서 사용된 부호 규약(차변·대변, 자산·부채 증감)의 한국어 진술 발췌 — 산출물: `db/data/_background_notes/03_sign_conventions.md` (대변=유입(+)/차변=유출(−), BPM6 자산·부채 증감 기준 vs 구매뉴얼 순유출입 기준 비교, 슬라이드 6~14 인용)
 - [x] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인 — 산출물: `db/data/_background_notes/04_identities.md` (PPT+PDF 병행 참조. 표적 항등식은 직접 식 없음 → 슬라이드 13·14·6의 결합으로 도출. 5종 항등식 발췌 완료. pypdf==6.10.2 설치·동기화 완료)
-- [ ] **[background-search]** 강의 자료에서 IIP(국제투자대조표)·순대외자산 개념의 정의 발췌
+- [x] **[background-search]** 강의 자료에서 IIP(국제투자대조표)·순대외자산 개념의 정의 발췌 — 산출물: `db/data/_background_notes/05_iip_nfa.md` (BoP↔IIP stock·flow 연결, NFA 두 정의 일관성, BoP 금융계정 5항목↔IIP 매핑, 영국 만성 순채무·재평가 우세 적용 주의점, 슬라이드 4·6·8·11·14·24·25·26 인용)
 - [ ] **[background-search]** 강의 자료에서 직접투자·증권투자·기타투자·준비자산의 분류 기준 발췌
 - [ ] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관
 - [ ] **[background-search]** 표나 그래프가 있는 장표의 경우, 우선 해당 파워포인트에서 이미지를 추출한 후, 해당 이미지를 claude로 분석
