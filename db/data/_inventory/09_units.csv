@@ -1,0 +1,21 @@
+sheet,unit_text_raw,unit_normalized,scale_factor,subtable_split_required
+Cover_sheet,,unknown,,no
+Notes,,unknown,,no
+Records,All tables in this worksheet are in pounds billion || Current account (net) (£ billion),GBP_billion,1e9,no
+Table_A,"All tables in this worksheet are in £ million. || Table A.1, Current Account, seasonally adjusted (£ million)",GBP_million,1e6,no
+Table_B,"The first three tables are in pounds million, the fourth table displays percentages of GDP. || Table B.1, Current Account Credits (£ million)",MIXED (3×GBP_million + 1×pct_of_GDP),mixed,yes
+Table_BX,"The first three tables are in pounds million, the fourth table displays percentages of GDP. || Table BX.1, Current Account Credits, excluding precious metals (£ million)",MIXED (3×GBP_million + 1×pct_of_GDP),mixed,yes
+Table_C,"All tables in this worksheet are in pounds million. || Table C.1, Transactions with the European Union, Credits [note 1] [note 2] [note 3] [note 4] [note 5] (£ million)",GBP_million,1e6,no
+Table_D1_3,"All tables in this worksheet are in pounds billion. || Table D.1, Investment abroad, International investment position (£ billion)",GBP_billion,1e9,no
+Table_D4_6,"All tables in this worksheet are in pounds billion. || Table D.4, Investment in the UK, International investment position (£ billion)",GBP_billion,1e9,no
+Table_D7_9,"All tables in this worksheet are in pounds billion. || Table D.7, Net investment, International investment position (£ billion)",GBP_billion,1e9,no
+Table_E,"All tables in this worksheet are in pounds million. || Table E.1, Exports of goods (£ million)",GBP_million,1e6,no
+Table_F,"All tables in this worksheet are in pounds million. || Table F.1, Exports of services (£ million)",GBP_million,1e6,no
+Table_G,"All tables in this worksheet are in pounds million. || Table G.1, Primary income, credits (£ million)",GBP_million,1e6,no
+Table_H,"All tables in this worksheet are in pounds million. || Table H.1, Secondary income, credits (£ million)",GBP_million,1e6,no
+Table_I,"All tables in this worksheet are in pounds million. || Table I.1, Capital account, credits (£ million)",GBP_million,1e6,no
+Table_J,"All tables in this worksheet are in pounds million. || Table J.1, UK Investment Abroad (net acquisition of financial assets) (£ million)",GBP_million,1e6,no
+Table_K,"All tables in this worksheet are in pounds billion. || Table K.1, UK Assets (£ billion)",GBP_billion,1e9,no
+Table_R1,"All tables in this worksheet are in pounds million. || Table R1.1, Current account, seasonally adjusted (£ million)",GBP_million,1e6,no
+Table_R2,"The first three tables are in pounds million, the fourth table displays percentages of GDP. || Table R2.1, Current Account Credits (£ million)",MIXED (3×GBP_million + 1×pct_of_GDP),mixed,yes
+Table_R3,"All tables in this worksheet are in pounds billion. || Table R3.1, Investment Abroad, International Investment Position (£ billion)",GBP_billion,1e9,no

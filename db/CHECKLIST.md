@@ -54,7 +54,7 @@
 - [x] **[background-search]** 메타 영역에 진술된 부호 규약이 강의 자료의 부호 규약과 일치하는지 대조 요청 — 산출물: `db/data/_inventory/06_sign_convention_validation.md`. ONS Notes 부호 반전 규약(Table_A·D·J·R1·R3 r5/r29/r33/r42/r51) ↔ 강의 BPM6 100% 일치 확인. sign_prefix 59행 분포 정합. Table_H FKKM 단발 예외 식별
 - [x] 각 시트의 통계항목 코드(CDID) 행 위치와 첫 데이터 행 번호 기록 — 산출물: `db/data/_inventory/07_cdid_and_first_data_rows.csv` + `07_cdid_and_first_data_rows.md`. 본표 17개 모두 첫 CDID 행 = 8, 첫 데이터 행 = 9 일관. 부표 간격 일반 본표 149행, R계열 147행. 메타 시트 3개는 CDID 없음. 부표 갯수 12회차 100% 정합
 - [x] 시점 컬럼 형식(연 `YYYY` / 분기 `YYYY Qn` / 월 `YYYY MMM` 등) 기록 — 산출물: `db/data/_inventory/08_time_period_formats.csv` + `08_time_period_formats.md`. 본표 17개 모두 `YYYY`(1997~2025) + `YYYY Qn`(1997Q1~2025Q4) 적층. 월간·일간 없음. R계열은 한 분기 짧음(2025Q3까지). ECOS CYCLE=A/Q 매핑 명시
-- [ ] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록
+- [x] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록 — 산출물: `db/data/_inventory/09_units.csv` + `09_units.md`. 시트 단위 매핑(GBP_million 9·GBP_billion 5·MIXED 3·meta 2). MIXED 시트(Table_B/BX/R2) 4번째 부표 %GDP 처리 규약 명시
 - [ ] **[background-search]** 강의 자료에서 GDP 대비 비율 표기의 통상적 해석 방식 확인 요청
 - [ ] 빈 행으로 구분되는 부표 경계 행 번호 기록
 - [ ] 사용된 결측 표기(`x`, 빈 셀, `..` 등)의 종류와 등장 위치 기록
