@@ -20,7 +20,7 @@
 - [x] **[background-search]** `background/` 폴더 전체 자료 목록과 각 자료의 주제·범위·발행 시점 요약 요청 — 산출물: `db/data/_background_notes/01_inventory.md` (총 2개 파일: INDEX.md, BoP.pptx 31슬라이드. python-pptx 등 설치 후 requirements.txt 동기화 완료)
 - [x] **[background-search]** `BoP.pptx`에서 다루는 BoP 5대 구성요소(상품·서비스·1차소득·2차소득·자본·금융계정)의 강의용 정의 발췌 — 산출물: `db/data/_background_notes/02_bop_components.md` (3대 축 + 경상계정 4 하위항목, 슬라이드 4~14·21 인용. 슬라이드 21·15~20·26~27 이미지 텍스트 미추출 — §0.2 신규 항목으로 이월)
 - [x] **[background-search]** 강의 자료에서 사용된 부호 규약(차변·대변, 자산·부채 증감)의 한국어 진술 발췌 — 산출물: `db/data/_background_notes/03_sign_conventions.md` (대변=유입(+)/차변=유출(−), BPM6 자산·부채 증감 기준 vs 구매뉴얼 순유출입 기준 비교, 슬라이드 6~14 인용)
-- [ ] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인
+- [x] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인 — 산출물: `db/data/_background_notes/04_identities.md` (PPT+PDF 병행 참조. 표적 항등식은 직접 식 없음 → 슬라이드 13·14·6의 결합으로 도출. 5종 항등식 발췌 완료. pypdf==6.10.2 설치·동기화 완료)
 - [ ] **[background-search]** 강의 자료에서 IIP(국제투자대조표)·순대외자산 개념의 정의 발췌
 - [ ] **[background-search]** 강의 자료에서 직접투자·증권투자·기타투자·준비자산의 분류 기준 발췌
 - [ ] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관
@@ -28,7 +28,7 @@
 - [ ] **[background-search]** 만약, 파워포인트에서 이미지(표, 그래프) 추출이 어려운 경우, 해당 파일의 pdf 문서에서 이미지(표, 그래프) 추출 후, 해당 이미지(표, 그래프)를 claude로 분석
 - [ ] **[web-search]** 영국 ONS 특화 분류·세분류·표기 규칙 및 영국 ONS 기준 분류를 검색하고, 해당 내용을 정리하여 background_note 업로드
 - [ ] 모든 _background_note를 background 폴더로 이관. note 폴더 내에 해당 md 파일들을 모두 넣기
-- [ ] 모든 배경 지식 사전 정리를 다시 한번 점검하고, 빠진 부분이 있는지 다시 한번 검토
+- [ ] 모든 배경 지식 사전 정리를 다시 한번 점검하고, 빠진 부분이 있는지 다시 한번 검토한 후, 추가적인 사항들을 '0.2 배경지식 사전 정리' 항목에 add on 할 것
 ---
 
 ## Phase 1. 원본 구조 정밀 조사
