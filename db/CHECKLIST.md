@@ -49,7 +49,7 @@
 - [x] 시트 목록과 각 시트의 행·열 수를 추출 — 산출물: `db/data/_inventory/01_sheet_dimensions.csv` + `01_sheet_dimensions.md`. 시트 20개 dimension 추출(Cover/Notes/Records 메타 3 + Table_A~K + Table_R1~R3). 12회차 background 인벤토리와 100% 일치 확인
 - [x] 각 시트를 7분류(메타·주석 / 전체 잔액 요약 / 경상수지 본표 / 경상수지 세부 / 자본·금융계정 / 국제투자대조표 / 직전 발표 대비 개정) 중 하나로 분류 — 산출물: `db/data/_inventory/02_sheet_classification.csv` + `02_sheet_classification.md`. 7분류 모두 등장(메타 3·요약 1·CA 본표 3·CA 세부 4·자본·금융 2·IIP 4·개정 3 = 20). PLAN.md §1.1과 1:1 정합
 - [x] **[background-search]** 위 7분류가 강의 자료의 BoP 분류 체계와 일치하는지 검증 요청. 강의 자료에 없는 분류(예: 개정 시트)는 별도로 표시 — 산출물: `db/data/_inventory/03_classification_validation.md`. 7분류 중 5개 일치(summary 부분일치) + 2개 미수록(meta_notes·revisions). 강의 자료의 자본·금융 분리 vs ONS 통합 분류 차이도 명기
-- [ ] **[background-search]** EU/非EU 분해 시트의 경제학적 의미를 강의 자료에서 확인 요청
+- [x] **[background-search]** EU/非EU 분해 시트의 경제학적 의미를 강의 자료에서 확인 요청 — 산출물: `db/data/_inventory/04_eu_non_eu_validation.md`. 강의 자료 31장 키워드 검색 결과 EU·non-EU·지리분해·Brexit·국가명 모두 0건. 강의는 단일 카운터파트("rest of the world")만 다루며 Table_C는 ONS 운영 표기로만 의미. 학생용 학습 활용 권고 3건
 - [ ] 상단 메타 영역(헤더 4~5행)의 원문 텍스트 추출 — 부호 규약·단위·발표 기간 진술 포함
 - [ ] **[background-search]** 메타 영역에 진술된 부호 규약이 강의 자료의 부호 규약과 일치하는지 대조 요청
 - [ ] 각 시트의 통계항목 코드(CDID) 행 위치와 첫 데이터 행 번호 기록
