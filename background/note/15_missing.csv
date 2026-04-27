@@ -1,0 +1,797 @@
+sheet,sub_table,missing_marker,count,sample_position,suggested_meaning
+Cover_sheet,0,(empty),515,B1,Empty cell - series start before/after data window or non-applicable
+Cover_sheet,0,Notes for all tables,1,B4,Non-numeric token (inspect manually)
+Cover_sheet,0,Summary of Statistics,1,B5,Non-numeric token (inspect manually)
+Cover_sheet,0,Summary of Balance of Payments,1,B6,Non-numeric token (inspect manually)
+Cover_sheet,0,Current account,1,B7,Non-numeric token (inspect manually)
+Cover_sheet,0,Current account excluding precious metals,1,B8,Non-numeric token (inspect manually)
+Cover_sheet,0,Current account: transaction with the EU and non-EU countries,1,B9,Non-numeric token (inspect manually)
+Cover_sheet,0,"Summary of international investment position, financial account and investment account, investment abroad",1,B10,Non-numeric token (inspect manually)
+Cover_sheet,0,"Summary of international investment position, financial account and investment account, investment in the UK",1,B11,Non-numeric token (inspect manually)
+Cover_sheet,0,"Summary of international investment position, financial account and investment account, net",1,B12,Non-numeric token (inspect manually)
+Cover_sheet,0,Trade in goods,1,B13,Non-numeric token (inspect manually)
+Cover_sheet,0,Trade in services,1,B14,Non-numeric token (inspect manually)
+Cover_sheet,0,Primary income,1,B15,Non-numeric token (inspect manually)
+Cover_sheet,0,Secondary income,1,B16,Non-numeric token (inspect manually)
+Cover_sheet,0,Capital account,1,B17,Non-numeric token (inspect manually)
+Cover_sheet,0,Financial account,1,B18,Non-numeric token (inspect manually)
+Cover_sheet,0,International investment position,1,B19,Non-numeric token (inspect manually)
+Cover_sheet,0,Summary of revisions since last Balance of Payments Statistical Bulletin,1,B20,Non-numeric token (inspect manually)
+Cover_sheet,0,Current account revisions since last Balance of Payments Statistical Bulletin,1,B21,Non-numeric token (inspect manually)
+Cover_sheet,0,Revisions to international investment since last Balance of Payments Statistical Bulletin,1,B22,Non-numeric token (inspect manually)
+Cover_sheet,0,"Balance of Payments Investment Income and Co-ordination
+Government Buildings
+Cardiff Road
+Newport
+Gwent
+NP10 8XG",1,B25,Non-numeric token (inspect manually)
+Cover_sheet,0,"Balance of Payments Team, Office for National Statistics",1,B26,Non-numeric token (inspect manually)
+Cover_sheet,0,+44 (0)1633 456106,1,B27,Non-numeric token (inspect manually)
+Cover_sheet,0,bop@ons.gov.uk,1,B28,Non-numeric token (inspect manually)
+Cover_sheet,0,30 June 2026,1,B29,Non-numeric token (inspect manually)
+Cover_sheet,0,Office for National Statistics   © Crown Copyright 2026,1,B30,Non-numeric token (inspect manually)
+Notes,0,(empty),327,B1,Empty cell - series start before/after data window or non-applicable
+Notes,0,Note text,9,B9,Non-numeric token (inspect manually)
+Notes,0,When downloading data from the Pink Book dataset users should reverse the sign of series that have an identifier that is prefixed with a minus sign.,4,B5,Non-numeric token (inspect manually)
+Notes,0,"This series represents net errors and omissions in the balance of payments accounts. It is the converse of the current and capital balances (HBOG and FKMJ) and net financial account transactions (HBNT) and is required to balance these three accounts, not seasonally adjusted.",2,B6,Non-numeric token (inspect manually)
+Notes,0,"Using series YBHA, GDP at current market prices.",2,B10,Non-numeric token (inspect manually)
+Notes,0,Note Text,1,B4,Non-numeric token (inspect manually)
+Notes,0,"Precious metals includes: Non-Monetary Gold (NMG), Platinum, Palladium and Silver.",1,B14,Non-numeric token (inspect manually)
+Notes,0,EU presented on an EU basis.,1,B19,Non-numeric token (inspect manually)
+Notes,0,Includes transactions with European Union institutions.,1,B20,Non-numeric token (inspect manually)
+Notes,0,A quarterly breakdown of the UK's current account with the Euro area (as a whole) is published in table B6 of United Kingdom Economic Accounts (UKEA) at http://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts,1,B21,Non-numeric token (inspect manually)
+Notes,0,"These data are our best estimates of these bilateral UK trade flows. Users should note that alternative estimates are Available, in some cases, via the statistical agencies for bilateral countries or through the central databases such as UN Comtrade (www.comtrade.un.org).",1,B22,Non-numeric token (inspect manually)
+Notes,0,'Cells containing 'x' represent unavailable data.,1,B23,Non-numeric token (inspect manually)
+Notes,0,"A quarterly geographic breakdown of the UK's current account with the USA, Japan, Canada, Switzerland, Brazil, China, Hong Kong, India and Russia is also Available and is published in table B6B of UKEA (see [note 3])",1,B24,Non-numeric token (inspect manually)
+Notes,0,Includes transactions with international organisations other than European Union institutions.,1,B25,Non-numeric token (inspect manually)
+Notes,0,When downloading data from the Pink Book dataset users should reverse the sign of series that have an Identifier that is prefixed with a minus sign.,1,B29,Non-numeric token (inspect manually)
+Notes,0,Further detail of the quarterly financial account is published in tables B8 to B13 of United Kingdom Economic Accounts at http://www.ons.gov.uk/ons/search/index.html?newquery=ukea,1,B34,Non-numeric token (inspect manually)
+Notes,0,Further detail of the quarterly international investment position is published in tables B14 to B19 of United Kingdom Economic Accounts at http://www.ons.gov.uk/ons/search/index.html?newquery=ukea,1,B38,Non-numeric token (inspect manually)
+Notes,0,"Using series YBHA, GDP at current market price.",1,B47,Non-numeric token (inspect manually)
+Records,0,(empty),44,B1,Empty cell - series start before/after data window or non-applicable
+Records,0,Latest quarter value,4,B6,Non-numeric token (inspect manually)
+Records,0,Record since,4,C6,Non-numeric token (inspect manually)
+Records,0,Record highest,4,D6,Non-numeric token (inspect manually)
+Records,0,Record lowest,4,E6,Non-numeric token (inspect manually)
+Records,0,Largest deficit since 2025 Q3,4,C8,Non-numeric token (inspect manually)
+Records,0,Largest deficit since 2025 Q2,2,C10,Non-numeric token (inspect manually)
+Records,0,-£65.5,1,B7,Non-numeric token (inspect manually)
+Records,0,Largest deficit recorded,1,C7,Non-numeric token (inspect manually)
+Records,0,"£1.6
+(1981 Q1)",1,D7,Non-numeric token (inspect manually)
+Records,0,"-£65.5
+(2025 Q4)",1,E7,Non-numeric token (inspect manually)
+Records,0,-£55.5,1,B8,Non-numeric token (inspect manually)
+Records,0,"-£3.1
+(1997 Q1)",1,D8,Non-numeric token (inspect manually)
+Records,0,"-£57.6
+(2025 Q3)",1,E8,Non-numeric token (inspect manually)
+Records,0,£53.3,1,B9,Non-numeric token (inspect manually)
+Records,0,Largest surplus since 2025 Q3,1,C9,Non-numeric token (inspect manually)
+Records,0,"£53.5
+(2025 Q3)",1,D9,Non-numeric token (inspect manually)
+Records,0,"£0.0
+(1965 Q3)",1,E9,Non-numeric token (inspect manually)
+Records,0,-£2.7,1,B10,Non-numeric token (inspect manually)
+Records,0,"£8.7
+(2022 Q2)",1,D10,Non-numeric token (inspect manually)
+Records,0,"-£21.7
+(2020 Q2)",1,E10,Non-numeric token (inspect manually)
+Records,0,-£3.6,1,B11,Non-numeric token (inspect manually)
+Records,0,"£0.3
+(1982 Q1)",1,D11,Non-numeric token (inspect manually)
+Records,0,"-£9.0
+(2020 Q2)",1,E11,Non-numeric token (inspect manually)
+Records,0,-£18.4,1,B12,Non-numeric token (inspect manually)
+Records,0,"£5.3
+(2022 Q4)",1,D12,Non-numeric token (inspect manually)
+Records,0,"-£36.5
+(2022 Q1)",1,E12,Non-numeric token (inspect manually)
+Records,0,-£8.4,1,B13,Non-numeric token (inspect manually)
+Records,0,"£4.5
+(2021 Q1)",1,D13,Non-numeric token (inspect manually)
+Records,0,"-£38.8
+(2023 Q2)",1,E13,Non-numeric token (inspect manually)
+Records,0,-£0.8,1,B17,Non-numeric token (inspect manually)
+Records,0,"£0.5
+(2007 Q4)",1,D17,Non-numeric token (inspect manually)
+Records,0,"-£8.4
+(2017 Q3)",1,E17,Non-numeric token (inspect manually)
+Records,0,-£1.6,1,B21,Non-numeric token (inspect manually)
+Records,0,Largest net inflow since 2025 Q2,1,C21,Non-numeric token (inspect manually)
+Records,0,"£98.5
+(2000 Q1)",1,D21,Non-numeric token (inspect manually)
+Records,0,"-£139.7
+(2014 Q1)",1,E21,Non-numeric token (inspect manually)
+Records,0,-£61.5,1,B22,Non-numeric token (inspect manually)
+Records,0,Largest net inflow since 2024 Q4,1,C22,Non-numeric token (inspect manually)
+Records,0,"£128.9
+(2012 Q3)",1,D22,Non-numeric token (inspect manually)
+Records,0,"-£193.2
+(2008 Q4)",1,E22,Non-numeric token (inspect manually)
+Records,0,-£1.3,1,B23,Non-numeric token (inspect manually)
+Records,0,Largest net payments since 2025 Q2,1,C23,Non-numeric token (inspect manually)
+Records,0,"£64.4
+(2008 Q1)",1,D23,Non-numeric token (inspect manually)
+Records,0,"-£100.9
+(2015 Q1)",1,E23,Non-numeric token (inspect manually)
+Records,0,£54.4,1,B24,Non-numeric token (inspect manually)
+Records,0,Largest net investment since 2024 Q4,1,C24,Non-numeric token (inspect manually)
+Records,0,"£120.6
+(2015 Q1)",1,D24,Non-numeric token (inspect manually)
+Records,0,"-£156.1
+(2012 Q3)",1,E24,Non-numeric token (inspect manually)
+Records,0,£0.5,1,B25,Non-numeric token (inspect manually)
+Records,0,Largest net investment since 2025 Q3,1,C25,Non-numeric token (inspect manually)
+Records,0,"£20.6
+(2021 Q3)",1,D25,Non-numeric token (inspect manually)
+Records,0,"-£6.3
+(2019 Q1)",1,E25,Non-numeric token (inspect manually)
+Records,0,-£9.4,1,B26,Non-numeric token (inspect manually)
+Records,0,Largest net inflow since 2025 Q3,1,C26,Non-numeric token (inspect manually)
+Records,0,"£12.4
+(1996 Q3)",1,D26,Non-numeric token (inspect manually)
+Records,0,"-£52.1
+(2016 Q3)",1,E26,Non-numeric token (inspect manually)
+Records,0,-£179.0,1,B30,Non-numeric token (inspect manually)
+Records,0,Largest net liability position since 2025 Q3,1,C30,Non-numeric token (inspect manually)
+Records,0,"£494.2
+(2008 Q4)",1,D30,Non-numeric token (inspect manually)
+Records,0,"-£496.2
+(2021 Q3)",1,E30,Non-numeric token (inspect manually)
+Records,0,-£102.3,1,B31,Non-numeric token (inspect manually)
+Records,0,Largest net liability position since 2023 Q4,1,C31,Non-numeric token (inspect manually)
+Records,0,"£139.8
+(1993 Q4)",1,D31,Non-numeric token (inspect manually)
+Records,0,"-£710.2
+(2012 Q2)",1,E31,Non-numeric token (inspect manually)
+Records,0,-£106.0,1,B32,Non-numeric token (inspect manually)
+Records,0,Largest net liability position recorded,1,C32,Non-numeric token (inspect manually)
+Records,0,"£145.0
+(2013 Q2)",1,D32,Non-numeric token (inspect manually)
+Records,0,"-£106.0
+(2025 Q4)",1,E32,Non-numeric token (inspect manually)
+Records,0,£28.4,1,B33,Non-numeric token (inspect manually)
+Records,0,Largest net asset position since 2025 Q1,1,C33,Non-numeric token (inspect manually)
+Records,0,"£496.4
+(2018 Q4)",1,D33,Non-numeric token (inspect manually)
+Records,0,"-£334.6
+(2007 Q4)",1,E33,Non-numeric token (inspect manually)
+Records,0,£159.1,1,B34,Non-numeric token (inspect manually)
+Records,0,Largest net asset position recorded,1,C34,Non-numeric token (inspect manually)
+Records,0,"£159.1
+(2025 Q4)",1,D34,Non-numeric token (inspect manually)
+Records,0,"£1.1
+(1970 Q3)",1,E34,Non-numeric token (inspect manually)
+Records,0,-£199.8,1,B35,Non-numeric token (inspect manually)
+Records,0,Largest net liability position since 2025 Q2,1,C35,Non-numeric token (inspect manually)
+Records,0,"£177.0
+(2016 Q4)",1,D35,Non-numeric token (inspect manually)
+Records,0,"-£484.2
+(2021 Q3)",1,E35,Non-numeric token (inspect manually)
+Table_A,1,(empty),912,N9,Empty cell - series start before/after data window or non-applicable
+Table_A,1,Trade in goods,1,B156,Non-numeric token (inspect manually)
+Table_A,1,Trade in services,1,C156,Non-numeric token (inspect manually)
+Table_A,1,Total trade,1,D156,Non-numeric token (inspect manually)
+Table_A,1,"Primary income,
+Compensation of employees",1,E156,Non-numeric token (inspect manually)
+Table_A,1,"Primary income,
+Investment income",1,F156,Non-numeric token (inspect manually)
+Table_A,1,"Primary income,
+Other primary income",1,G156,Non-numeric token (inspect manually)
+Table_A,1,"Primary income,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_A,1,"Secondary income,
+General government",1,I156,Non-numeric token (inspect manually)
+Table_A,1,"Secondary income,
+Other sectors",1,J156,Non-numeric token (inspect manually)
+Table_A,1,"Secondary income,
+Total",1,K156,Non-numeric token (inspect manually)
+Table_A,1,Current balance,1,L156,Non-numeric token (inspect manually)
+Table_A,1,Capital balance,1,M156,Non-numeric token (inspect manually)
+Table_A,2,(empty),917,N158,Empty cell - series start before/after data window or non-applicable
+Table_A,2,Direct investment,1,B305,Non-numeric token (inspect manually)
+Table_A,2,Portfolio investment,1,C305,Non-numeric token (inspect manually)
+Table_A,2,Financial derivatives (net),1,D305,Non-numeric token (inspect manually)
+Table_A,2,Other investment,1,E305,Non-numeric token (inspect manually)
+Table_A,2,Reserve assets,1,F305,Non-numeric token (inspect manually)
+Table_A,2,Net financial transactions,1,G305,Non-numeric token (inspect manually)
+Table_A,2,Net errors and omissions [note 2],1,H305,Non-numeric token (inspect manually)
+Table_A,3,(empty),1595,I307,Empty cell - series start before/after data window or non-applicable
+Table_B,1,(empty),22,B154,Empty cell - series start before/after data window or non-applicable
+Table_B,1,Imports of goods,1,B156,Non-numeric token (inspect manually)
+Table_B,1,Imports of services,1,C156,Non-numeric token (inspect manually)
+Table_B,1,Total imports,1,D156,Non-numeric token (inspect manually)
+Table_B,1,"Primary income,
+Compensation of employees",1,E156,Non-numeric token (inspect manually)
+Table_B,1,"Primary income,
+Investment income",1,F156,Non-numeric token (inspect manually)
+Table_B,1,"Primary income,
+Other primary income",1,G156,Non-numeric token (inspect manually)
+Table_B,1,"Primary income,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_B,1,"Secondary income,
+Central government",1,I156,Non-numeric token (inspect manually)
+Table_B,1,"Secondary income,
+Other sectors",1,J156,Non-numeric token (inspect manually)
+Table_B,1,"Secondary income,
+Total",1,K156,Non-numeric token (inspect manually)
+Table_B,1,Total debits,1,L156,Non-numeric token (inspect manually)
+Table_B,2,(empty),22,B303,Empty cell - series start before/after data window or non-applicable
+Table_B,2,Trade in goods,1,B305,Non-numeric token (inspect manually)
+Table_B,2,Trade in services,1,C305,Non-numeric token (inspect manually)
+Table_B,2,Trade total,1,D305,Non-numeric token (inspect manually)
+Table_B,2,"Primary income,
+Compensation of employees",1,E305,Non-numeric token (inspect manually)
+Table_B,2,"Primary income,
+Investment income",1,F305,Non-numeric token (inspect manually)
+Table_B,2,"Primary income,
+Other primary income",1,G305,Non-numeric token (inspect manually)
+Table_B,2,"Primary income,
+Total",1,H305,Non-numeric token (inspect manually)
+Table_B,2,"Secondary income,
+Central government",1,I305,Non-numeric token (inspect manually)
+Table_B,2,"Secondary income,
+Other sectors",1,J305,Non-numeric token (inspect manually)
+Table_B,2,"Secondary income, 
+Total",1,K305,Non-numeric token (inspect manually)
+Table_B,2,Current balance,1,L305,Non-numeric token (inspect manually)
+Table_B,3,(empty),27,B452,Empty cell - series start before/after data window or non-applicable
+Table_B,3,Trade in goods,1,B454,Non-numeric token (inspect manually)
+Table_B,3,Trade in services,1,C454,Non-numeric token (inspect manually)
+Table_B,3,"Trade, Total",1,D454,Non-numeric token (inspect manually)
+Table_B,3,"Primary income, 
+Total",1,E454,Non-numeric token (inspect manually)
+Table_B,3,"Secondary income,
+Total",1,F454,Non-numeric token (inspect manually)
+Table_B,3,Current balance,1,G454,Non-numeric token (inspect manually)
+Table_B,4,(empty),725,H456,Empty cell - series start before/after data window or non-applicable
+Table_BX,1,(empty),22,B154,Empty cell - series start before/after data window or non-applicable
+Table_BX,1,"Imports of goods,
+excl. precious metals",1,B156,Non-numeric token (inspect manually)
+Table_BX,1,Imports of services,1,C156,Non-numeric token (inspect manually)
+Table_BX,1,"Total imports,
+excl. precious metals",1,D156,Non-numeric token (inspect manually)
+Table_BX,1,"Primary income,
+Compensation of employees",1,E156,Non-numeric token (inspect manually)
+Table_BX,1,"Primary income,
+Investment income",1,F156,Non-numeric token (inspect manually)
+Table_BX,1,"Primary income,
+Other primary income",1,G156,Non-numeric token (inspect manually)
+Table_BX,1,"Primary income,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_BX,1,"Secondary income,
+Central government",1,I156,Non-numeric token (inspect manually)
+Table_BX,1,"Secondary income,
+Other sectors",1,J156,Non-numeric token (inspect manually)
+Table_BX,1,"Secondary income,
+Total",1,K156,Non-numeric token (inspect manually)
+Table_BX,1,"Total debits,
+excl. precious metals",1,L156,Non-numeric token (inspect manually)
+Table_BX,2,(empty),22,B303,Empty cell - series start before/after data window or non-applicable
+Table_BX,2,"Trade in goods,
+excl. precious metals",1,B305,Non-numeric token (inspect manually)
+Table_BX,2,Trade in services,1,C305,Non-numeric token (inspect manually)
+Table_BX,2,"Trade total,
+excl. precious metals",1,D305,Non-numeric token (inspect manually)
+Table_BX,2,"Primary income,
+Compensation of employees",1,E305,Non-numeric token (inspect manually)
+Table_BX,2,"Primary income,
+Investment income",1,F305,Non-numeric token (inspect manually)
+Table_BX,2,"Primary income,
+Other primary income",1,G305,Non-numeric token (inspect manually)
+Table_BX,2,"Primary income,
+Total",1,H305,Non-numeric token (inspect manually)
+Table_BX,2,"Secondary income,
+Central government",1,I305,Non-numeric token (inspect manually)
+Table_BX,2,"Secondary income,
+Other sectors",1,J305,Non-numeric token (inspect manually)
+Table_BX,2,"Secondary income,
+Total",1,K305,Non-numeric token (inspect manually)
+Table_BX,2,"Current balance,
+excl. precious metals",1,L305,Non-numeric token (inspect manually)
+Table_BX,3,(empty),27,B452,Empty cell - series start before/after data window or non-applicable
+Table_BX,3,"Trade in goods,
+excl. precious metals",1,B454,Non-numeric token (inspect manually)
+Table_BX,3,Trade in services,1,C454,Non-numeric token (inspect manually)
+Table_BX,3,"Total trade,
+excl. precious metals",1,D454,Non-numeric token (inspect manually)
+Table_BX,3,"Primary income, 
+Total",1,E454,Non-numeric token (inspect manually)
+Table_BX,3,"Secondary income,
+Total",1,F454,Non-numeric token (inspect manually)
+Table_BX,3,"Current balance,
+excl. precious metals",1,G454,Non-numeric token (inspect manually)
+Table_BX,4,(empty),725,H456,Empty cell - series start before/after data window or non-applicable
+Table_C,1,(empty),1936,H9,Empty cell - series start before/after data window or non-applicable
+Table_C,1,x,60,B9,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_C,1,Imports of goods,1,B156,Non-numeric token (inspect manually)
+Table_C,1,Imports of services,1,C156,Non-numeric token (inspect manually)
+Table_C,1,Total imports,1,D156,Non-numeric token (inspect manually)
+Table_C,1,"Primary income,
+debits",1,E156,Non-numeric token (inspect manually)
+Table_C,1,"Secondary income,
+debits",1,F156,Non-numeric token (inspect manually)
+Table_C,1,Total debits,1,G156,Non-numeric token (inspect manually)
+Table_C,2,(empty),1936,H158,Empty cell - series start before/after data window or non-applicable
+Table_C,2,x,60,B158,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_C,2,Trade in goods,1,B305,Non-numeric token (inspect manually)
+Table_C,2,Trade in services,1,C305,Non-numeric token (inspect manually)
+Table_C,2,Total trade,1,D305,Non-numeric token (inspect manually)
+Table_C,2,"Primary income,
+balance",1,E305,Non-numeric token (inspect manually)
+Table_C,2,"Secondary income,
+balance",1,F305,Non-numeric token (inspect manually)
+Table_C,2,Total balance,1,G305,Non-numeric token (inspect manually)
+Table_C,3,(empty),1936,H307,Empty cell - series start before/after data window or non-applicable
+Table_C,3,x,60,B307,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_C,3,Exports of goods,1,B454,Non-numeric token (inspect manually)
+Table_C,3,Exports of services,1,C454,Non-numeric token (inspect manually)
+Table_C,3,Total exports,1,D454,Non-numeric token (inspect manually)
+Table_C,3,"Primary income,
+credits",1,E454,Non-numeric token (inspect manually)
+Table_C,3,"Secondary income,
+credits",1,F454,Non-numeric token (inspect manually)
+Table_C,3,Total credits,1,G454,Non-numeric token (inspect manually)
+Table_C,4,(empty),1936,H456,Empty cell - series start before/after data window or non-applicable
+Table_C,4,x,60,B456,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_C,4,Imports of goods,1,B603,Non-numeric token (inspect manually)
+Table_C,4,Imports of services,1,C603,Non-numeric token (inspect manually)
+Table_C,4,Total imports,1,D603,Non-numeric token (inspect manually)
+Table_C,4,"Primary income,
+debits",1,E603,Non-numeric token (inspect manually)
+Table_C,4,"Secondary income,
+debits",1,F603,Non-numeric token (inspect manually)
+Table_C,4,Total debits,1,G603,Non-numeric token (inspect manually)
+Table_C,5,(empty),1936,H605,Empty cell - series start before/after data window or non-applicable
+Table_C,5,x,60,B605,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_C,5,Trade in goods,1,B752,Non-numeric token (inspect manually)
+Table_C,5,Trade in services,1,C752,Non-numeric token (inspect manually)
+Table_C,5,Total trade,1,D752,Non-numeric token (inspect manually)
+Table_C,5,"Primary income,
+balance",1,E752,Non-numeric token (inspect manually)
+Table_C,5,"Secondary income,
+balance",1,F752,Non-numeric token (inspect manually)
+Table_C,5,Total balance,1,G752,Non-numeric token (inspect manually)
+Table_C,6,(empty),1885,H754,Empty cell - series start before/after data window or non-applicable
+Table_C,6,x,60,B754,ONS confidential / suppressed (not released; cf Service Manual [c])
+Table_D1_3,1,(empty),900,H9,Empty cell - series start before/after data window or non-applicable
+Table_D1_3,1,"Financial account transactions,
+Direct investment",1,B156,Non-numeric token (inspect manually)
+Table_D1_3,1,"Financial account transactions,
+Portfolio investment",1,C156,Non-numeric token (inspect manually)
+Table_D1_3,1,"Financial account transactions,
+Financial derivatives (net)",1,D156,Non-numeric token (inspect manually)
+Table_D1_3,1,"Financial account transactions,
+Other investment",1,E156,Non-numeric token (inspect manually)
+Table_D1_3,1,"Financial account transactions,
+Reserve assets",1,F156,Non-numeric token (inspect manually)
+Table_D1_3,1,"Financial account transactions,
+Total",1,G156,Non-numeric token (inspect manually)
+Table_D1_3,2,(empty),901,H158,Empty cell - series start before/after data window or non-applicable
+Table_D1_3,2,"Investment income earnings,
+Direct investment",1,B305,Non-numeric token (inspect manually)
+Table_D1_3,2,"Investment income earnings,
+Portfolio investment",1,C305,Non-numeric token (inspect manually)
+Table_D1_3,2,"Investment income earnings,
+Other investment",1,D305,Non-numeric token (inspect manually)
+Table_D1_3,2,"Investment income earnings,
+Reserve assets",1,E305,Non-numeric token (inspect manually)
+Table_D1_3,2,"Investment income earnings,
+Total",1,F305,Non-numeric token (inspect manually)
+Table_D1_3,3,(empty),1015,G307,Empty cell - series start before/after data window or non-applicable
+Table_D4_6,1,(empty),751,G9,Empty cell - series start before/after data window or non-applicable
+Table_D4_6,1,"Financial account transactions,
+Direct investment",1,B156,Non-numeric token (inspect manually)
+Table_D4_6,1,"Financial account transactions,
+Portfolio investment",1,C156,Non-numeric token (inspect manually)
+Table_D4_6,1,"Financial account transactions,
+Other investment",1,D156,Non-numeric token (inspect manually)
+Table_D4_6,1,"Financial account transactions,
+Total",1,E156,Non-numeric token (inspect manually)
+Table_D4_6,2,(empty),896,F158,Empty cell - series start before/after data window or non-applicable
+Table_D4_6,2,"Investment income earnings,
+Direct investment",1,B305,Non-numeric token (inspect manually)
+Table_D4_6,2,"Investment income earnings,
+Portfolio investment",1,C305,Non-numeric token (inspect manually)
+Table_D4_6,2,"Investment income earnings,
+Other investment",1,D305,Non-numeric token (inspect manually)
+Table_D4_6,2,"Investment income earnings,
+Total",1,E305,Non-numeric token (inspect manually)
+Table_D4_6,3,(empty),870,F307,Empty cell - series start before/after data window or non-applicable
+Table_D7_9,1,(empty),900,H9,Empty cell - series start before/after data window or non-applicable
+Table_D7_9,1,"Financial account transactions,
+Direct investment",1,B156,Non-numeric token (inspect manually)
+Table_D7_9,1,"Financial account transactions,
+Portfolio investment",1,C156,Non-numeric token (inspect manually)
+Table_D7_9,1,"Financial account transactions,
+Financial derivatives",1,D156,Non-numeric token (inspect manually)
+Table_D7_9,1,"Financial account transactions,
+Other investment",1,E156,Non-numeric token (inspect manually)
+Table_D7_9,1,"Financial account transactions,
+Reserve assets",1,F156,Non-numeric token (inspect manually)
+Table_D7_9,1,"Financial account transactions,
+Net transaction",1,G156,Non-numeric token (inspect manually)
+Table_D7_9,2,(empty),901,H158,Empty cell - series start before/after data window or non-applicable
+Table_D7_9,2,"Investment income earnings,
+Direct investment",1,B305,Non-numeric token (inspect manually)
+Table_D7_9,2,"Investment income earnings,
+Portfolio investment",1,C305,Non-numeric token (inspect manually)
+Table_D7_9,2,"Investment income earnings,
+Other investment",1,D305,Non-numeric token (inspect manually)
+Table_D7_9,2,"Investment income earnings,
+Reserve assets",1,E305,Non-numeric token (inspect manually)
+Table_D7_9,2,"Investment income earnings,
+Net earnings",1,F305,Non-numeric token (inspect manually)
+Table_D7_9,3,(empty),1015,G307,Empty cell - series start before/after data window or non-applicable
+Table_E,1,(empty),16,B154,Empty cell - series start before/after data window or non-applicable
+Table_E,1,"Food, beverages and tobacco",1,B156,Non-numeric token (inspect manually)
+Table_E,1,Basic materials,1,C156,Non-numeric token (inspect manually)
+Table_E,1,Oil,1,D156,Non-numeric token (inspect manually)
+Table_E,1,Other fuels,1,E156,Non-numeric token (inspect manually)
+Table_E,1,Semi-manufactured goods,1,F156,Non-numeric token (inspect manually)
+Table_E,1,Finished manufactured goods,1,G156,Non-numeric token (inspect manually)
+Table_E,1,Unspecified goods,1,H156,Non-numeric token (inspect manually)
+Table_E,1,Total goods imports,1,I156,Non-numeric token (inspect manually)
+Table_E,2,(empty),16,B303,Empty cell - series start before/after data window or non-applicable
+Table_E,2,"Food, beverages and tobacco",1,B305,Non-numeric token (inspect manually)
+Table_E,2,Basic materials,1,C305,Non-numeric token (inspect manually)
+Table_E,2,Oil,1,D305,Non-numeric token (inspect manually)
+Table_E,2,Other fuels,1,E305,Non-numeric token (inspect manually)
+Table_E,2,Semi-manufactured goods,1,F305,Non-numeric token (inspect manually)
+Table_E,2,Finished manufactured goods,1,G305,Non-numeric token (inspect manually)
+Table_E,2,Unspecified goods,1,H305,Non-numeric token (inspect manually)
+Table_E,2,Total goods balance,1,I305,Non-numeric token (inspect manually)
+Table_F,1,(empty),24,B154,Empty cell - series start before/after data window or non-applicable
+Table_F,1,Manufacturing and maintenance services,1,B156,Non-numeric token (inspect manually)
+Table_F,1,Transport,1,C156,Non-numeric token (inspect manually)
+Table_F,1,Travel,1,D156,Non-numeric token (inspect manually)
+Table_F,1,Construction,1,E156,Non-numeric token (inspect manually)
+Table_F,1,Insurance and pension services,1,F156,Non-numeric token (inspect manually)
+Table_F,1,Financial,1,G156,Non-numeric token (inspect manually)
+Table_F,1,Intellectual property,1,H156,Non-numeric token (inspect manually)
+Table_F,1,"Telecommunication, computer and information services",1,I156,Non-numeric token (inspect manually)
+Table_F,1,Other business,1,J156,Non-numeric token (inspect manually)
+Table_F,1,"Personal, cultural and recreational services",1,K156,Non-numeric token (inspect manually)
+Table_F,1,Government,1,L156,Non-numeric token (inspect manually)
+Table_F,1,Total services imports,1,M156,Non-numeric token (inspect manually)
+Table_F,2,(empty),24,B303,Empty cell - series start before/after data window or non-applicable
+Table_F,2,Manufacturing and maintenance services,1,B305,Non-numeric token (inspect manually)
+Table_F,2,Transport,1,C305,Non-numeric token (inspect manually)
+Table_F,2,Travel,1,D305,Non-numeric token (inspect manually)
+Table_F,2,Construction,1,E305,Non-numeric token (inspect manually)
+Table_F,2,Insurance and pension services,1,F305,Non-numeric token (inspect manually)
+Table_F,2,Financial,1,G305,Non-numeric token (inspect manually)
+Table_F,2,Intellectual property,1,H305,Non-numeric token (inspect manually)
+Table_F,2,"Telecommunication, computer and information services",1,I305,Non-numeric token (inspect manually)
+Table_F,2,Other business,1,J305,Non-numeric token (inspect manually)
+Table_F,2,"Personal, cultural and recreational services",1,K305,Non-numeric token (inspect manually)
+Table_F,2,Government,1,L305,Non-numeric token (inspect manually)
+Table_F,2,Total services balance,1,M305,Non-numeric token (inspect manually)
+Table_G,1,(empty),21,B154,Empty cell - series start before/after data window or non-applicable
+Table_G,1,Compensation of employees,1,B156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Foreign earnings on direct investment in the UK",1,C156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Foreign earnings on portfolio investment in the UK,
+Equity securities",1,D156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Foreign earnings on portfolio investment in the UK,
+Debt securities",1,E156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Foreign earnings on portfolio investment in the UK,
+Total",1,F156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Earnings on other investment in the UK",1,G156,Non-numeric token (inspect manually)
+Table_G,1,"Investment income,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_G,1,Other primary income,1,I156,Non-numeric token (inspect manually)
+Table_G,1,Total debits,1,J156,Non-numeric token (inspect manually)
+Table_G,2,(empty),165,K158,Empty cell - series start before/after data window or non-applicable
+Table_G,2,Compensation of employees,1,B305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Direct investment",1,C305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Portfolio investment,
+Earnings on equity securities",1,D305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Portfolio investment,
+Earnings on debt securities",1,E305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Portfolio investment,
+Total",1,F305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Other investment",1,G305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Reserve assets",1,H305,Non-numeric token (inspect manually)
+Table_G,2,"Investment income,
+Total",1,I305,Non-numeric token (inspect manually)
+Table_G,2,Other primary income,1,J305,Non-numeric token (inspect manually)
+Table_G,2,Total balance,1,K305,Non-numeric token (inspect manually)
+Table_H,1,(empty),898,I9,Empty cell - series start before/after data window or non-applicable
+Table_H,1,"General government,
+Payment to EU institutions,
+GNI own resource",1,B156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Payment to EU institutions,
+GNI adjustments",1,C156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Payment to EU institutions,
+Less abatement",1,D156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Payment to EU institutions,
+Others",1,E156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Payment to EU institutions,
+Withdrawal agreement",1,F156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Other payments",1,G156,Non-numeric token (inspect manually)
+Table_H,1,"General government,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_H,1,"Other sectors,
+Payment to EU institutions",1,I156,Non-numeric token (inspect manually)
+Table_H,1,"Other sectors,
+Other payments",1,J156,Non-numeric token (inspect manually)
+Table_H,1,"Other sectors,
+Total",1,K156,Non-numeric token (inspect manually)
+Table_H,1,Total debits,1,L156,Non-numeric token (inspect manually)
+Table_H,2,(empty),325,M158,Empty cell - series start before/after data window or non-applicable
+Table_H,2,General government,1,B305,Non-numeric token (inspect manually)
+Table_H,2,Other sectors,1,C305,Non-numeric token (inspect manually)
+Table_H,2,Total balances,1,D305,Non-numeric token (inspect manually)
+Table_H,2,"Total balances,
+Of which EU institutions",1,E305,Non-numeric token (inspect manually)
+Table_H,3,(empty),1305,F307,Empty cell - series start before/after data window or non-applicable
+Table_I,1,(empty),173,N9,Empty cell - series start before/after data window or non-applicable
+Table_I,1,"Capital transfers,
+Central government,
+Debt forgiveness",1,B156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Central government,
+Other capital transfers (project grants)",1,C156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Central government,
+Total",1,D156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Other sectors,
+Debt forgiveness,
+Monetary financial institutions",1,E156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Other sectors,
+Debt forgiveness,
+Public corporations",1,F156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Other sectors,
+Debt forgiveness,
+Total",1,G156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Other sectors,
+Other capital transfers",1,H156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers,
+Other sectors,
+Total",1,I156,Non-numeric token (inspect manually)
+Table_I,1,"Capital transfers
+Total",1,J156,Non-numeric token (inspect manually)
+Table_I,1,"Acquisitions of non-produced, non-financial assets",1,K156,Non-numeric token (inspect manually)
+Table_I,1,Total Debits,1,L156,Non-numeric token (inspect manually)
+Table_I,2,(empty),320,M158,Empty cell - series start before/after data window or non-applicable
+Table_I,2,"Capital transfers,
+Central government,
+Debt forgiveness",1,B305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Central government,
+Other capital transfers",1,C305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Central government,
+Total",1,D305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Other sectors,
+Debt forgiveness",1,E305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Other sectors,
+Other capital transfers",1,F305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Other sectors,
+Total",1,G305,Non-numeric token (inspect manually)
+Table_I,2,"Capital transfers,
+Total",1,H305,Non-numeric token (inspect manually)
+Table_I,2,"Non-produced, non-financial assets",1,I305,Non-numeric token (inspect manually)
+Table_I,2,Total balances,1,J305,Non-numeric token (inspect manually)
+Table_I,3,(empty),580,K307,Empty cell - series start before/after data window or non-applicable
+Table_J,1,(empty),320,M9,Empty cell - series start before/after data window or non-applicable
+Table_J,1,"Direct investment in the UK,
+Equity capital other than reinvestment of earnings",1,B156,Non-numeric token (inspect manually)
+Table_J,1,"Direct investment in the UK,
+Reinvestment of earnings",1,C156,Non-numeric token (inspect manually)
+Table_J,1,"Direct investment in the UK,
+Debt instruments",1,D156,Non-numeric token (inspect manually)
+Table_J,1,"Direct investment in the UK,
+Total",1,E156,Non-numeric token (inspect manually)
+Table_J,1,"Portfolio investment in the UK,
+Equity and investment fund shares",1,F156,Non-numeric token (inspect manually)
+Table_J,1,"Portfolio investment in the UK,
+Debt securities",1,G156,Non-numeric token (inspect manually)
+Table_J,1,"Portfolio investment in the UK,
+Total",1,H156,Non-numeric token (inspect manually)
+Table_J,1,Other investment in the UK,1,I156,Non-numeric token (inspect manually)
+Table_J,1,Total investment in the UK,1,J156,Non-numeric token (inspect manually)
+Table_J,2,(empty),608,K158,Empty cell - series start before/after data window or non-applicable
+Table_J,2,"Net direct investment,
+Equity capital other than reinvestment of earnings",1,B305,Non-numeric token (inspect manually)
+Table_J,2,"Net direct investment,
+Reinvestment of earnings",1,C305,Non-numeric token (inspect manually)
+Table_J,2,"Net direct investment,
+Debt instruments",1,D305,Non-numeric token (inspect manually)
+Table_J,2,"Net direct investment,
+Total",1,E305,Non-numeric token (inspect manually)
+Table_J,2,"Net portfolio investment,
+Equity and investment fund shares",1,F305,Non-numeric token (inspect manually)
+Table_J,2,"Net portfolio investment,
+Debt securities",1,G305,Non-numeric token (inspect manually)
+Table_J,2,"Net portfolio investment,
+Total",1,H305,Non-numeric token (inspect manually)
+Table_J,2,Financial derivatives and employee stock options,1,I305,Non-numeric token (inspect manually)
+Table_J,2,Other net investment,1,J305,Non-numeric token (inspect manually)
+Table_J,2,Reserve assets,1,K305,Non-numeric token (inspect manually)
+Table_J,2,Total net investment,1,L305,Non-numeric token (inspect manually)
+Table_J,3,(empty),290,M307,Empty cell - series start before/after data window or non-applicable
+Table_K,1,(empty),21,B154,Empty cell - series start before/after data window or non-applicable
+Table_K,1,"Direct investment in the UK,
+Equity and investment fund shares",1,B156,Non-numeric token (inspect manually)
+Table_K,1,"Direct investment in the UK,
+Debt instruments",1,C156,Non-numeric token (inspect manually)
+Table_K,1,"Direct investment in the UK,
+Total",1,D156,Non-numeric token (inspect manually)
+Table_K,1,"Portfolio investment in the UK,
+Equity and investment fund shares",1,E156,Non-numeric token (inspect manually)
+Table_K,1,"Portfolio investment in the UK,
+Debt securities",1,F156,Non-numeric token (inspect manually)
+Table_K,1,"Portfolio investment in the UK,
+Total",1,G156,Non-numeric token (inspect manually)
+Table_K,1,Financial derivatives and employee stock options,1,H156,Non-numeric token (inspect manually)
+Table_K,1,Other investment in the UK,1,I156,Non-numeric token (inspect manually)
+Table_K,1,Total UK liabilities,1,J156,Non-numeric token (inspect manually)
+Table_K,2,(empty),165,K158,Empty cell - series start before/after data window or non-applicable
+Table_K,2,"Direct investment,
+Equity and investment fund shares",1,B305,Non-numeric token (inspect manually)
+Table_K,2,"Direct investment,
+Debt instruments",1,C305,Non-numeric token (inspect manually)
+Table_K,2,"Direct investment,
+Net total",1,D305,Non-numeric token (inspect manually)
+Table_K,2,"Portfolio investment,
+Equity and investment fund shares",1,E305,Non-numeric token (inspect manually)
+Table_K,2,"Portfolio investment,
+Debt securities",1,F305,Non-numeric token (inspect manually)
+Table_K,2,"Portfolio investment,
+Net total",1,G305,Non-numeric token (inspect manually)
+Table_K,2,Financial derivatives and employee stock options,1,H305,Non-numeric token (inspect manually)
+Table_K,2,Other investment,1,I305,Non-numeric token (inspect manually)
+Table_K,2,Reserve assets,1,J305,Non-numeric token (inspect manually)
+Table_K,2,Total net investment,1,K305,Non-numeric token (inspect manually)
+Table_R1,1,(empty),24,B152,Empty cell - series start before/after data window or non-applicable
+Table_R1,1,Trade in goods,1,B154,Non-numeric token (inspect manually)
+Table_R1,1,Trade in services,1,C154,Non-numeric token (inspect manually)
+Table_R1,1,Total trade,1,D154,Non-numeric token (inspect manually)
+Table_R1,1,"Primary income,
+Compensation of employees",1,E154,Non-numeric token (inspect manually)
+Table_R1,1,"Primary income,
+Investment income",1,F154,Non-numeric token (inspect manually)
+Table_R1,1,"Primary income,
+Other primary income",1,G154,Non-numeric token (inspect manually)
+Table_R1,1,"Primary income,
+Total",1,H154,Non-numeric token (inspect manually)
+Table_R1,1,"Secondary income,
+General government",1,I154,Non-numeric token (inspect manually)
+Table_R1,1,"Secondary income,
+Other sectors",1,J154,Non-numeric token (inspect manually)
+Table_R1,1,"Secondary income,
+Total",1,K154,Non-numeric token (inspect manually)
+Table_R1,1,Current balance,1,L154,Non-numeric token (inspect manually)
+Table_R1,1,Capital balance,1,M154,Non-numeric token (inspect manually)
+Table_R1,2,(empty),29,B299,Empty cell - series start before/after data window or non-applicable
+Table_R1,2,Direct investment,1,B301,Non-numeric token (inspect manually)
+Table_R1,2,Portfolio investment,1,C301,Non-numeric token (inspect manually)
+Table_R1,2,Financial derivatives (net),1,D301,Non-numeric token (inspect manually)
+Table_R1,2,Other investment,1,E301,Non-numeric token (inspect manually)
+Table_R1,2,Reserve assets,1,F301,Non-numeric token (inspect manually)
+Table_R1,2,Net financial transactions,1,G301,Non-numeric token (inspect manually)
+Table_R1,2,Net errors and omissions [note 2],1,H301,Non-numeric token (inspect manually)
+Table_R1,3,(empty),715,I303,Empty cell - series start before/after data window or non-applicable
+Table_R2,1,(empty),168,M9,Empty cell - series start before/after data window or non-applicable
+Table_R2,1,Imports of goods,1,B154,Non-numeric token (inspect manually)
+Table_R2,1,Imports of services,1,C154,Non-numeric token (inspect manually)
+Table_R2,1,Total imports,1,D154,Non-numeric token (inspect manually)
+Table_R2,1,"Primary income,
+Compensation of employees",1,E154,Non-numeric token (inspect manually)
+Table_R2,1,"Primary income,
+Investment income",1,F154,Non-numeric token (inspect manually)
+Table_R2,1,"Primary income,
+Other primary income",1,G154,Non-numeric token (inspect manually)
+Table_R2,1,"Primary income,
+Total",1,H154,Non-numeric token (inspect manually)
+Table_R2,1,"Secondary income,
+Central government",1,I154,Non-numeric token (inspect manually)
+Table_R2,1,"Secondary income,
+Other sectors",1,J154,Non-numeric token (inspect manually)
+Table_R2,1,"Secondary income,
+Total",1,K154,Non-numeric token (inspect manually)
+Table_R2,1,Total debits,1,L154,Non-numeric token (inspect manually)
+Table_R2,2,(empty),168,M156,Empty cell - series start before/after data window or non-applicable
+Table_R2,2,Trade in goods,1,B301,Non-numeric token (inspect manually)
+Table_R2,2,Trade in services,1,C301,Non-numeric token (inspect manually)
+Table_R2,2,Total trade,1,D301,Non-numeric token (inspect manually)
+Table_R2,2,"Primary income,
+Compensation of employees",1,E301,Non-numeric token (inspect manually)
+Table_R2,2,"Primary income,
+Investment income",1,F301,Non-numeric token (inspect manually)
+Table_R2,2,"Primary income,
+Other primary income",1,G301,Non-numeric token (inspect manually)
+Table_R2,2,"Primary income,
+Total",1,H301,Non-numeric token (inspect manually)
+Table_R2,2,"Secondary income,
+Central government",1,I301,Non-numeric token (inspect manually)
+Table_R2,2,"Secondary income,
+Other sectors",1,J301,Non-numeric token (inspect manually)
+Table_R2,2,"Secondary income,
+Total",1,K301,Non-numeric token (inspect manually)
+Table_R2,2,Total balance,1,L301,Non-numeric token (inspect manually)
+Table_R2,3,(empty),173,M303,Empty cell - series start before/after data window or non-applicable
+Table_R2,3,Trade in goods,1,B448,Non-numeric token (inspect manually)
+Table_R2,3,Trade in services,1,C448,Non-numeric token (inspect manually)
+Table_R2,3,Total trade,1,D448,Non-numeric token (inspect manually)
+Table_R2,3,"Primary income, 
+Total",1,E448,Non-numeric token (inspect manually)
+Table_R2,3,"Secondary income,
+Total",1,F448,Non-numeric token (inspect manually)
+Table_R2,3,Current balance,1,G448,Non-numeric token (inspect manually)
+Table_R2,4,(empty),858,H450,Empty cell - series start before/after data window or non-applicable
+Table_R3,1,(empty),12,B152,Empty cell - series start before/after data window or non-applicable
+Table_R3,1,Direct investment,1,B154,Non-numeric token (inspect manually)
+Table_R3,1,Portfolio investment,1,C154,Non-numeric token (inspect manually)
+Table_R3,1,Financial derivatives (net),1,D154,Non-numeric token (inspect manually)
+Table_R3,1,Other investment,1,E154,Non-numeric token (inspect manually)
+Table_R3,1,Reserve assets,1,F154,Non-numeric token (inspect manually)
+Table_R3,1,Total financial account transactions,1,G154,Non-numeric token (inspect manually)
+Table_R3,2,(empty),13,B299,Empty cell - series start before/after data window or non-applicable
+Table_R3,2,Direct investment,1,B301,Non-numeric token (inspect manually)
+Table_R3,2,Portfolio investment,1,C301,Non-numeric token (inspect manually)
+Table_R3,2,Other investment,1,D301,Non-numeric token (inspect manually)
+Table_R3,2,Reserve assets,1,E301,Non-numeric token (inspect manually)
+Table_R3,2,Total investment income earnings,1,F301,Non-numeric token (inspect manually)
+Table_R3,3,(empty),156,G303,Empty cell - series start before/after data window or non-applicable
+Table_R3,3,Direct investment,1,B448,Non-numeric token (inspect manually)
+Table_R3,3,Portfolio investment,1,C448,Non-numeric token (inspect manually)
+Table_R3,3,Financial derivatives,1,D448,Non-numeric token (inspect manually)
+Table_R3,3,Other investment,1,E448,Non-numeric token (inspect manually)
+Table_R3,3,Total international investment position,1,F448,Non-numeric token (inspect manually)
+Table_R3,4,(empty),157,G450,Empty cell - series start before/after data window or non-applicable
+Table_R3,4,Direct investment,1,B595,Non-numeric token (inspect manually)
+Table_R3,4,Portfolio investment,1,C595,Non-numeric token (inspect manually)
+Table_R3,4,Other investment,1,D595,Non-numeric token (inspect manually)
+Table_R3,4,Total financial account transactions,1,E595,Non-numeric token (inspect manually)
+Table_R3,5,(empty),300,F597,Empty cell - series start before/after data window or non-applicable
+Table_R3,5,Direct investment,1,B742,Non-numeric token (inspect manually)
+Table_R3,5,Portfolio investment,1,C742,Non-numeric token (inspect manually)
+Table_R3,5,Other investment,1,D742,Non-numeric token (inspect manually)
+Table_R3,5,Total investment income,1,E742,Non-numeric token (inspect manually)
+Table_R3,6,(empty),298,F744,Empty cell - series start before/after data window or non-applicable
+Table_R3,6,Direct investment,1,B889,Non-numeric token (inspect manually)
+Table_R3,6,Portfolio investment,1,C889,Non-numeric token (inspect manually)
+Table_R3,6,Financial derivatives,1,D889,Non-numeric token (inspect manually)
+Table_R3,6,Other investment,1,E889,Non-numeric token (inspect manually)
+Table_R3,6,Reserve assets,1,F889,Non-numeric token (inspect manually)
+Table_R3,6,Total net international investment position,1,G889,Non-numeric token (inspect manually)
+Table_R3,7,(empty),12,B1034,Empty cell - series start before/after data window or non-applicable
+Table_R3,7,Direct investment,1,B1036,Non-numeric token (inspect manually)
+Table_R3,7,Portfolio investment,1,C1036,Non-numeric token (inspect manually)
+Table_R3,7,Financial derivatives,1,D1036,Non-numeric token (inspect manually)
+Table_R3,7,Other investment,1,E1036,Non-numeric token (inspect manually)
+Table_R3,7,Reserve assets,1,F1036,Non-numeric token (inspect manually)
+Table_R3,7,Total net financial account transactions,1,G1036,Non-numeric token (inspect manually)
+Table_R3,8,(empty),13,B1181,Empty cell - series start before/after data window or non-applicable
+Table_R3,8,Direct investment,1,B1183,Non-numeric token (inspect manually)
+Table_R3,8,Portfolio investment,1,C1183,Non-numeric token (inspect manually)
+Table_R3,8,Other investment,1,D1183,Non-numeric token (inspect manually)
+Table_R3,8,Reserve assets,1,E1183,Non-numeric token (inspect manually)
+Table_R3,8,Total net investment income earnings,1,F1183,Non-numeric token (inspect manually)
+Table_R3,9,(empty),143,G1185,Empty cell - series start before/after data window or non-applicable

@@ -1,0 +1,83 @@
+sheet,sub_table,unit_text_raw,unit_normalized,scale_factor,notes
+Cover_sheet,0,(no unit statement found in metadata rows),unknown,,
+Notes,0,This series represents net errors and omissions in the balance of payments accounts. It is the converse of the current and capital balances (HBOG and FKMJ) and net financial account transactions (HBNT,unknown,,
+Records,0,Current account (net) (£ billion),GBP_billion,1000000000,
+Table_A,1,All tables in this worksheet are in £ million.,GBP_million,1000000,
+Table_A,1,"Table A.1, Current Account, seasonally adjusted (£ million)",GBP_million,1000000,
+Table_A,2,"Table A.2, Current Account, not seasonally adjusted (£ million)",GBP_million,1000000,
+Table_A,3,"Table A.3, Financial Account [note 1], not seasonally adjusted (£ million)",GBP_million,1000000,
+Table_B,1,"Table B: Current account, seasonally adjusted",unknown,,4번째 부표는 % of GDP
+Table_B,1,"Table B.1, Current Account Credits (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_B,2,"Table B.2, Current Account Debits (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_B,3,"Table B.3, Current Account Balances (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_B,4,GBP million (1-3) / % of GDP (4),GBP_million,1000000,4번째 부표는 % of GDP
+Table_BX,1,"Table BX: Current account excluding precious metals [note 1], seasonally adjusted",unknown,,4번째 부표는 % of GDP
+Table_BX,1,"Table BX.1, Current Account Credits, excluding precious metals (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_BX,2,"Table BX.2, Current Account Debits, excluding precious metals (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_BX,3,"Table BX.3, Current Account Balances, excluding precious metals (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_BX,4,GBP million / % of GDP,GBP_million,1000000,4번째 부표는 % of GDP
+Table_C,1,"Table C: Current account, Transactions with the European Union (EU) and with non-EU countries, seasonally adjusted",unknown,,1997-1998 EU 결측 x
+Table_C,1,"Table C.1, Transactions with the European Union, Credits [note 1] [note 2] [note 3] [note 4] [note 5] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_C,2,"Table C.2, Transactions with the European Union, Debits [note 1] [note 2] [note 3] [note 4] [note 5] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_C,3,"Table C.3, Transactions with the European Union, Balances [note 1] [note 2] [note 3] [note 4] [note 5] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_C,4,"Table C.4, Transactions with non-EU countries, Credits [note 4] [note 5] [note 6] [note 7] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_C,5,"Table C.5, Transactions with non-EU countries, Debits [note 4] [note 5] [note 6] [note 7] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_C,6,"Table C.6, Transactions with non-EU countries, Balances [note 4] [note 5] [note 6] [note 7] (£ million)",GBP_million,1000000,1997-1998 EU 결측 x
+Table_D1_3,1,"Table D: Summary of international investment position (IIP), financial account transactions, and investment income, not seasonally adjusted",unknown,,
+Table_D1_3,1,"Table D.1, Investment abroad, International investment position (£ billion)",GBP_billion,1000000000,
+Table_D1_3,2,"Table D.2, Investment abroad, Financial account transactions [note 1] (£ billion)",GBP_billion,1000000000,
+Table_D1_3,3,"Table D.3, Investment abroad, Investment income earnings (£ billion)",GBP_billion,1000000000,
+Table_D4_6,1,"Table D: Summary of international investment position (IIP), financial account transactions, and Investment income, not seasonally adjusted",unknown,,
+Table_D4_6,1,"Table D.4, Investment in the UK, International investment position (£ billion)",GBP_billion,1000000000,
+Table_D4_6,2,"Table D.5, Investment in the UK, Financial account transactions (£ billion)",GBP_billion,1000000000,
+Table_D4_6,3,"Table D.6, Investment in the UK, Investment income earnings (£ billion)",GBP_billion,1000000000,
+Table_D7_9,1,"Table D: Summary of international investment position (IIP), financial account transactions, and Investment income, not seasonally adjusted",unknown,,
+Table_D7_9,1,"Table D.7, Net investment, International investment position (£ billion)",GBP_billion,1000000000,
+Table_D7_9,2,"Table D.8, Net investment, Financial account transactions [note 1] (£ billion)",GBP_billion,1000000000,
+Table_D7_9,3,"Table D.9, Net investment, Investment income earnings (£ billion)",GBP_billion,1000000000,
+Table_E,1,"Table E: Trade in goods, seasonally adjusted",unknown,,
+Table_E,1,"Table E.1, Exports of goods (£ million)",GBP_million,1000000,
+Table_E,2,"Table E.2, Imports of goods (£ million)",GBP_million,1000000,
+Table_E,3,"Table E.3, Balances of goods (£ million)",GBP_million,1000000,
+Table_F,1,"Table F: Trade in services, seasonally adjusted",unknown,,
+Table_F,1,"Table F.1, Exports of services (£ million)",GBP_million,1000000,
+Table_F,2,"Table F.2, Imports of services (£ million)",GBP_million,1000000,
+Table_F,3,"Table F.3, Balances of services (£ million)",GBP_million,1000000,
+Table_G,1,"Table G: Primary income, seasonally adjusted",unknown,,
+Table_G,1,"Table G.1, Primary income, credits (£ million)",GBP_million,1000000,
+Table_G,2,"Table G.2, Primary income, debits (£ million)",GBP_million,1000000,
+Table_G,3,"Table G.3, Primary income, balances (£ million)",GBP_million,1000000,
+Table_H,1,"Table H: Secondary income, seasonally adjusted",unknown,,
+Table_H,1,"Table H.1, Secondary income, credits (£ million)",GBP_million,1000000,
+Table_H,2,"Table H.2, Secondary income, debits (£ million)",GBP_million,1000000,
+Table_H,3,"Table H.3, Secondary income, balances (£ million)",GBP_million,1000000,
+Table_I,1,"Table I: Capital account, seasonally adjusted",unknown,,
+Table_I,1,"Table I.1, Capital account, credits (£ million)",GBP_million,1000000,
+Table_I,2,"Table I.2, Capital account, debits (£ million)",GBP_million,1000000,
+Table_I,3,"Table I.3, Capital account, balances (£ million)",GBP_million,1000000,
+Table_J,1,"Table J: Financial account [note 1] [note 2], not seasonally adjusted",unknown,,부호 반전 prefix
+Table_J,1,"Table J.1, UK Investment Abroad (net acquisition of financial assets) (£ million)",GBP_million,1000000,부호 반전 prefix
+Table_J,2,"Table J.2, Investment in the UK (net incurrence of liabilities) (£ million)",GBP_million,1000000,부호 반전 prefix
+Table_J,3,"Table J.3, Net Transactions (net assets less net liabilities) (£ million)",GBP_million,1000000,부호 반전 prefix
+Table_K,1,"Table K: International investment position [note 1], Balance sheets valued at end of period, not seasonally adjusted",unknown,,
+Table_K,1,"Table K.1, UK Assets (£ billion)",GBP_billion,1000000000,
+Table_K,2,"Table K.2, UK Liabilities (£ billion)",GBP_billion,1000000000,
+Table_K,3,"Table K.3, Net International Investment Position (£ billion)",GBP_billion,1000000000,
+Table_R1,1,"Table R1.1, Current account, seasonally adjusted (£ million)",GBP_million,1000000,
+Table_R1,2,"Table R1.2, Current account, not seasonally adjusted (£ million)",GBP_million,1000000,
+Table_R1,3,"Table R1.3, Financial account [note 1], not seasonally adjusted (£ million)",GBP_million,1000000,
+Table_R2,1,"Table R2: Current account revisions since last Balance of Payments Statistical Bulletin, seasonally adjusted",unknown,,4번째 부표는 % of GDP
+Table_R2,1,"Table R2.1, Current Account Credits (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_R2,2,"Table R2.2, Current Account Debits (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_R2,3,"Table R2.3, Current Account Balances (£ million)",GBP_million,1000000,4번째 부표는 % of GDP
+Table_R2,4,GBP million / % of GDP,GBP_million,1000000,4번째 부표는 % of GDP
+Table_R3,1,"Table R3: Revisions to international investment since last Balance of Payments Statistical Bulletin, not seasonally adjusted",unknown,,9개 부표 단일 시트 적층
+Table_R3,1,"Table R3.1, Investment Abroad, International Investment Position (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,2,"Table R3.2, Investment Abroad, Financial Account transactions [note 1] (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,3,"Table R3.3, Investment Abroad, Investment income earnings (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,4,"Table R3.4, Investment in the UK, International Investment Position (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,5,"Table R3.5, Investment in the UK, Financial Account transactions (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,6,"Table R3.6, Investment in the UK, Investment income (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,7,"Table R3.7, Net investment, International Investment Position (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,8,"Table R3.8, Net investment, Financial Account transactions [note 1] (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
+Table_R3,9,"Table R3.9, Net investment, Investment income earnings (£ billion)",GBP_billion,1000000000,9개 부표 단일 시트 적층
