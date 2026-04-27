@@ -53,7 +53,7 @@
 - [x] 상단 메타 영역(헤더 4~5행)의 원문 텍스트 추출 — 부호 규약·단위·발표 기간 진술 포함 — 산출물: `db/data/_inventory/05_meta_text.csv` + `05_meta_text.json` + `05_meta_text.md`. 시트 20개 × 6행 = 120 메타 행 추출. 일관 구조(r1 제목·r3 단위/분기·r5 CDID 안내·r6 첫 부표 제목) 식별. Table_J `[note 1] [note 2]` 부호 마커, Table_B 4부표 단위 혼재 발견
 - [x] **[background-search]** 메타 영역에 진술된 부호 규약이 강의 자료의 부호 규약과 일치하는지 대조 요청 — 산출물: `db/data/_inventory/06_sign_convention_validation.md`. ONS Notes 부호 반전 규약(Table_A·D·J·R1·R3 r5/r29/r33/r42/r51) ↔ 강의 BPM6 100% 일치 확인. sign_prefix 59행 분포 정합. Table_H FKKM 단발 예외 식별
 - [x] 각 시트의 통계항목 코드(CDID) 행 위치와 첫 데이터 행 번호 기록 — 산출물: `db/data/_inventory/07_cdid_and_first_data_rows.csv` + `07_cdid_and_first_data_rows.md`. 본표 17개 모두 첫 CDID 행 = 8, 첫 데이터 행 = 9 일관. 부표 간격 일반 본표 149행, R계열 147행. 메타 시트 3개는 CDID 없음. 부표 갯수 12회차 100% 정합
-- [ ] 시점 컬럼 형식(연 `YYYY` / 분기 `YYYY Qn` / 월 `YYYY MMM` 등) 기록
+- [x] 시점 컬럼 형식(연 `YYYY` / 분기 `YYYY Qn` / 월 `YYYY MMM` 등) 기록 — 산출물: `db/data/_inventory/08_time_period_formats.csv` + `08_time_period_formats.md`. 본표 17개 모두 `YYYY`(1997~2025) + `YYYY Qn`(1997Q1~2025Q4) 적층. 월간·일간 없음. R계열은 한 분기 짧음(2025Q3까지). ECOS CYCLE=A/Q 매핑 명시
 - [ ] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록
 - [ ] **[background-search]** 강의 자료에서 GDP 대비 비율 표기의 통상적 해석 방식 확인 요청
 - [ ] 빈 행으로 구분되는 부표 경계 행 번호 기록

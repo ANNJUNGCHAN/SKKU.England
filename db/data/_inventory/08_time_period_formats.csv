@@ -1,0 +1,21 @@
+sheet,formats_detected,annual_first,annual_last,quarter_first,quarter_last,annual_rows,quarter_rows,other_samples
+Cover_sheet,none / meta sheet,,,,,0,0,Contact Information; Data Supplier; Statistical Contact
+Notes,none / meta sheet,,,,,0,0,Note number; 1; 2
+Records,none / meta sheet,,,,,0,0,Trade in services; Primary income; Secondary income
+Table_A,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_B,"YYYY (annual, 116 rows: 1997~2025) + YYYY Qn (quarterly, 464 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,116,464,CDID
+Table_BX,"YYYY (annual, 116 rows: 1997~2025) + YYYY Qn (quarterly, 464 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,116,464,CDID
+Table_C,"YYYY (annual, 174 rows: 1997~2025) + YYYY Qn (quarterly, 696 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,174,696,CDID
+Table_D1_3,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_D4_6,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_D7_9,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_E,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_F,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_G,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_H,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_I,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_J,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_K,"YYYY (annual, 87 rows: 1997~2025) + YYYY Qn (quarterly, 348 rows: 1997 Q1~2025 Q4)",1997,2025,1997 Q1,2025 Q4,87,348,CDID
+Table_R1,"YYYY (annual, 84 rows: 1997~2024) + YYYY Qn (quarterly, 345 rows: 1997 Q1~2025 Q3)",1997,2024,1997 Q1,2025 Q3,84,345,CDID
+Table_R2,"YYYY (annual, 112 rows: 1997~2024) + YYYY Qn (quarterly, 460 rows: 1997 Q1~2025 Q3)",1997,2024,1997 Q1,2025 Q3,112,460,CDID
+Table_R3,"YYYY (annual, 252 rows: 1997~2024) + YYYY Qn (quarterly, 1035 rows: 1997 Q1~2025 Q3)",1997,2024,1997 Q1,2025 Q3,252,1035,CDID
