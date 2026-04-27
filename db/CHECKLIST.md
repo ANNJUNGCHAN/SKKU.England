@@ -23,7 +23,7 @@
 - [x] **[background-search]** 강의 자료에서 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)의 표현 방식 확인 — 산출물: `db/data/_background_notes/04_identities.md` (PPT+PDF 병행 참조. 표적 항등식은 직접 식 없음 → 슬라이드 13·14·6의 결합으로 도출. 5종 항등식 발췌 완료. pypdf==6.10.2 설치·동기화 완료)
 - [x] **[background-search]** 강의 자료에서 IIP(국제투자대조표)·순대외자산 개념의 정의 발췌 — 산출물: `db/data/_background_notes/05_iip_nfa.md` (BoP↔IIP stock·flow 연결, NFA 두 정의 일관성, BoP 금융계정 5항목↔IIP 매핑, 영국 만성 순채무·재평가 우세 적용 주의점, 슬라이드 4·6·8·11·14·24·25·26 인용)
 - [x] **[background-search]** 강의 자료에서 직접투자·증권투자·기타투자·준비자산의 분류 기준 발췌 — 산출물: `db/data/_background_notes/06_financial_account_categories.md` (5분류 발췌, BPM6 표준 대비 일치/축약 점검표, ONS D1_3·D4_6·D7_9·K 매핑 가이드, 슬라이드 6·7·8·9·11·14 인용)
-- [ ] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관
+- [x] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관 — 산출물: `db/data/_background_notes/07_glossary.md` (총 62 표제어 9분류, 미정의 15건 우선순위표, Phase 3 활용 가이드 6항목 포함)
 - [ ] **[background-search]** 표나 그래프가 있는 장표의 경우, 우선 해당 파워포인트에서 이미지를 추출한 후, 해당 이미지를 claude로 분석
 - [ ] **[background-search]** 만약, 파워포인트에서 이미지(표, 그래프) 추출이 어려운 경우, 해당 파일의 pdf 문서에서 이미지(표, 그래프) 추출 후, 해당 이미지(표, 그래프)를 claude로 분석
 - [ ] **[web-search]** 영국 ONS 특화 분류·세분류·표기 규칙 및 영국 ONS 기준 분류를 검색하고, 해당 내용을 정리하여 background_note 업로드
