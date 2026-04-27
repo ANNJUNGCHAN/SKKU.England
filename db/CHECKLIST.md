@@ -51,7 +51,7 @@
 - [x] **[background-search]** 위 7분류가 강의 자료의 BoP 분류 체계와 일치하는지 검증 요청. 강의 자료에 없는 분류(예: 개정 시트)는 별도로 표시 — 산출물: `db/data/_inventory/03_classification_validation.md`. 7분류 중 5개 일치(summary 부분일치) + 2개 미수록(meta_notes·revisions). 강의 자료의 자본·금융 분리 vs ONS 통합 분류 차이도 명기
 - [x] **[background-search]** EU/非EU 분해 시트의 경제학적 의미를 강의 자료에서 확인 요청 — 산출물: `db/data/_inventory/04_eu_non_eu_validation.md`. 강의 자료 31장 키워드 검색 결과 EU·non-EU·지리분해·Brexit·국가명 모두 0건. 강의는 단일 카운터파트("rest of the world")만 다루며 Table_C는 ONS 운영 표기로만 의미. 학생용 학습 활용 권고 3건
 - [x] 상단 메타 영역(헤더 4~5행)의 원문 텍스트 추출 — 부호 규약·단위·발표 기간 진술 포함 — 산출물: `db/data/_inventory/05_meta_text.csv` + `05_meta_text.json` + `05_meta_text.md`. 시트 20개 × 6행 = 120 메타 행 추출. 일관 구조(r1 제목·r3 단위/분기·r5 CDID 안내·r6 첫 부표 제목) 식별. Table_J `[note 1] [note 2]` 부호 마커, Table_B 4부표 단위 혼재 발견
-- [ ] **[background-search]** 메타 영역에 진술된 부호 규약이 강의 자료의 부호 규약과 일치하는지 대조 요청
+- [x] **[background-search]** 메타 영역에 진술된 부호 규약이 강의 자료의 부호 규약과 일치하는지 대조 요청 — 산출물: `db/data/_inventory/06_sign_convention_validation.md`. ONS Notes 부호 반전 규약(Table_A·D·J·R1·R3 r5/r29/r33/r42/r51) ↔ 강의 BPM6 100% 일치 확인. sign_prefix 59행 분포 정합. Table_H FKKM 단발 예외 식별
 - [ ] 각 시트의 통계항목 코드(CDID) 행 위치와 첫 데이터 행 번호 기록
 - [ ] 시점 컬럼 형식(연 `YYYY` / 분기 `YYYY Qn` / 월 `YYYY MMM` 등) 기록
 - [ ] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록
