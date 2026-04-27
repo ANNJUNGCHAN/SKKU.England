@@ -26,7 +26,7 @@
 - [x] **[background-search]** 위 발췌 결과를 한국어 용어집 초안으로 정리하여 Phase 3 명세서 작업의 1차 근거로 보관 — 산출물: `db/data/_background_notes/07_glossary.md` (총 62 표제어 9분류, 미정의 15건 우선순위표, Phase 3 활용 가이드 6항목 포함)
 - [x] **[background-search]** 표나 그래프가 있는 장표의 경우, 우선 해당 파워포인트에서 이미지를 추출한 후, 해당 이미지를 claude로 분석 — PPT→PDF→PNG 31장 추출(`db/data/_background_notes/slide_images/`) 후 핵심 10장(15·16·17·18·19·20·21·26·30·31) 멀티모달 분석. 산출물: `db/data/_background_notes/08_multimodal_slide_analysis.md` (BoP↔IIP 매트릭스(슬라이드 26)·포트폴리오 접근법(슬라이드 30)·세 접근법 통합(슬라이드 31) 발견 → 07_glossary 미정의 5건 격상 가능. pymupdf==1.27.2.3 설치·동기화)
 - [x] **[background-search]** 만약, 파워포인트에서 이미지(표, 그래프) 추출이 어려운 경우, 해당 파일의 pdf 문서에서 이미지(표, 그래프) 추출 후, 해당 이미지(표, 그래프)를 claude로 분석 — 점검 산출물: `db/data/_background_notes/09_pdf_fallback_check.md` (8회차에서 PDF 경유 절차로 이미 충족됨을 확인. PPT 직접 렌더링 한계·임베디드 이미지 부재·PDF 31페이지↔PPT 31슬라이드 1:1 정렬 검증 포함)
-- [ ] **[web-search]** 영국 ONS 특화 분류·세분류·표기 규칙 및 영국 ONS 기준 분류를 검색하고, 해당 내용을 정리하여 background_note 업로드
+- [x] **[web-search]** 영국 ONS 특화 분류·세분류·표기 규칙 및 영국 ONS 기준 분류를 검색하고, 해당 내용을 정리하여 background_note 업로드 — 산출물: `db/data/_background_notes/10_ons_web_research.md` (高 5건·中 5건 충족, 항등식 NEO 부호 규약/FDI 10%/거주자 1년/EBOPS 12분류/CDID 4자/결측 표기/개정 정책 정량 확정. Pink Book 표 식별자는 부분 확정 — Phase 1 시트명 추출로 보강 예정)
 - [ ] 모든 _background_note를 background 폴더로 이관. note 폴더 내에 해당 md 파일들을 모두 넣기
 - [ ] 모든 배경 지식 사전 정리를 다시 한번 점검하고, 빠진 부분이 있는지 다시 한번 검토한 후, 추가적인 사항들을 '0.2 배경지식 사전 정리' 항목에 add on 할 것
 ---
