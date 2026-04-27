@@ -13,7 +13,7 @@
 - [x] `requirements.txt`에 등록된 패키지가 모두 설치되어 있는지 확인 (`pip freeze` 비교) — 일치 확인(et_xmlfile==2.0.0, openpyxl==3.1.5 두 패키지 모두 설치됨)
 - [x] 신규 패키지 설치 시 즉시 `requirements.txt` 갱신 — 현재 시점 기준 `pip freeze`와 `requirements.txt`가 완전 일치(SYNCED). 운영 원칙으로 유지
 - [x] `db/source/` 원본 파일은 읽기 전용으로만 접근 (절대 수정·이동·삭제 금지) — 현 시점 원본 1건(balanceofpayments2025q4.xlsx, 678,539 bytes) 최초 추가 후 수정 이력 없음. 운영 원칙으로 유지
-- [ ] 작업 결과물 저장 위치는 `db/data/` 하위로만 한정
+- [x] 작업 결과물 저장 위치는 `db/data/` 하위로만 한정 — 디렉터리 존재 확인(현재 가공 산출물 없음, 운영 원칙으로 유지)
 - [ ] 사용자 대상 문서는 한국어로 작성
 
 ### 0.2 배경지식 사전 정리 (background-search 1회차)
