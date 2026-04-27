@@ -1,0 +1,21 @@
+org,title,url,frequency,unit,note
+HMT,UK official holdings of IR (collection),https://www.gov.uk/government/collections/statistical-release-uk-official-holdings-of-international-reserves,monthly,USD_m / GBP_m,Press release on 3rd working day; IMF SDDS Plus
+HMT,Statistical Release Oct 2025 (PDF),https://assets.publishing.service.gov.uk/media/690a272714b040dfe82922be/Statistical_Release_UK_official_holdings_of_international_reserves_-_October_2025.pdf,monthly,USD_m / GBP_m,2025-10末 $112358m / £85518m
+BoE,UK International Reserves hub,https://www.bankofengland.co.uk/statistics/uk-international-reserves,monthly,USD_m / GBP_m,Series from 1999-07
+BoE,Further details about UK IR data,https://www.bankofengland.co.uk/statistics/details/further-details-about-uk-international-reserves-data,-,-,Metadata: components / valuation
+BoE,Bankstats interactive DB,https://www.bankofengland.co.uk/boeapps/database/,monthly,various,Reserve assets - total in CategId=6
+BoE,Reserve assets total (ACLRA ATOTRA),"https://www.bankofengland.co.uk/boeapps/database/FromShowColumns.asp?Travel=NIxAZxI3x&FromCategoryList=Yes&NewMeaningId=ACLRA,ATOTRA&CategId=6",monthly,(check via UI),URL params confirm two series IDs
+BoE,Foreign currency reserves (Markets),https://www.bankofengland.co.uk/markets/foreign-currency-reserves,-,-,Hedged/unhedged structure currency mix
+BoE,Bank Return data - further details,https://www.bankofengland.co.uk/statistics/details/further-details-about-central-banks-balance-sheet-bank-of-england-bank-return-data,weekly/monthly,GBP_m,EEA NOT part of BoE balance sheet
+HMT,EEA Report and Accounts 2024-25,https://www.gov.uk/government/publications/exchange-equalisation-account-report-and-accounts-2024-to-2025,annual,GBP_m,Legal holder of UK reserves
+Parliament,Exchange Equalisation Account Act 1979,https://www.legislation.gov.uk/ukpga/1979/30,-,-,Legal basis
+ONS,Pink Book 2025 bulletin,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/unitedkingdombalanceofpaymentsthepinkbook/2025,annual,GBP_m,BPM6 basis Net IIP 2024末 -£145.6bn
+ONS,Pink Book 2025 PDF,https://backup.ons.gov.uk/wp-content/uploads/sites/3/2025/10/UK-Balance-of-Payments-The-Pink-Book-2025.pdf,annual,GBP_m,Backup mirror
+ONS,Dataset 08 IIP,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/8internationalinvestmentpositionthepinkbook2016,annual,GBP_m,Reserve assets for central government line
+ONS,Time series CGDF,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/timeseries/cgdf/pb,monthly/quarterly/annual,GBP_m,IIP Reserve Assets Currency & Deposits with banks
+ONS,Time series CGDG,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/timeseries/cgdg/pb,monthly/quarterly/annual,GBP_m,IIP Reserve assets Other assets Total securities
+ONS,Understanding the UKs net IIP,https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/understandingtheuksnetinternationalinvestmentposition/2020-04-27,one-off,-,Conceptual primer
+IMF,SDDS UK ILV00 page,https://dsbb.imf.org/sdds/dqaf-base/country/GBR/category/ILV00,monthly,USD_m,SDDS Plus metadata
+IMF,UK IRFCL template (current PDF),https://www.imf.org/external/np/sta/ir/IRProcessWeb/data/gbr/eng/curgbr.pdf,monthly,USD_m,IRFCL Section I-IV
+IMF,IRFCL Guidelines 2013,https://www.imf.org/external/np/sta/ir/irprocessweb/pdf/guide2013.pdf,-,-,Definitions and methodology
+IMF,BPM6 Manual,https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm,-,-,Reserve assets definition
