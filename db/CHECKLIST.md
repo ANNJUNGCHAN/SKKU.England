@@ -126,7 +126,7 @@
 ### 3.1 시트별 정의 수집 (시트마다 background-search 호출)
 - [x] **[background-search]** 전체 잔액 요약 시트의 한국어 정의·부호 규약·다른 변수와의 관계 작성 요청 — 산출물: `db/data/_inventory/23_sheet_definitions.md` §1 Table_A. 한국어 STAT_NAME(「국제수지 잔액 요약」), 4개 잔액 컬럼군(CA·KA·FA·E&O), 강의 항등식 `CA + KA + FA + E&O ≡ 0` (슬라이드 13+14+6 결합), 부호 해석(+ 흑자 / − 적자, 슬라이드 10), Table_B/I/J/K로의 분해, 슬라이드 25 IIP 거래요인 연결까지 6 블록 충족. 1차 근거: BoP.pptx 슬라이드 6·10·13·14 + background/note/03·04·12
 - [x] **[background-search]** 경상수지 본표의 한국어 정의·구성 항목·계산식(상품 + 서비스 + 1차소득 + 2차소득) 요청 — 산출물: `db/data/_inventory/23_sheet_definitions.md` §2 Table_B. 한국어 STAT_NAME(「경상수지 본표(SA)」), 4 하위(상품수지·서비스수지·1차소득·2차소득) 정의, 강의 항등식 `CA = G + S + PI + SI` (슬라이드 14), 4 부표(Credits/Debits/Balances/%GDP) 구조, Table_E/F/G/H 합산 정합·Table_BX(귀금속 제외)·Table_C(EU/non-EU)·Table_R2(개정) 매핑까지 6 블록 충족. 흑자조건(슬라이드 22) `Y − A = EX − IM = CA` 인용. 1차 근거: BoP.pptx 슬라이드 5·9·14·22 + background/note/02·04·12
-- [ ] **[background-search]** 경상수지 귀금속 제외 보조표의 한국어 정의·본표와의 차이·도입 배경 요청
+- [x] **[background-search]** 경상수지 귀금속 제외 보조표의 한국어 정의·본표와의 차이·도입 배경 요청 — 산출물: `db/data/_inventory/23_sheet_definitions.md` §3 Table_BX. 한국어 STAT_NAME(「경상수지(귀금속 제외)」), Table_B와 동일 4 부표 구조이나 비통화용 귀금속(non-monetary gold) 거래분을 차감, 항등식 `CA(excl. precious metals) = G' + S + PI + SI` (G' = Goods − Non-monetary gold), 추세선 해석용 운영 정당화. **도입 배경(어느 EBOPS·SITC 항목을 차감하는지)은 강의 자료 미수록 → background/note/10 ONS UK Trade Glossary로 부분 보강**(Phase 3.4 명세서 단계에서 명시 표기). 1차 근거: BoP.pptx 슬라이드 5·14 + background/note/07(메타)·08(슬라이드 21)·10·12
 - [ ] **[background-search]** EU/非EU 분해 표의 한국어 정의·분해 기준·해석상 유의점 요청
 - [ ] **[background-search]** 상품무역 시트의 한국어 정의·세부 항목(귀금속·非귀금속 등)·측정 단위 요청
 - [ ] **[background-search]** 서비스무역 시트의 한국어 정의·세부 항목(여행·운송·금융·기타비즈니스 등)·측정 단위 요청
