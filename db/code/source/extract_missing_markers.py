@@ -60,7 +60,7 @@ LET = re.compile(r"[A-Z]")
 
 # 결측 표기 의미 사전(10회차 ONS 웹 조사 + Service Manual 표기 가이드 반영).
 MISSING_MEANINGS = {
-    "x": "ONS 비공개(suppressed): 응답 기관 식별 위험 → Service Manual 권고 기호는 [c]",
+    "x": "ONS 미가용(not available): xlsx Notes B23 메타 정의 — 'Cells containing x represent unavailable data'. GAF 권고 기호 [x]에 해당",
     "(empty)": "빈 셀: 시리즈 시작 이전·이후 또는 비해당 — 데이터 결측 가능성 동시 의미",
     "..": "ONS legacy 미가용: Service Manual 비권장(현행 [x] 권장)",
     "-": "ONS legacy 진정한 0 또는 영(nil): Service Manual 비권장(현행 [z] 권장)",
