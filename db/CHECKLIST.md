@@ -124,7 +124,7 @@
 ## Phase 3. 데이터 명세서 작성 (background-search 핵심 단계)
 
 ### 3.1 시트별 정의 수집 (시트마다 background-search 호출)
-- [ ] **[background-search]** 전체 잔액 요약 시트의 한국어 정의·부호 규약·다른 변수와의 관계 작성 요청
+- [x] **[background-search]** 전체 잔액 요약 시트의 한국어 정의·부호 규약·다른 변수와의 관계 작성 요청 — 산출물: `db/data/_inventory/23_sheet_definitions.md` §1 Table_A. 한국어 STAT_NAME(「국제수지 잔액 요약」), 4개 잔액 컬럼군(CA·KA·FA·E&O), 강의 항등식 `CA + KA + FA + E&O ≡ 0` (슬라이드 13+14+6 결합), 부호 해석(+ 흑자 / − 적자, 슬라이드 10), Table_B/I/J/K로의 분해, 슬라이드 25 IIP 거래요인 연결까지 6 블록 충족. 1차 근거: BoP.pptx 슬라이드 6·10·13·14 + background/note/03·04·12
 - [ ] **[background-search]** 경상수지 본표의 한국어 정의·구성 항목·계산식(상품 + 서비스 + 1차소득 + 2차소득) 요청
 - [ ] **[background-search]** 경상수지 귀금속 제외 보조표의 한국어 정의·본표와의 차이·도입 배경 요청
 - [ ] **[background-search]** EU/非EU 분해 표의 한국어 정의·분해 기준·해석상 유의점 요청
