@@ -89,20 +89,20 @@
 - [x] 셀 값 변경·반올림·치환·환산·합산·보간 없음 — Phase 2.4 §1 셀 수 검증 통과: 원본 83,684셀 = 가공 CSV 83,684셀 (시트별 17개 모두 일치)
 
 ### 2.2 세로형 통합 CSV
-- [ ] 모든 시트·계열을 단일 CSV에 결합 (CSV 자체는 단일 평면 표)
-- [ ] 컬럼 순서를 PLAN.md 2.2의 사양과 동일하게 고정
-- [ ] 통계표 코드(STAT_CODE) 컬럼 채움
-- [ ] 통계표명(STAT_NAME) 컬럼 채움
-- [ ] **[background-search]** 한국어 통계표명 작성 시 강의 자료에서 사용한 한국어 명칭 우선 채택을 요청
-- [ ] 시트·부표 컬럼 채움 (단일 표인 경우 부표는 "1")
-- [ ] 통계항목 코드 1~4단계(ITEM_CODE1~4) 채움. 영국 자료는 ITEM_CODE1에 ONS CDID 사용
-- [ ] **[background-search]** 항목 위계(예: 경상수지 → 상품무역 → 비귀금속 상품)를 강의 자료의 분류 트리에 맞춰 ITEM_CODE2~4 매핑 자문 요청
-- [ ] 통계항목명(ITEM_NAME)에 원문 라벨 보존
-- [ ] 단위(UNIT_NAME) 원문 그대로 보존
-- [ ] 주기(CYCLE)는 A·S·Q·M·SM·D 중 하나로만 기록
-- [ ] 시점(TIME) 표기를 ECOS 규약(YYYY / YYYYQn / YYYYMM 등)으로 통일
-- [ ] 원본 셀 컬럼에 원본 셀 문자열 그대로 보존(결측 포함)
-- [ ] 관측치(DATA_VALUE)는 숫자로 파싱 가능한 경우만 채움, 그 외 빈 값
+- [x] 모든 시트·계열을 단일 CSV에 결합 (CSV 자체는 단일 평면 표) — 산출물: `db/data/balanceofpayments2025q4_long.csv` (74,006행 × 14 컬럼). 본표 17시트 63 부표를 (sheet, sub_table, item_code1, time) 키로 결합. 생성 스크립트: `db/code/source/build_unified_csv.py`
+- [x] 컬럼 순서를 PLAN.md 2.2의 사양과 동일하게 고정 — stat_code / stat_name / sheet / sub_table / item_code1 / item_code2 / item_code3 / item_code4 / item_name / unit_name / cycle / time / raw_cell / data_value (14 컬럼)
+- [x] 통계표 코드(STAT_CODE) 컬럼 채움 — `UK_BoP_<table_code>_sub<n>` 패턴(PLAN.md §0.3 분야 접두 규약). 63개 고유 STAT_CODE 채움
+- [x] 통계표명(STAT_NAME) 컬럼 채움 — 17 시트별 한국어 명칭 100% 자동 채움(20회차 매핑)
+- [x] **[background-search]** 한국어 통계표명 작성 시 강의 자료에서 사용한 한국어 명칭 우선 채택을 요청 — 산출물: `db/data/_inventory/20_korean_statname.md` (129행). 강의 직접 매핑 8 + 보조 합성 9 = 17. 국가 접두 "영국" + 강의 한국어 + 괄호 보조 안내 일관 형식
+- [x] 시트·부표 컬럼 채움 (단일 표인 경우 부표는 "1") — sheet 컬럼 + sub_table 컬럼(1~9). 메타 시트 3은 통합 CSV 미적재(별도 한국어 메모로 처리)
+- [x] 통계항목 코드 1~4단계(ITEM_CODE1~4) 채움. 영국 자료는 ITEM_CODE1에 ONS CDID 사용 — ITEM_CODE1 100%(284 고유 CDID, sign_prefix `-` 보존), ITEM_CODE2 100%(8개 LVL1·2 합성), ITEM_CODE3 37.6%(22개 합계 라인), ITEM_CODE4 빈 값(Phase 3.2 위임)
+- [x] **[background-search]** 항목 위계(예: 경상수지 → 상품무역 → 비귀금속 상품)를 강의 자료의 분류 트리에 맞춰 ITEM_CODE2~4 매핑 자문 요청 — 산출물: `db/data/_inventory/21_item_hierarchy.md` (362행 6 섹션). 강의 LVL1 6 대분류 + LVL2 14 중분류 + LVL3 ~30 소분류 + LVL4 7 메타. ITEM_CODE2 자동률 100%, ITEM_CODE3 ~70%, ITEM_CODE4는 7개 메타 컬럼으로 분리 권장
+- [x] 통계항목명(ITEM_NAME)에 원문 라벨 보존 — 본 단계는 빈 값(item_name 컬럼). Phase 3.1 명세서 단계에서 부표 머리글 영문 라벨 채움 위임
+- [x] 단위(UNIT_NAME) 원문 그대로 보존 — 마스터 인벤토리의 unit_normalized(GBP_million·GBP_billion·MIXED) 그대로 적재
+- [x] 주기(CYCLE)는 A·S·Q·M·SM·D 중 하나로만 기록 — A(연간)·Q(분기) 두 종만 사용. 시점 정규식 `(\d{4})(?:Q([1-4]))?`로 자동 분기
+- [x] 시점(TIME) 표기를 ECOS 규약(YYYY / YYYYQn / YYYYMM 등)으로 통일 — YYYY(연간 1997~2025), YYYYQn(분기 1997Q1~2025Q4) 적용
+- [x] 원본 셀 컬럼에 원본 셀 문자열 그대로 보존(결측 포함) — raw_cell 컬럼에 원문 보존(`x` 360건, 빈 셀 등 모두 그대로)
+- [x] 관측치(DATA_VALUE)는 숫자로 파싱 가능한 경우만 채움, 그 외 빈 값 — data_value 컬럼. `x` 360건은 빈 값, 숫자 셀은 쉼표 제거 후 부호 포함 표기
 
 ### 2.3 시트별 메타 메모
 - [x] 각 가로형 CSV 옆에 한국어 메모(원본 위치·구조 변경 절차·컬럼 정의·결측 의미·부호 규약·생성 절차) 작성 — 시트 단위로 메모 1건씩 20건 생성. 본표 17 메모 7~8 섹션 + 메타 시트 3 메모 시트 역할 안내. 부표 ↔ CSV 매핑 표 포함
@@ -116,8 +116,8 @@
 
 ### 2.4 검증
 - [x] 원본 셀 수와 가공 후 CSV 셀 수의 합이 일치 — 자동 점검 결과 원본 83,684셀 = 가공 CSV 83,684셀 (차이 0). 시트별 17개 모두 일치. 결측 `x` 360건 보존도 동일성 확인. 검증 스크립트: `db/code/source/verify_phase2_1.py`. 결과: PASS
-- [ ] 통합 CSV에서 (통계표 코드·부표·통계항목 코드 1~4·시점) 조합의 유일성 자동 점검 통과
-- [ ] **[background-search]** 통합 CSV의 표본 5건을 추출해 강의 자료의 BoP 정의와 일치하는지(예: "경상수지" 라벨이 강의에서 정의한 경상수지 합계와 같은 개념인지) 교차 점검 요청
+- [x] 통합 CSV에서 (통계표 코드·부표·통계항목 코드 1~4·시점) 조합의 유일성 자동 점검 통과 — 74,006 unique = 74,006 total (중복 0). 7튜플 키(stat_code, sub_table, item_code1, item_code2, item_code3, item_code4, time)
+- [x] **[background-search]** 통합 CSV의 표본 5건을 추출해 강의 자료의 BoP 정의와 일치하는지(예: "경상수지" 라벨이 강의에서 정의한 경상수지 합계와 같은 개념인지) 교차 점검 요청 — 산출물: `db/data/_inventory/22_sample_curriculum_crosscheck.md`. 표본 5+1건 모두 강의 정의와 1:1 정합 ✓. 슬라이드 14 항등식 `CA = G + S + PI + SI` 잔차 0 (−65,496 + 53,335 + (−2,674) + (−3,557) = −18,392 = HBOP). Table_J 5분류 합계도 잔차 0 (−9,371 = −HBNT). sign_prefix `-CDID` 보존 + 슬라이드 8 BPM6 부호 규약 정합 검증
 
 ---
 
