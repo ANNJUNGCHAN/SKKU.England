@@ -57,19 +57,19 @@
 - [x] 단위 표기 원문(£ million / £ billion / % of GDP 등) 기록 — 산출물: `db/data/_inventory/09_units.csv` + `09_units.md`. 시트 단위 매핑(GBP_million 9·GBP_billion 5·MIXED 3·meta 2). MIXED 시트(Table_B/BX/R2) 4번째 부표 %GDP 처리 규약 명시
 - [x] **[background-search]** 강의 자료에서 GDP 대비 비율 표기의 통상적 해석 방식 확인 요청 — 산출물: `db/data/_inventory/10_gdp_ratio_validation.md`. GDP 대비 표기는 슬라이드 15(Korea CA/GDP·FA/GDP)만 등장. NIA 항등식(슬라이드 22~24) 모두 level. 분모 정의·임계비율·만성 적자국 분류는 강의 미수록. ONS Table_B/BX/R2 4번째 부표는 YBHA(명목 GDP 현행가) 분모 사용. 영국 적용 권고 4건
 - [x] 빈 행으로 구분되는 부표 경계 행 번호 기록 — 산출물: `db/data/_inventory/11_subtable_boundaries.csv` + `11_subtable_boundaries.md`. 일반 본표 빈 행 154·303·452·601·750, R계열 빈 행 152·299·446·593·740·887·1034·1181. 부표 수 (빈+1) = 12회차와 100% 정합. Phase 2.1 분할 규칙 명시
-- [ ] 사용된 결측 표기(`x`, 빈 셀, `..` 등)의 종류와 등장 위치 기록
-- [ ] **[background-search]** 강의 자료에서 결측 표기의 일반적 의미(비공개 vs 미산출 vs 적용 불가)에 대한 설명 발췌 요청
+- [x] 사용된 결측 표기(`x`, 빈 셀, `..` 등)의 종류와 등장 위치 기록 — 산출물: `db/data/_inventory/12_missing_markers.{csv,md}` + `db/code/source/extract_missing_markers.py`. 데이터 영역(CDID 컬럼 한정) 결측은 Table_C 6 부표의 `x` 360건이 유일. 빈 셀·`..`·`-`·GAF 4기호 모두 데이터 영역 미등장. ECOS 결측 사전 시드 6행 확보
+- [x] **[background-search]** 강의 자료에서 결측 표기의 일반적 의미(비공개 vs 미산출 vs 적용 불가)에 대한 설명 발췌 요청 — 산출물: `db/data/_inventory/13_missing_meaning_validation.md`. 강의 슬라이드 본문 직접 진술 0건 확인. xlsx Notes B23 메타 정의("Cells containing x represent unavailable data.") 발견에 따라 12회차 라벨을 "비공개 → [c]"에서 "미가용 → [x]"로 보정. 12회차 csv·md·extract 스크립트 동시 갱신
 
 ### 1.2 산출물 형식
-- [ ] 인벤토리 결과를 기계 판독용 형식(CSV)으로 저장
-- [ ] 동일 내용을 사람 검토용 형식(텍스트 또는 마크다운)으로도 저장
-- [ ] 인벤토리 산출물도 1 CSV = 1 평면 표 원칙 준수
-- [ ] 엑셀 다중 시트 형식으로 저장하지 않음
+- [x] 인벤토리 결과를 기계 판독용 형식(CSV)으로 저장 — 데이터 추출 8건(01·02·05·07·08·09·11·12) 모두 CSV. 점검 보고서: `db/data/_inventory/14_format_compliance_check.md`
+- [x] 동일 내용을 사람 검토용 형식(텍스트 또는 마크다운)으로도 저장 — 13건 모두 .md 동반(CSV+MD 페어 8건 + MD 단독 검증 보고서 5건)
+- [x] 인벤토리 산출물도 1 CSV = 1 평면 표 원칙 준수 — 8 CSV 평면 일관성(`len(row)==len(header)`) 검증 통과. RFC 4180 호환
+- [x] 엑셀 다중 시트 형식으로 저장하지 않음 — `db/data/_inventory/` 내 .xlsx/.xls 산출물 0건. JSON 보조 1건(05_meta_text.json)은 평면 CSV의 부록(키-값 매핑) 정당화
 
 ### 1.3 종료 조건
-- [ ] 모든 시트의 분류·헤더·코드·시점·단위·부표 경계·결측 표기가 한 표로 정리됨
-- [ ] **[background-search]** 정리된 인벤토리가 강의 자료에서 다루는 BoP 개념을 모두 포괄하는지 누락 점검 요청
-- [ ] Phase 2 입력 사양으로 그대로 사용 가능한 상태
+- [x] 모든 시트의 분류·헤더·코드·시점·단위·부표 경계·결측 표기가 한 표로 정리됨 — 산출물: `db/data/_inventory/15_master_inventory.{csv,md}` + `db/code/source/build_master_inventory.py`. 22 컬럼 × 20행. 8개 입력 인벤토리 LEFT JOIN. Phase 2.1 ETL 1차 입력 사양
+- [x] **[background-search]** 정리된 인벤토리가 강의 자료에서 다루는 BoP 개념을 모두 포괄하는지 누락 점검 요청 — 산출물: `db/data/_inventory/16_curriculum_coverage_check.md`. 강의 개념 47건 카탈로그 → 시트 단위 직접 매핑 32(68%) + CDID 단위 11(23%) + 본 Bulletin 범위 외 4(9%, J-curve·흡수접근법·포트폴리오·재평가 3분해). 마스터 인벤토리는 강의 개념 91% 커버
+- [x] Phase 2 입력 사양으로 그대로 사용 가능한 상태 — 산출물: `db/data/_inventory/17_phase2_readiness.md`. 입력 요건 15건 중 14 ✓ + 1 ◐(ITEM_CODE2~4는 Phase 3 본격 작업). 잔여 위험 5건 모두 Phase 2.1~2.2 자연 통합 가능. **Phase 2 진입 승인**
 
 ---
 
@@ -79,7 +79,7 @@
 - [ ] 원본 시트 1개 = CSV 1개 매핑 준수
 - [ ] 한 시트에 부표가 여럿이면 부표마다 별도 CSV로 분리
 - [ ] 한 CSV에 둘 이상의 시트나 부표를 결합하지 않음
-- [ ] **[background-search]** 부표를 분리할 때 강의 자료의 BoP 항목 위계(예: 경상수지 → 상품·서비스·1차소득·2차소득)와 부표 분리 단위가 일치하는지 사전 점검 요청
+- [x] **[background-search]** 부표를 분리할 때 강의 자료의 BoP 항목 위계(예: 경상수지 → 상품·서비스·1차소득·2차소득)와 부표 분리 단위가 일치하는지 사전 점검 요청 — 산출물: `db/data/_inventory/18_subtable_curriculum_alignment.md` (260행 6 섹션). 본표 17시트 63 부표가 모두 강의 위계와 **직교 차원**(orthogonal)으로 충돌 0건. 부표 차원 5축(Cr/Dr/Bal·NAFA/NIL/Net·IIP/Flow/Income·SA/NSA/FA·%GDP·지리)으로 정규화. 학생용 1차 분석 권장 16 CSV·2차 23·심화 9·운영 15. Table_J NAFA/NIL/Net 3 부표는 슬라이드 14 식 `FA = NAFA − NIL + Net derivatives`와 1:1 동형
 - [ ] 상단 메타 영역(부호 규약·단위·발표 기간 진술)을 별도 한국어 메모로 분리 보존
 - [ ] **[background-search]** 메타 메모의 부호 규약 해설을 강의 자료 표현으로 작성하도록 요청
 - [ ] 좌측 식별자 열을 통계항목 코드(ECOS의 ITEM_CODE 대응)로 표준화
