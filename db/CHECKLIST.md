@@ -167,16 +167,16 @@
 
 ### 4.1 스키마 설계 점검
 - [x] **[background-search]** 강의 자료에 ECOS 또는 일반 통계 메타데이터 모델이 다뤄지는지 확인 요청 (있다면 스키마 설계의 한국어 표현 근거로 활용) — 산출물: `background/note/32_metadata_model.md`. 결과: **강의 자료 미수록 100% 확인** — ECOS·SDMX·SDDS·GSBPM·UNECE CMF·DDI·GSIM·메타데이터·통계표 코드·항목 코드·LVL·결측 사전·용어 사전·BPM5/BPM6 약자·CDID·Pink Book·ONS·Schema·RDB 등 17 키워드 등장 0회. **다만 한국어 표현 근거**로 슬라이드 5(BoP 위계)·6·7·25(IIP) 한국어/영문 라벨 + 슬라이드 8(BPM6 부호 규약 산문 진술)·11(NFA·순차입 정의) + 슬라이드 14(`CA = FA(broad)` 항등식)을 Phase 4 통계표/항목 메타 컬럼(`STAT_NAME`·`SIGN_CONVENTION`·`STOCK_FLOW_TYPE`)에 직접 인용 가능. LVL1/LVL2/LVL3 매핑은 슬라이드 5(BoP)·25(IIP) + 노트 30·31 결합. ECOS 분야 코드·결측 사전·임계 기준 등 **Phase 4 모델 구조 자체는 외부 표준 보강 필요**(web-search 위임 권고)
-- [ ] 통계표 메타 테이블에 STAT_CODE(고유 키)·STAT_NAME·원문 통계표명·분야 분류·ORG_NAME·자료원·갱신 주기·START_TIME·END_TIME·출처 URL·발표일·가공 시각·한국어 설명 컬럼 포함
-- [ ] 통계항목 메타 테이블에 자동 증가 식별자·통계표 외래 키·ITEM_CODE1~4·ITEM_NAME1~4·한국어 명칭·정의·P_ITEM_CODE·LVL·WGT·UNIT_NAME·CYCLE·START_TIME·END_TIME·부호 규약 컬럼 포함
-- [ ] **[background-search]** 통계항목 위계(P_ITEM_CODE/LVL)를 BoP 항목 트리에 일관 적용할 수 있는지(예: 경상수지 LVL=1, 상품무역 LVL=2, 비귀금속 상품 LVL=3) 자문 요청
-- [ ] 통계항목 메타에 (통계표·ITEM_CODE1~4) 유일성 제약 부여
-- [ ] 관측치 테이블에 통계항목 외래 키·TIME·원본 셀·DATA_VALUE 컬럼, (통계항목·시점) 기본 키 부여
-- [ ] 결측 사전 테이블에 'x'(비공개·미산출), 빈 문자열(계열 시작 이전 또는 자료 없음) 등록
-- [ ] **[background-search]** 결측 사전의 한국어 의미 문장을 강의 자료 표현 또는 통계 일반론적 정의에 맞춰 작성 요청
-- [ ] 통계 용어 사전 테이블 구성 (용어 식별자·용어명 한국어·원문·정의·출처)
-- [ ] **[background-search]** 통계 용어 사전의 1차 시드(BoP·IIP·CDID·경상수지·금융계정·순대외자산·귀금속 보정·BPM6 등)에 대한 한국어 정의·출처 요청
-- [ ] 인덱스: ITEM_CODE1, TIME, (통계항목·TIME) 복합 키
+- [x] 통계표 메타 테이블에 STAT_CODE(고유 키)·STAT_NAME·원문 통계표명·분야 분류·ORG_NAME·자료원·갱신 주기·START_TIME·END_TIME·출처 URL·발표일·가공 시각·한국어 설명 컬럼 포함 — 산출물: `db/code/source/init_ecos_db.py` `stat_table_meta` 테이블 14 컬럼(STAT_CODE PK + STAT_NAME NOT NULL + STAT_NAME_EN·FIELD_MAIN·FIELD_SUB·ORG_NAME·DATA_SOURCE·CYCLE·START_TIME·END_TIME·SOURCE_URL·PUBLISHED_DATE·BUILD_TIME·KOREAN_DESCRIPTION). statcatalog.csv 15 컬럼과 1:1 정합
+- [x] 통계항목 메타 테이블에 자동 증가 식별자·통계표 외래 키·ITEM_CODE1~4·ITEM_NAME1~4·한국어 명칭·정의·P_ITEM_CODE·LVL·WGT·UNIT_NAME·CYCLE·START_TIME·END_TIME·부호 규약 컬럼 포함 — 산출물: `init_ecos_db.py` `stat_item_meta` 테이블 22 컬럼(item_id PK AUTOINCREMENT + STAT_CODE FK + ITEM_CODE1~4 + ITEM_NAME1~4 + ITEM_NAME_KR·DEFINITION_KR + P_ITEM_CODE·LVL·WGT + UNIT_NAME·CYCLE·START_TIME·END_TIME·SIGN_CONVENTION·STOCK_FLOW_TYPE·SOURCE). specification.csv 16 컬럼 + 추가 메타 보완(ITEM_NAME1~4 분리·DEFINITION_KR·STOCK_FLOW_TYPE·WGT·P_ITEM_CODE·LVL)
+- [x] **[background-search]** 통계항목 위계(P_ITEM_CODE/LVL)를 BoP 항목 트리에 일관 적용할 수 있는지(예: 경상수지 LVL=1, 상품무역 LVL=2, 비귀금속 상품 LVL=3) 자문 요청 — 산출물: `background/note/33_item_hierarchy_advisory.md`. **조건부 가능**: BoP 4계층(LVL1~4) + IIP 3계층(LVL1~3) 일관 적용 가능 — 강의 슬라이드 5(BoP 위계)·6(FA 5분류)·7(KA)·25(IIP 자산/부채/순) 직접 매핑. ONS 17 본표 정합. **4 운영 결정 필요**: ① ONS 추가 분해(EU/non-EU·BX·%GDP·개정)는 LVL이 아닌 별 차원(`geo_breakdown`/`precious_metals_treatment`/`unit_variant`/`revision_flag`) ② LVL=4(EBOPS·SITC)는 ITEM_CODE4 컬럼 + 선택적 LVL=4 ③ 합계 라인은 자기 ITEM_CODE를 LVL 부모 코드로 두고 평면 트리 ④ Derivatives flow 자산·부채 분리 부재 / Reserve 부채 부재 NULL 정책. 1차 근거: BoP.pptx 슬라이드 5·6·7·25 + 노트 19·30·31·32
+- [x] 통계항목 메타에 (통계표·ITEM_CODE1~4) 유일성 제약 부여 — 산출물: `init_ecos_db.py` `stat_item_meta` `UNIQUE (STAT_CODE, ITEM_CODE1, ITEM_CODE2, ITEM_CODE3, ITEM_CODE4)` 제약 명시. 동일 시리즈 다중 등록 회피 + ETL 멱등성 보장
+- [x] 관측치 테이블에 통계항목 외래 키·TIME·원본 셀·DATA_VALUE 컬럼, (통계항목·시점) 기본 키 부여 — 산출물: `init_ecos_db.py` `observation` 테이블 4 컬럼(item_id NOT NULL FK + TIME NOT NULL + RAW_CELL + DATA_VALUE) + `PRIMARY KEY (item_id, TIME)` + `FOREIGN KEY (item_id) REFERENCES stat_item_meta(item_id)`. long-form CSV 74,006행 적재 사양과 정합
+- [x] 결측 사전 테이블에 'x'(비공개·미산출), 빈 문자열(계열 시작 이전 또는 자료 없음) 등록 — 산출물: `init_ecos_db.py` `missing_dict` 테이블 4 컬럼(missing_code PK + meaning_kr NOT NULL + meaning_en + source). 시드 데이터 6행(`x`·(empty)·`..`·`[c]`·`[z]`·`[low]`)은 노트 34 §4 사양으로 build_ecos_db.py 적재 시 등록
+- [x] **[background-search]** 결측 사전의 한국어 의미 문장을 강의 자료 표현 또는 통계 일반론적 정의에 맞춰 작성 요청 — 산출물: `background/note/34_missing_dictionary.md`. 강의 자료 미수록 100% 확인(7 키워드 0회) → ONS Service Manual + GAF 표 기호 가이드 + 노트 15 §결측 카탈로그 1차 근거. 6 코드 시드(`x` 비공개·미가용 360건 / (empty) 시리즈 시작 이전 ~35,000건 / `..` 해당 없음 / `[c]` 비밀유지 / `[z]` 의미상 0 / `[low]` 정확도 낮음). 적재 정책: `value_raw + value_numeric + missing_reason` 3-컬럼 패턴
+- [x] 통계 용어 사전 테이블 구성 (용어 식별자·용어명 한국어·원문·정의·출처) — 산출물: `init_ecos_db.py` `term_dict` 테이블 5 컬럼(term_id PK + term_kr NOT NULL + term_en + definition_kr NOT NULL + source). 시드 30 용어는 노트 35 §1 사양으로 build_ecos_db.py 적재 시 등록
+- [x] **[background-search]** 통계 용어 사전의 1차 시드(BoP·IIP·CDID·경상수지·금융계정·순대외자산·귀금속 보정·BPM6 등)에 대한 한국어 정의·출처 요청 — 산출물: `background/note/35_glossary_seed.md`. 30 용어 시드(강의 자료 직접 인용 16 + 외부 표준 보강 14). 강의 16: BOP·IIP·CA·KA·FA·NEO·TG·SV·PI·SI·DI·PINV·DR·OI·RA·NFA. 외부 14: NAFA·NIL·CDID·BPM6·EBOPS·SITC·PM_ADJ·CIF_FOB·SIGN_PREFIX·EEA_UK·ITIS·IPS·HMRC_OTS·PINK_BOOK. term_id PK + term_kr·term_en·definition_kr·source 5 컬럼 형식
+- [x] 인덱스: ITEM_CODE1, TIME, (통계항목·TIME) 복합 키 — 산출물: `init_ecos_db.py` 3 인덱스(`idx_item_code1` ON `stat_item_meta(ITEM_CODE1)` / `idx_obs_time` ON `observation(TIME)` / `idx_item_meta_stat` ON `stat_item_meta(STAT_CODE)`). (item_id, TIME) 복합 키는 `observation`의 PRIMARY KEY로 자동 인덱싱(별도 CREATE INDEX 불요)
 
 ### 4.2 적재
 - [ ] 메타 정보(통계표 메타·통계항목 메타·결측 사전·용어 사전)를 모두 CSV 형태로 미리 정형화 (각 메타도 1 CSV = 1 평면 표)
