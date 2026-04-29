@@ -166,7 +166,7 @@
 ## Phase 4. ECOS 스타일 관계형 데이터베이스 구축
 
 ### 4.1 스키마 설계 점검
-- [ ] **[background-search]** 강의 자료에 ECOS 또는 일반 통계 메타데이터 모델이 다뤄지는지 확인 요청 (있다면 스키마 설계의 한국어 표현 근거로 활용)
+- [x] **[background-search]** 강의 자료에 ECOS 또는 일반 통계 메타데이터 모델이 다뤄지는지 확인 요청 (있다면 스키마 설계의 한국어 표현 근거로 활용) — 산출물: `background/note/32_metadata_model.md`. 결과: **강의 자료 미수록 100% 확인** — ECOS·SDMX·SDDS·GSBPM·UNECE CMF·DDI·GSIM·메타데이터·통계표 코드·항목 코드·LVL·결측 사전·용어 사전·BPM5/BPM6 약자·CDID·Pink Book·ONS·Schema·RDB 등 17 키워드 등장 0회. **다만 한국어 표현 근거**로 슬라이드 5(BoP 위계)·6·7·25(IIP) 한국어/영문 라벨 + 슬라이드 8(BPM6 부호 규약 산문 진술)·11(NFA·순차입 정의) + 슬라이드 14(`CA = FA(broad)` 항등식)을 Phase 4 통계표/항목 메타 컬럼(`STAT_NAME`·`SIGN_CONVENTION`·`STOCK_FLOW_TYPE`)에 직접 인용 가능. LVL1/LVL2/LVL3 매핑은 슬라이드 5(BoP)·25(IIP) + 노트 30·31 결합. ECOS 분야 코드·결측 사전·임계 기준 등 **Phase 4 모델 구조 자체는 외부 표준 보강 필요**(web-search 위임 권고)
 - [ ] 통계표 메타 테이블에 STAT_CODE(고유 키)·STAT_NAME·원문 통계표명·분야 분류·ORG_NAME·자료원·갱신 주기·START_TIME·END_TIME·출처 URL·발표일·가공 시각·한국어 설명 컬럼 포함
 - [ ] 통계항목 메타 테이블에 자동 증가 식별자·통계표 외래 키·ITEM_CODE1~4·ITEM_NAME1~4·한국어 명칭·정의·P_ITEM_CODE·LVL·WGT·UNIT_NAME·CYCLE·START_TIME·END_TIME·부호 규약 컬럼 포함
 - [ ] **[background-search]** 통계항목 위계(P_ITEM_CODE/LVL)를 BoP 항목 트리에 일관 적용할 수 있는지(예: 경상수지 LVL=1, 상품무역 LVL=2, 비귀금속 상품 LVL=3) 자문 요청
