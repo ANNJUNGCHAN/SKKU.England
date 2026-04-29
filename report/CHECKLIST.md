@@ -19,12 +19,12 @@
 
 ## 단계 2 — 데이터 인벤토리·환율 가용성 점검 (`data-scientist` 주도)
 
-- [ ] `data-scientist` 에이전트를 호출해 RDB 와 정형 사전 인벤토리를 1회 점검
-- [ ] 환율 관련 표(Exchange rate / Effective exchange rate / Sterling 등) 가 RDB 에 등재돼 있는지 확인 — 발견 시 시계열 범위 보고, 미발견 시 즉시 단계 3 트리거
-- [ ] CA 합계·4 세부항목·FA 합계·5 세부항목·자본수지·순오차 9 변수의 분기 시계열이 최근 20년 80 분기 전 구간에서 결측 없이 확보되는지 확인
-- [ ] 결측이 있는 경우 결측 사전을 참조해 결측 의미를 분류하고, 본문 §9(한계) 에 명시할 항목으로 정리
-- [ ] 단위(GBP million / GBP billion / % of GDP) 혼재 여부를 변수별로 표로 정리해 단계 4 정량 분석 시 단위 환산 규칙의 입력으로 사용
-- [ ] 단계 2 종료 — `code-control` 호출 → 복기 결과를 `PLAN.md` §6 의 단계 2 항목에 한 단락 추가
+- [x] `data-scientist` 에이전트를 호출해 RDB 와 정형 사전 인벤토리를 1회 점검 — `report/research/08_data_inventory.md` 산출. 5 테이블(63·512·74,006·6·30) USER_GUIDE 등재값 100% 일치 + 인덱스 3·외래키 2 정상 + 정형 사전 5 CSV(specification 512×16·statcatalog 63×15·cdid_definitions 512×16·missing 6×4·term 30×5) 정상
+- [x] 환율 관련 표(Exchange rate / Effective exchange rate / Sterling 등) 가 RDB 에 등재돼 있는지 확인 — 발견 시 시계열 범위 보고, 미발견 시 즉시 단계 3 트리거 — **HIT 0건** (stat_table_meta 4컬럼 × 9키워드 + stat_item_meta 5컬럼 × 환율 어휘 모두 미등재) → **단계 3 web-search 트리거 권고** (BoE Statistical Database / BIS EER / OECD MEI 1차 출처)
+- [x] CA 합계·4 세부항목·FA 합계·5 세부항목·자본수지·순오차 9 변수의 분기 시계열이 최근 20년 80 분기 전 구간에서 결측 없이 확보되는지 확인 — 13 변수(CA 5 + FA 6 + KA·NEO 보조 2) + AA6H·HBQC 보조 2 = 총 15 변수 모두 RDB 등재 OK, 1997~2025Q4 145행(연 29 + 분기 116), DATA_VALUE NULL 0건. FA 6종(-MU7M·-HHZD·-ZPNN·-HHYR·-LTCV·-HBNT) ITEM_CODE1 에 sign_prefix `-` 그대로 등재 확인
+- [x] 결측이 있는 경우 결측 사전을 참조해 결측 의미를 분류하고, 본문 §9(한계) 에 명시할 항목으로 정리 — 80 분기 윈도우(2006Q1~2025Q4) 15/15 변수 결측 0건. missing_dict 6 코드(x·(empty)·..·[c]·[z]·[low]) 는 참고 사전으로만 등재 (본 보고서 §9 결측 한계 부기 불필요)
+- [x] 단위(GBP million / GBP billion / % of GDP) 혼재 여부를 변수별로 표로 정리해 단계 4 정량 분석 시 단위 환산 규칙의 입력으로 사용 — `08_data_inventory.md` §3 표 UNIT_NAME 컬럼에 변수별 단위 등재(CA·FA 9변수 GBP million / AA6H % of GDP / HBQC GBP billion). 단계 4 정량 분석 시 단위 환산 규칙 입력으로 사용
+- [x] 단계 2 종료 — `code-control` 호출 → 복기 결과를 `PLAN.md` §6 의 단계 2 항목에 한 단락 추가 — `PLAN.md` §6 단계 2 누적 메모 한 단락 기록 완료
 
 ---
 
