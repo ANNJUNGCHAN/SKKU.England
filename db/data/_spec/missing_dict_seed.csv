@@ -1,0 +1,7 @@
+missing_code,meaning_kr,meaning_en,source
+x,비공개·미가용 (ONS 비밀유지 또는 미산출),"unavailable, suppressed (confidential or not produced)",ONS Notes 시트 11번; background/note/15_units_and_missing.md §결측 카탈로그
+,시리즈 시작 이전 또는 자료 없음 (데이터 영역 한정),not available / not yet observed (data region only),background/note/15_missing.csv; ONS Methodology
+..,해당 없음(개념상 정의 불가),not applicable,ONS Service Manual; background/note/10_ons_web_research.md §발췌 #9
+[c],비밀유지 (GAF 권장 표기),confidential,Government Analysis Function table symbols guidance
+[z],의미상 0 (정확히 0인 진정한 영),true zero,Government Analysis Function table symbols guidance
+[low],정확도 낮음 (반올림 결과 0에 근접),low precision (rounded to near zero),Government Analysis Function table symbols guidance

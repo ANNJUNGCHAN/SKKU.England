@@ -179,14 +179,14 @@
 - [x] 인덱스: ITEM_CODE1, TIME, (통계항목·TIME) 복합 키 — 산출물: `init_ecos_db.py` 3 인덱스(`idx_item_code1` ON `stat_item_meta(ITEM_CODE1)` / `idx_obs_time` ON `observation(TIME)` / `idx_item_meta_stat` ON `stat_item_meta(STAT_CODE)`). (item_id, TIME) 복합 키는 `observation`의 PRIMARY KEY로 자동 인덱싱(별도 CREATE INDEX 불요)
 
 ### 4.2 적재
-- [ ] 메타 정보(통계표 메타·통계항목 메타·결측 사전·용어 사전)를 모두 CSV 형태로 미리 정형화 (각 메타도 1 CSV = 1 평면 표)
-- [ ] 빈 데이터베이스 생성 후 스키마 적용
-- [ ] 기존 데이터베이스 파일이 있으면 백업 후 새로 생성 (멱등 동작)
-- [ ] 메타 CSV → 통계표 메타·통계항목 메타에 적재
-- [ ] 세로형 통합 CSV → 관측치 테이블에 적재
-- [ ] 결측 사전·용어 사전 적재
-- [ ] 무결성 점검 지표(관측치 수·시리즈 수·결측 비율·시작·종료 시점 일관성) 산출
-- [ ] **[background-search]** 무결성 점검 지표의 임계 기준(예: 결측 비율이 50% 이상이면 경고)에 대한 통계 일반론적 가이드 자문 요청
+- [x] 메타 정보(통계표 메타·통계항목 메타·결측 사전·용어 사전)를 모두 CSV 형태로 미리 정형화 (각 메타도 1 CSV = 1 평면 표) — 산출물 4종: ① `db/data/_spec/statcatalog.csv` 63행 (Phase 3.4 §5) ② `specification.csv` 512행 (Phase 3.4 §1·§2·§3) ③ `missing_dict_seed.csv` 6행(`x`·(empty)·`..`·`[c]`·`[z]`·`[low]`) ④ `term_dict_seed.csv` 30행(강의 직접 16 + 외부 보강 14). 모두 1 CSV = 1 평면 표 원칙 준수
+- [x] 빈 데이터베이스 생성 후 스키마 적용 — 산출물: `db/code/source/init_ecos_db.py` 실행 → `db/data/_db/ecos_uk_bop.sqlite` 빈 스키마(테이블 5 + 인덱스 3 + 외래키 2 + 유일성 1) 생성. verify_schema() 통과 확인
+- [x] 기존 데이터베이스 파일이 있으면 백업 후 새로 생성 (멱등 동작) — 산출물: `init_ecos_db.py` `backup_existing_db()` 함수. 기존 DB 파일 발견 시 `ecos_uk_bop.backup_<YYYYMMDD_HHMMSS>.sqlite` 형식 백업 후 새 DB 생성. 본 build 실행 시 `backup_20260429_144021.sqlite` 백업 확인. 멱등 재실행 가능
+- [x] 메타 CSV → 통계표 메타·통계항목 메타에 적재 — 산출물: `db/code/source/build_ecos_db.py` `load_stat_table_meta()` + `load_stat_item_meta()`. 실행 결과: stat_table_meta 63행 + stat_item_meta 512행 적재 완료. specification.csv → stat_item_meta 매핑(ITEM_NAME_EN→ITEM_NAME1, KO 명칭→ITEM_NAME_KR, 정의→DEFINITION_KR 등). LVL·P_ITEM_CODE·STOCK_FLOW_TYPE은 후속 단계 위임으로 빈 값
+- [x] 세로형 통합 CSV → 관측치 테이블에 적재 — 산출물: `build_ecos_db.py` `load_observation()`. long-form CSV 74,006행 → observation 테이블 100% 적재(매칭 실패 0행). long-form 키 정규화(`UK_BoP_<sheet>_sub<n>` → `UK_BoP_Table_<sheet>_sub<n>`)로 specification.csv 키와 일치. raw_cell·data_value 원본 그대로 보존(결측 360건 NULL 적재)
+- [x] 결측 사전·용어 사전 적재 — 산출물: `build_ecos_db.py` `load_missing_dict()` + `load_term_dict()`. 실행 결과: missing_dict 6행 + term_dict 30행 적재. 시드 CSV(missing_dict_seed.csv·term_dict_seed.csv) 그대로 적재
+- [x] 무결성 점검 지표(관측치 수·시리즈 수·결측 비율·시작·종료 시점 일관성) 산출 — 산출물: `build_ecos_db.py` `integrity_check()` 함수. **실측 결과**: n_table=63 / n_item=512 / n_obs=74,006 / n_obs_null=360 / **missing_ratio=0.4864%** / n_missing_dict=6 / n_term_dict=30 / **inconsistent_time_items=0** (모든 시리즈의 START_TIME·END_TIME이 observation의 min/max(TIME)과 100% 일치)
+- [x] **[background-search]** 무결성 점검 지표의 임계 기준(예: 결측 비율이 50% 이상이면 경고)에 대한 통계 일반론적 가이드 자문 요청 — 산출물: `background/note/36_integrity_thresholds.md`. 강의 자료 미수록(8 키워드 0회). 노트 20 NEO 변동성(평균 5,872 £m·|NEO|/GDP 0.92%) + ONS·GAF 표준 결합으로 임계 도출. **임계 권고 표 7 지표**: 관측치 수(차이>0% 경고/>0.1% 오류) / 시리즈 수(차이≥1 오류) / 전체 결측 비율(≤1% 정상/1-5% 경고/>10% 오류) / 시리즈 단위 결측(≤5%/5-30%/>50%) / START·END_TIME 일관성(불일치 0건) / BoP 항등식 잔차 |H BoP|/GDP(≤1%/1-2.5%/>2.5%). 본 데이터셋 실측은 모든 임계 정상 통과(결측 0.49%, 시점 일관성 100%, 적재 정확 일치)
 
 ### 4.3 사용자 조회 인터페이스
 - [ ] 통계항목 코드(ITEM_CODE1) 단일 조회 예시 제공
