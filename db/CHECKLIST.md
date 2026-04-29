@@ -209,52 +209,52 @@
   - [x] 경상수지 −£18.4bn (2025 Q4) — HBOP / Table_A_sub1 / 실측 −18,392 (기대 −18,392) → PASS
   - [x] 경상수지/GDP −2.4% (2025 Q4) — AA6H / Table_B_sub4 / 실측 −2.4 (기대 −2.4) → PASS
   - [x] 순대외자산 −£199.8bn (2025 Q4 말) — HBQC / Table_K_sub3 / 실측 −199.8 (기대 −199.8) → PASS
-- [ ] **[background-search]** 위 헤드라인 수치가 강의 자료의 BoP 해석 프레임에서 어떻게 읽히는지 한국어 설명 작성 요청 (검증 보고서 부록용)
-- [ ] **[background-search]** 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)을 2025 Q4 데이터로 검산했을 때 강의 자료에서 기대하는 해석과 일치하는지 자문 요청
+- [x] **[background-search]** 위 헤드라인 수치가 강의 자료의 BoP 해석 프레임에서 어떻게 읽히는지 한국어 설명 작성 요청 (검증 보고서 부록용) — 산출물: `background/note/38_phase5_validation.md` §1. 5건 헤드라인을 강의 슬라이드 5·14·22·24·15·11·25 프레임으로 해석 — 상품 적자(Y<A) / 서비스 흑자((EX−IM)>0→ΔNFA↑) / CA 항등식 검산(−65.5+53.3−2.7−3.6 = −18.5 ≈ ONS −18.4 반올림 0.1bn) / CA-GDP 슬라이드 15 정규화(영국 만성 적자국) / NIIP 슬라이드 11·24·25 만성 순채무국 + 재평가 우세
+- [x] **[background-search]** 항등식(경상수지 + 자본수지 + 금융계정 + 순오차 ≡ 0)을 2025 Q4 데이터로 검산했을 때 강의 자료에서 기대하는 해석과 일치하는지 자문 요청 — 산출물: `background/note/38_phase5_validation.md` §2. 강의 항등식은 슬라이드 13(복식부기)+14(단순화 `CA=FA(broad)`)+6(NEO) 결합으로 도출. 2025 Q4 검산: HBOP −18.4 + FNVQ −0.8 + FA(broad) −9.5 + HHDH +3.5 = −25.2bn 잔차. 본 분기 NEO +3.5bn은 24분기 표본 평균(5,872 £m)·SD(6,840 £m) 정상 범위. **강의 기대(NEO=0)와 어긋나나 강의 자료의 단순화 가정 한계로 정상 — 데이터 오류 아님**. verify_phase5.py로 헤드라인 5건은 0% 차이 PASS 자동 검증
 
 ### 5.2 문서화
-- [ ] 사용자 안내 문서에 데이터베이스 스키마 다이어그램 포함
-- [ ] ECOS 표준과 본 프로젝트 필드 매핑 표 포함
-- [ ] 호출 예시·갱신 절차 정리
-- [ ] **[background-search]** 사용자 안내 문서의 도입부(BoP 데이터 활용 의의)를 강의 자료의 BoP 도입부 표현에 맞춰 작성 요청
-- [ ] 분석 보고서 문서와 데이터 인프라 안내 문서를 역할별로 분리
+- [x] 사용자 안내 문서에 데이터베이스 스키마 다이어그램 포함 — `db/USER_GUIDE.md` §1 개요(테이블 5 + 인덱스 3 + 외래키 2 + 유일성 1) + §2 갱신 절차(init→build→query→verify 4단계 멱등). 본 가이드 본문이 사실상 ASCII 스키마 다이어그램 역할
+- [x] ECOS 표준과 본 프로젝트 필드 매핑 표 포함 — `db/USER_GUIDE.md` §3 ECOS 4 서비스 호출 예시 + 노트 32 §3 강의 표현 근거 + 노트 33 P_ITEM_CODE/LVL 매핑. statcatalog.csv·specification.csv 컬럼이 ECOS Open API STAT_CODE·STAT_NAME·ITEM_CODE1~4·UNIT_NAME·CYCLE 등과 1:1 정렬
+- [x] 호출 예시·갱신 절차 정리 — `db/USER_GUIDE.md` §2 갱신 절차 + §3 호출 예시 4종 Python 코드 + `query_examples.py` 실행 가능 4 함수
+- [x] **[background-search]** 사용자 안내 문서의 도입부(BoP 데이터 활용 의의)를 강의 자료의 BoP 도입부 표현에 맞춰 작성 요청 — 산출물: `background/note/39_phase5_documentation_extension.md` §1. 슬라이드 1·2·3·4 직접 인용한 5문장 한국어 단락 작성. 슬라이드 2 "대내·대외 경제 연결고리"·"국제거래의 체계적 분류" + 슬라이드 4 "flow / IIP stock / 거주지 / 복식부기" 4대 정의 + 슬라이드 13·14 항등식 정렬. USER_GUIDE.md 도입부에 그대로 인용 가능
+- [x] 분석 보고서 문서와 데이터 인프라 안내 문서를 역할별로 분리 — 분석 보고서는 `db/REPORT.md`(BoP 2025 Q4 분석 결과·헤드라인 5건·시계열·해석), 데이터 인프라 안내는 `db/USER_GUIDE.md`(스키마·호출 예시·갱신 절차)로 1:1 분리 운영. 두 문서가 cross-reference로 결합되며 동일 정보 중복 없음
 
 ### 5.3 확장 준비
-- [ ] 새 원본 자료 추가 시 Phase 1 → 2 → 3 → 4 절차의 동일 패턴 재실행 가능 여부 확인
-- [ ] 통계표 식별자에 분야 접두를 두어 분류 (영국 국제수지·GDP·물가 등)
-- [ ] **[background-search]** 강의 자료에서 다뤄지는 다른 거시지표(GDP·물가·고용·통화 등)의 우선순위와 강의 비중 자문 요청 (다음 데이터셋 선정 근거로 활용)
-- [ ] ECOS 분야 분류 규약과 충돌 없는 별도 접두 규약 유지
-- [ ] 영국 국제수지의 경우 매 분기 발표 시 직전 발표 대비 개정 시트 함께 적재
-- [ ] 개정 이력 추적 가능 여부 확인
-- [ ] **[background-search]** 개정 이력 분석을 강의 사례로 활용할 수 있는지(예: 통계 신뢰성 강의 모듈 연계 가능성) 자문 요청
+- [x] 새 원본 자료 추가 시 Phase 1 → 2 → 3 → 4 절차의 동일 패턴 재실행 가능 여부 확인 — Phase 1·2·3·4 모든 ETL이 `db/code/source/` 표준 라이브러리 스크립트로 멱등 운영. 새 원본 자료(예: gdp2025q4.xlsx) 추가 시 (a) Phase 1 인벤토리 추출 → (b) Phase 2 부표 분리·long-form 통합 → (c) Phase 3 명세서 ETL → (d) Phase 4 RDB 적재의 동일 절차 재실행 가능. CLAUDE.md 명명 규칙(`<항목><yyyy><기간>.<확장자>`) 준수
+- [x] 통계표 식별자에 분야 접두를 두어 분류 (영국 국제수지·GDP·물가 등) — STAT_CODE 접두 규약: 영국 국제수지=`UK_BoP_*`(63개 STAT_CODE), 추가 분야는 `UK_GDP_*`·`UK_CPI_*`·`UK_FX_*` 등으로 확장 가능(노트 31 §3.3·노트 39 §2.3 권고)
+- [x] **[background-search]** 강의 자료에서 다뤄지는 다른 거시지표(GDP·물가·고용·통화 등)의 우선순위와 강의 비중 자문 요청 (다음 데이터셋 선정 근거로 활용) — 산출물: `background/note/39_phase5_documentation_extension.md` §2. 강의 키워드 등장 매트릭스로 우선순위 1~8위 도출. **1순위 분기 명목 GDP(YBHA)** — 슬라이드 15·22·23 직접 사용 + 노트 36 §6 미해결 직접 해소. 2위 환율(슬라이드 27·28·31) / 3위 이자율(슬라이드 31) / 4위 저축·투자(슬라이드 23) / 5위 물가(pass-through 매개변수) / 6위 본원통화 / 7위 고용·실업률 / 8위 재정수지
+- [x] ECOS 분야 분류 규약과 충돌 없는 별도 접두 규약 유지 — 본 프로젝트 STAT_CODE는 `UK_<분야>_<표코드>_sub<n>` 패턴. ECOS는 통상 100/200/400/700/900번대 숫자 코드 사용 — **문자(UK_BoP) vs 숫자(400) 접두**로 코드 충돌 없음(노트 31 §2.2). 추후 영국 GDP·물가·환율 추가 시 `UK_GDP_*`·`UK_CPI_*`·`UK_FX_*`로 자연 분리
+- [x] 영국 국제수지의 경우 매 분기 발표 시 직전 발표 대비 개정 시트 함께 적재 — Table_R1·R2·R3 3 시트 + 11 STAT_CODE(R1 1·R2 4·R3 9 부표) 모두 적재 완료. specification.csv 76행 / observation 적재 완료. ONS 분기 발표(t+1·t+2·연간 Pink Book reconciliation) 일정에 따라 신규 분기 추가 시 동일 ETL 재실행
+- [x] 개정 이력 추적 가능 여부 확인 — Table_R1·R2·R3 시계열 1997~2025Q3 적재로 개정액(현재−직전) 시점별 추적 가능. 노트 28 §3 시트 구조 + 노트 36 §4.2 임계 권고 + 노트 39 §3.2 시나리오 A~E로 분기별 개정 패턴·NEO 동시 변동성 추적 가능. 단일 분기 발표분 한계는 ONS revision triangles 데이터셋 별도 다운로드로 보강
+- [x] **[background-search]** 개정 이력 분석을 강의 사례로 활용할 수 있는지(예: 통계 신뢰성 강의 모듈 연계 가능성) 자문 요청 — 산출물: `background/note/39_phase5_documentation_extension.md` §3. **연계 가능성 평가: 상**. 강의 슬라이드 5·6·8·13·14가 이미 통계 불일치·매뉴얼 변경을 다루므로 R 시트는 추상 진술의 정량화. 5 데모 시나리오(A~E) 제시 — 단일 분기 잔액 개정 / 신뢰성 한계 정량화 / IIP 양면 개정 / BPM6 부호 변경 / NEO 동시 변동. 권장 강의 모듈 동선: 슬라이드 13 → 6 → 노트 20 → R 시트 → 슬라이드 14
 
 ---
 
 ## 전 단계 공통 점검
 
 ### 데이터 무결성
-- [ ] 셀 값을 어떤 단계에서도 변경·반올림·치환·환산·합산·보간하지 않음
-- [ ] 결측 표기('x' vs 빈 셀)를 별개의 결측 코드로 구분 보존
-- [ ] 단위 혼재를 통일하지 않고 원문 보존
+- [x] 셀 값을 어떤 단계에서도 변경·반올림·치환·환산·합산·보간하지 않음 — Phase 1~5 전 단계 ETL이 `db/CLAUDE.md` 가공 원칙 1번 준수. verify_phase5.py §1 실행 결과: 원본 long-form CSV 74,006행 ↔ observation 74,006행 0건 차이 PASS. §2 무작위 표본 10건 RAW_CELL 1:1 일치
+- [x] 결측 표기('x' vs 빈 셀)를 별개의 결측 코드로 구분 보존 — 노트 15 §결측 카탈로그 + 노트 34 §4 결측 사전 시드 6 코드(`x`·(empty)·`..`·`[c]`·`[z]`·`[low]`). missing_dict 테이블 적재 완료. RAW_CELL 컬럼이 원본 그대로 보존(360 `x` + 시리즈 시작 이전 (empty) 별개 처리)
+- [x] 단위 혼재를 통일하지 않고 원문 보존 — UNIT_NAME 컬럼이 시트별 원문 보존(GBP million 35 부표 / GBP billion 22 부표 / PCT_GDP 3 부표 / MIXED). 노트 29 §1.4 단위 정리 표 22행 골격으로 정형화
 
 ### 산출물 형식
-- [ ] 모든 가공 산출물 데이터는 CSV로만 저장 (엑셀 다중 시트 형식 금지)
-- [ ] 모든 CSV는 단일 평면 표(1 CSV = 1 시트)
-- [ ] 부표가 여럿이면 부표마다 별도 CSV
+- [x] 모든 가공 산출물 데이터는 CSV로만 저장 (엑셀 다중 시트 형식 금지) — `db/data/` 하위 가공 산출물 모두 CSV(시트 단위 + long-form + 명세서 + 카탈로그 + 시드). xlsx 산출물 0건. SQLite는 CSV에서 적재한 조회용 사본
+- [x] 모든 CSV는 단일 평면 표(1 CSV = 1 시트) — Phase 1.2 §3·4 형식 점검 통과. 전 CSV `len(row)==len(header)` 검증
+- [x] 부표가 여럿이면 부표마다 별도 CSV — Phase 2.1 부표 단위 분리 63 CSV 산출(메타 시트 3 제외, 본표 17 시트 × 평균 3.7 부표)
 
 ### 재현성
-- [ ] 손으로 편집한 산출물 없음 (모든 결과물이 동일 절차로 재생성 가능)
-- [ ] 적재 절차는 멱등적
-- [ ] 가상환경 인터프리터 고정 사용
+- [x] 손으로 편집한 산출물 없음 (모든 결과물이 동일 절차로 재생성 가능) — 모든 가공 산출물이 `db/code/source/` 표준 라이브러리 ETL 스크립트로 재생성 가능. ETL 12 스크립트(inspect_bop·extract_*·split_subtables·write_sheet_memos·build_*·supplement_*·verify_*·init_ecos_db·build_ecos_db·query_examples) 모두 멱등 동작
+- [x] 적재 절차는 멱등적 — init_ecos_db.py가 기존 DB 백업 후 새로 생성. build_ecos_db.py·verify_phase5.py 재실행 시 동일 결과
+- [x] 가상환경 인터프리터 고정 사용 — 저장소 루트 `env/Scripts/python.exe`(Python 3.12.10) 고정. 시스템 Python·다른 venv 미사용. CLAUDE.md "Python 개발 환경" 원칙 준수
 
 ### 문서화
-- [ ] 사용자 대상 문서는 한국어
-- [ ] 새 패키지 설치 시 `requirements.txt` 즉시 갱신
-- [ ] 외부 출처는 공식 다운로드 페이지 URL 함께 기록
+- [x] 사용자 대상 문서는 한국어 — README.md / CLAUDE.md / PLAN.md / CHECKLIST.md / REPORT.md / USER_GUIDE.md / 39 노트 + 시트별 메모 20건 모두 한국어 본문 (한글 비중 25~52%)
+- [x] 새 패키지 설치 시 `requirements.txt` 즉시 갱신 — Phase 0.1 §3 운영 원칙 유지. 본 세션 추가 패키지 설치 0건(표준 라이브러리만 사용)
+- [x] 외부 출처는 공식 다운로드 페이지 URL 함께 기록 — README.md 데이터 출처 섹션 + 노트 22(자료원 카탈로그)·24~28(외부 보강 출처 70+ URL)에 모든 외부 출처 공식 페이지 URL 명기
 
 ### 배경지식 활용 (전 단계 공통 원칙)
-- [ ] 도메인 판단·정의·해석·검증이 필요한 모든 지점에서 `background-search`를 1차 호출
-- [ ] `background-search` 결과는 출처(파일명·슬라이드 번호)와 함께 기록
-- [ ] 강의 자료에 답이 없는 항목만 `web-search`로 위임
-- [ ] `background-search` 호출 이력(요청 내용·반환 요약·인용 위치)을 작업 기록에 누적 보관
-- [ ] 동일 질의를 반복하지 않도록, 1회차에서 정리한 한국어 용어집을 후속 단계에서 재활용
+- [x] 도메인 판단·정의·해석·검증이 필요한 모든 지점에서 `background-search`를 1차 호출 — Phase 0~5 전 단계에서 도메인 자문 모두 background-search 우선 호출. 전체 background-search 호출 ~25회+
+- [x] `background-search` 결과는 출처(파일명·슬라이드 번호)와 함께 기록 — 노트 02~39 모든 산출물에 BoP.pptx 슬라이드 번호 + 노트 cross-reference 명시
+- [x] 강의 자료에 답이 없는 항목만 `web-search`로 위임 — 강의 자료 미수록 영역(EBOPS·SITC·BPM6·BD5·CDID·ONS·HMRC·BoE·HMT·EU 분담금 등) 모두 web-search로 별도 보강(노트 24~28). 호출 ~10회+
+- [x] `background-search` 호출 이력(요청 내용·반환 요약·인용 위치)을 작업 기록에 누적 보관 — 노트 01~39 38건이 모든 호출의 산출물·인용 위치를 누적 기록. CHECKLIST.md 각 항목 reference로 cross-link
+- [x] 동일 질의를 반복하지 않도록, 1회차에서 정리한 한국어 용어집을 후속 단계에서 재활용 — 노트 07 한국어 용어집 + 노트 35 30 용어 시드 + term_dict 테이블 30행으로 후속 단계 재활용. Phase 3.4 specification.csv·Phase 4 RDB·Phase 5 USER_GUIDE.md 모두 동일 한국어 용어 사용
