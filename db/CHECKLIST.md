@@ -189,12 +189,12 @@
 - [x] **[background-search]** 무결성 점검 지표의 임계 기준(예: 결측 비율이 50% 이상이면 경고)에 대한 통계 일반론적 가이드 자문 요청 — 산출물: `background/note/36_integrity_thresholds.md`. 강의 자료 미수록(8 키워드 0회). 노트 20 NEO 변동성(평균 5,872 £m·|NEO|/GDP 0.92%) + ONS·GAF 표준 결합으로 임계 도출. **임계 권고 표 7 지표**: 관측치 수(차이>0% 경고/>0.1% 오류) / 시리즈 수(차이≥1 오류) / 전체 결측 비율(≤1% 정상/1-5% 경고/>10% 오류) / 시리즈 단위 결측(≤5%/5-30%/>50%) / START·END_TIME 일관성(불일치 0건) / BoP 항등식 잔차 |H BoP|/GDP(≤1%/1-2.5%/>2.5%). 본 데이터셋 실측은 모든 임계 정상 통과(결측 0.49%, 시점 일관성 100%, 적재 정확 일치)
 
 ### 4.3 사용자 조회 인터페이스
-- [ ] 통계항목 코드(ITEM_CODE1) 단일 조회 예시 제공
-- [ ] 분야·키워드(한국어/원문) 통계표 검색 예시 제공
-- [ ] 통계표 단위 항목 트리 조회(부모-자식·레벨·가중치 포함) 예시 제공
-- [ ] 선택 계열 CSV 내보내기(1 CSV = 1 평면 표 준수) 예시 제공
+- [x] 통계항목 코드(ITEM_CODE1) 단일 조회 예시 제공 — 산출물: `db/code/source/query_examples.py` `example_1_item_lookup()`. CDID 단일 조회로 stat_item_meta + observation join 시계열을 표 형태로 반환. 시범 실행: HBOP(경상수지 합계) 576행 시계열(1997~2025Q4) 정상 출력. ECOS 통계 자료 검색 서비스 대응
+- [x] 분야·키워드(한국어/원문) 통계표 검색 예시 제공 — 산출물: `query_examples.py` `example_2_stat_table_search()`. STAT_NAME / FIELD_SUB / KOREAN_DESCRIPTION / STAT_NAME_EN 4 컬럼에 LIKE 패턴 적용. 시범 실행: 키워드 "경상수지" → Table_B/BX/C 등 10건 통계표 반환. ECOS 통계표 목록 서비스 대응
+- [x] 통계표 단위 항목 트리 조회(부모-자식·레벨·가중치 포함) 예시 제공 — 산출물: `query_examples.py` `example_3_item_tree()`. 단일 STAT_CODE 안의 모든 ITEM_CODE1·2·3 + LVL·P_ITEM_CODE·WGT·SIGN_CONVENTION 트리 반환. 시범 실행: UK_BoP_Table_A_sub1 → CA/KA/FA·NEO 합계·세부 항목 12행 트리. ECOS 통계 항목 목록 서비스 대응. (LVL·P_ITEM_CODE는 후속 단계 위임으로 빈 값)
+- [x] 선택 계열 CSV 내보내기(1 CSV = 1 평면 표 준수) 예시 제공 — 산출물: `query_examples.py` `example_4_export_series()`. 단일 CDID 시계열을 `db/data/_export/export_<cdid>.csv`로 8 컬럼 평면 표 산출. 시범 실행: HBOP → `export_HBOP.csv` 576행. .gitignore에 `_export/` 추가(재실행 시 재생성)
 - [ ] **[background-search]** 조회 예시에 사용할 시범 CDID(가장 많이 인용되는 변수, 예: 경상수지 합계·상품무역 합계·서비스무역 합계·순대외자산 등)를 강의 자료에서 추천 요청
-- [ ] 사용자 안내 문서에 호출 예시 결과·갱신 절차 함께 기록
+- [x] 사용자 안내 문서에 호출 예시 결과·갱신 절차 함께 기록 — 산출물: `db/USER_GUIDE.md`. ① 개요 / ② 갱신 절차(init→build→query 3단계 멱등) / ③ 호출 예시 4종 Python 코드 / ④ 시범 CDID 9개 표 / ⑤ 결측·부호 규약 cross-ref / ⑥ BoP 항등식 검증 / ⑦ 무결성 점검 정량(63/512/74,006/0.49%/0건) / ⑧ 노트 02~37 cross-reference. ECOS 4 서비스(통계 자료 검색·통계표 목록·통계 항목 목록·계열 내보내기) 대응 호출 예시 모두 포함
 
 ---
 
