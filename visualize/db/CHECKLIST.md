@@ -21,7 +21,7 @@
 - [x] 가상환경에 Vega 기반 차트 플러그인을 함께 설치한다 — datasette-vega 0.6.2
 - [x] 설치 직후 의존성 명세 파일을 즉시 동기화한다 (가상환경 외부에서 재현 가능하도록) — `requirements.txt`에 datasette·datasette-vega와 27개 전이 의존성 추가
 - [x] datasette 본체와 차트 플러그인의 버전 출력으로 정상 인식 여부를 확인한다 — `python -m datasette --version` → 0.65.2, `python -m datasette plugins` → datasette-vega 0.6.2 (extra_css_urls·extra_js_urls 훅 등재) 확인
-- [ ] datasette가 보유 SQLite 파일을 인식하는지 메타 점검 명령으로 1회 확인한다 (테이블 5건·관측치 약 7만 4천 건이 그대로 노출되는지)
+- [x] datasette가 보유 SQLite 파일을 인식하는지 메타 점검 명령으로 1회 확인한다 (테이블 5건·관측치 약 7만 4천 건이 그대로 노출되는지) — `python -m datasette inspect db/data/_db/ecos_uk_bop.sqlite` 실행 결과 사용자 테이블 5건(stat_table_meta 63 / stat_item_meta 512 / observation 74,006 / missing_dict 6 / term_dict 30) + 시스템 테이블 sqlite_sequence 1건 노출, 합계 74,617행으로 작업 계획서 명시값(테이블 5·약 7만 4천 행)과 일치
 
 ---
 
