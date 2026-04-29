@@ -139,7 +139,7 @@
 
 본 절은 단계 1~6 진행 시 `code-control` 의 복기 결과를 누적 기록하는 공간이다. 각 단계 마감 시 한 단락씩 추가한다.
 
-- 단계 1 — (작성 예정)
+- 단계 1 — `background-search` 주도로 7 산출(`01_inventory.md` 강의 폴더 인벤토리·`02_macro_trend.md` Q1 거시 동향·`03_ca_decomposition.md` Q2 CA 4분해·`04_fa_decomposition.md` Q3 FA 5분해·`05_identity.md` Q4 항등식·`06_exchange_rate_ca.md` Q5 환율–CA·`07_consolidated_summary.md` 통합 정리)를 전부 마감. 슬라이드 31장 + 누적 노트 39 회차에서 5 핵심 질문 ↔ 슬라이드·노트 1차 근거 매핑(Q1 슬10·11·15/노02·17·38, Q2 슬5·9·16/노02·24·27, Q3 슬6·8·17/노06·19·25, Q4 슬13·14·6/노04·20·38, Q5 슬27·28·30/노04·08·14) 확정. 핵심 식·정의 5 카드: 만성 적자 = (flow Y<A) ⊕ (stock Net IIP 음수 누적), `CA = G + S + PI + SI` + CDID 마스터(BOKI·IKBD·HBOJ·IKBP·HBOP), FA 5분류 CDID(-MU7M·-HHZD·-ZPNN·-HHYR·-LTCV / -HBNT) + ONS sign_prefix 59건·고유 21개, 표적 항등식 `CA + KA + FA + NEO ≡ 0` + NEO 임계 3건(|NEO|/GDP 0.92%·SD ±6,840·부호 분포 11/13) + 2025Q4 검산 −25.2bn(RDB PASS), Marshall–Lerner `e_X + e_M > 1` + J-curve 단·중·장기 + BoE pass-through 60~70% 외부 단서. 보고서 §3~§7 인용 후보 91건 + 회피 4군(NIA·통화부문·BoP↔IIP·쌍둥이 적자) 분리. 후속 단계 위임 22 단위(단계 2 S1~S6, 단계 3 W1~W8, 단계 4 D1~D5+D6~D8) 명시. 강의 자료 부재 보강 필요 5 묶음(영국 변곡점 2008~2010 외 4건·서비스 elasticity·BoE pass-through 1차 출처·포트폴리오 정량·BoP↔IIP 비거래요인) 표시. 5 슬라이드(슬5·9·15·16·17)는 PPT 한국어 인코딩 깨짐으로 PNG 멀티모달 복원, 슬13·14·6·27·28·30 은 PPT 정상 추출. 단계 2(`data-scientist` 주도, 데이터 인벤토리·환율 가용성 점검) 진입 조건은 본 단계 1 통합 정리본의 §4 위임 명세 + §5 한계 종합 + §1 매핑 표가 그대로 입력으로 사용된다.
 - 단계 2 — (작성 예정)
 - 단계 3 — (작성 예정)
 - 단계 4 — (작성 예정)
