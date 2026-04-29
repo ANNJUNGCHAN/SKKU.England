@@ -1,320 +1,320 @@
 sheet,sub_table,column_position,column_label,cdid,sign_prefix,unit,table_code,classification,notes,item_code1,item_code2,item_code3,ko_name,ko_definition,source
-Table_A,1,4,Total trade,IKBJ,false,GBP million,A,summary,,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,1,5,"Primary income, Compensation of employees",IJAJ,false,GBP million,A,summary,,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,1,7,"Primary income, Other primary income",MT5X,false,GBP million,A,summary,,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,1,9,"Secondary income, General government",FNSV,false,GBP million,A,summary,,FNSV,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,1,10,"Secondary income, Other sectors",FNTC,false,GBP million,A,summary,,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,2,Trade in goods,LQCT,false,GBP million,A,summary,,LQCT,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,3,Trade in services,KTMS,false,GBP million,A,summary,,KTMS,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,4,Total trade,KTMY,false,GBP million,A,summary,,KTMY,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,5,"Primary income, Compensation of employees",KTMP,false,GBP million,A,summary,,KTMP,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,6,"Primary income, Investment income",HMBM,false,GBP million,A,summary,,HMBM,CA,,1차소득 - 투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,7,"Primary income, Other primary income",MT5W,false,GBP million,A,summary,,MT5W,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,8,"Primary income, Total",HMBP,false,GBP million,A,summary,,HMBP,CA,,1차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,9,"Secondary income, General government",FJUQ,false,GBP million,A,summary,,FJUQ,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,10,"Secondary income, Other sectors",FJUR,false,GBP million,A,summary,,FJUR,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_A,2,11,"Secondary income, Total",KTNF,false,GBP million,A,summary,,KTNF,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,4,Total exports,IKBH,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBH,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,7,"Primary income, Other primary income",MT5T,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,9,"Secondary income, Central government",FHDM,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,10,"Secondary income, Other sectors",FHIB,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,1,12,Total credits,HBON,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,HBON,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,4,Total imports,IKBI,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBI,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,7,"Primary income, Other primary income",MT5V,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,9,"Secondary income, Central government",FLUD,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,2,12,Total debits,HBOO,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,HBOO,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,3,4,Trade total,IKBJ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBJ,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,3,7,"Primary income, Other primary income",MT5X,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,3,9,"Secondary income, Central government",FNSV,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,3,10,"Secondary income, Other sectors",FNTC,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,2,Trade in goods,D28J,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28J,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,3,Trade in services,D28K,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,4,"Trade, Total",D28L,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28L,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,5,"Primary income,  Total",D28M,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,6,"Secondary income, Total",D28N,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_B,4,7,Current balance,AA6H,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,AA6H,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,2,"Exports of goods, excl. precious metals",FUS7,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS7,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,4,"Total exports, excl. precious metals",FUS8,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS8,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,7,"Primary income, Other primary income",MT5T,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,9,"Secondary income, Central government",FHDM,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,10,"Secondary income, Other sectors",FHIB,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,1,12,"Total credits, excl. precious metals",FUS9,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS9,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,2,"Imports of goods, excl. precious metals",FUT2,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT2,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,4,"Total imports, excl. precious metals",FUT3,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT3,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,7,"Primary income, Other primary income",MT5V,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,9,"Secondary income, Central government",FLUD,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,2,12,"Total debits, excl. precious metals",FUT4,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT4,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,2,"Trade in goods, excl. precious metals",FUT5,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT5,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,4,"Trade total, excl. precious metals",FUT6,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT6,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,7,"Primary income, Other primary income",MT5X,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,9,"Secondary income, Central government",FNSV,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,10,"Secondary income, Other sectors",FNTC,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,3,12,"Current balance, excl. precious metals",FUT7,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT7,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,2,"Trade in goods, excl. precious metals",FUT8,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT8,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,3,Trade in services,D28K,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,4,"Total trade, excl. precious metals",FUT9,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT9,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,5,"Primary income,  Total",D28M,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,6,"Secondary income, Total",D28N,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_BX,4,7,"Current balance, excl. precious metals",FUU2,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUU2,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,2,Exports of goods,L87S,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87S,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,3,Exports of services,L854,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L854,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,4,Total exports,L84Y,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84Y,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,5,"Primary income, credits",L872,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L872,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,6,"Secondary income, credits",L84S,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84S,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,1,7,Total credits,L873,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L873,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,2,Imports of goods,L87U,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87U,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,3,Imports of services,L868,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L868,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,4,Total imports,L864,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L864,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,5,"Primary income, debits",L874,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L874,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,6,"Secondary income, debits",L85W,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L85W,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,2,7,Total debits,L875,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L875,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,2,Trade in goods,L87Q,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87Q,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,3,Trade in services,L86M,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86M,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,4,Total trade,L86I,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86I,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,5,"Primary income, balance",L876,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L876,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,6,"Secondary income, balance",L86E,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86E,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,3,7,Total balance,L877,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L877,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,2,Exports of goods,L87M,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87M,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,3,Exports of services,L855,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L855,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,4,Total exports,L84Z,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84Z,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,5,"Primary income, credits",L87D,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87D,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,6,"Secondary income, credits",L84T,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84T,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,4,7,Total credits,L87E,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87E,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,2,Imports of goods,L87O,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87O,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,3,Imports of services,L869,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L869,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,4,Total imports,L865,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L865,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,5,"Primary income, debits",L87F,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87F,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,6,"Secondary income, debits",L85X,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L85X,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,5,7,Total debits,L87G,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87G,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,2,Trade in goods,L87K,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87K,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,3,Trade in services,L86N,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86N,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,4,Total trade,L86J,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86J,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,5,"Primary income, balance",L87H,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87H,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,6,"Secondary income, balance",L86F,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86F,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_C,6,7,Total balance,L87I,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87I,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D1_3,3,2,"Investment income earnings, Direct investment",N2QP,false,GBP billion,D1.3,IIP,,N2QP,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D1_3,3,3,"Investment income earnings, Portfolio investment",HLYX,false,GBP billion,D1.3,IIP,,HLYX,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D1_3,3,4,"Investment income earnings, Other investment",AIOP,false,GBP billion,D1.3,IIP,,AIOP,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D1_3,3,5,"Investment income earnings, Reserve assets",HHCB,false,GBP billion,D1.3,IIP,,HHCB,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D1_3,3,6,"Investment income earnings, Total",HMBN,false,GBP billion,D1.3,IIP,,HMBN,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D4_6,3,2,"Investment income earnings, Direct investment",N2Q4,false,GBP billion,D4.6,IIP,,N2Q4,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D4_6,3,3,"Investment income earnings, Portfolio investment",HLZC,false,GBP billion,D4.6,IIP,,HLZC,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D4_6,3,4,"Investment income earnings, Other investment",HLZN,false,GBP billion,D4.6,IIP,,HLZN,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D4_6,3,5,"Investment income earnings, Total",HMBO,false,GBP billion,D4.6,IIP,,HMBO,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D7_9,3,2,"Investment income earnings, Direct investment",MU7E,false,GBP billion,D7.9,IIP,,MU7E,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D7_9,3,3,"Investment income earnings, Portfolio investment",HLZX,false,GBP billion,D7.9,IIP,,HLZX,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D7_9,3,4,"Investment income earnings, Other investment",CGNA,false,GBP billion,D7.9,IIP,,CGNA,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D7_9,3,5,"Investment income earnings, Reserve assets",HHCB,false,GBP billion,D7.9,IIP,,HHCB,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_D7_9,3,6,"Investment income earnings, Net earnings",HMBM,false,GBP billion,D7.9,IIP,,HMBM,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,2,"Food, beverages and tobacco",BOPL,false,GBP million,E,CA-detail,,BOPL,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,3,Basic materials,BOPM,false,GBP million,E,CA-detail,,BOPM,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,4,Oil,ELBL,false,GBP million,E,CA-detail,,ELBL,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,5,Other fuels,BOQI,false,GBP million,E,CA-detail,,BOQI,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,6,Semi-manufactured goods,BOPO,false,GBP million,E,CA-detail,,BOPO,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,7,Finished manufactured goods,BOPP,false,GBP million,E,CA-detail,,BOPP,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,1,8,Unspecified goods,BOQL,false,GBP million,E,CA-detail,,BOQL,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,2,"Food, beverages and tobacco",BQAR,false,GBP million,E,CA-detail,,BQAR,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,3,Basic materials,BQAS,false,GBP million,E,CA-detail,,BQAS,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,4,Oil,ENXO,false,GBP million,E,CA-detail,,ENXO,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,5,Other fuels,BPBI,false,GBP million,E,CA-detail,,BPBI,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,6,Semi-manufactured goods,BQAU,false,GBP million,E,CA-detail,,BQAU,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,7,Finished manufactured goods,BQAV,false,GBP million,E,CA-detail,,BQAV,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,2,8,Unspecified goods,BQAW,false,GBP million,E,CA-detail,,BQAW,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,2,"Food, beverages and tobacco",ELBE,false,GBP million,E,CA-detail,,ELBE,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,3,Basic materials,ELBF,false,GBP million,E,CA-detail,,ELBF,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,4,Oil,ENXQ,false,GBP million,E,CA-detail,,ENXQ,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,5,Other fuels,ENIW,false,GBP million,E,CA-detail,,ENIW,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,6,Semi-manufactured goods,ELBH,false,GBP million,E,CA-detail,,ELBH,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,7,Finished manufactured goods,ELBI,false,GBP million,E,CA-detail,,ELBI,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_E,3,8,Unspecified goods,BQKX,false,GBP million,E,CA-detail,,BQKX,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,2,Manufacturing and maintenance services,MTN7,false,GBP million,F,CA-detail,,MTN7,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,3,Transport,FKOA,false,GBP million,F,CA-detail,,FKOA,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,4,Travel,FAPO,false,GBP million,F,CA-detail,,FAPO,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,5,Construction,FDSG,false,GBP million,F,CA-detail,,FDSG,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,6,Insurance and pension services,FDTF,false,GBP million,F,CA-detail,,FDTF,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,7,Financial,FDYI,false,GBP million,F,CA-detail,,FDYI,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,8,Intellectual property,FEBA,false,GBP million,F,CA-detail,,FEBA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,9,"Telecommunication, computer and information services",FDYQ,false,GBP million,F,CA-detail,,FDYQ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,10,Other business,FEHH,false,GBP million,F,CA-detail,,FEHH,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,11,"Personal, cultural and recreational services",FGXJ,false,GBP million,F,CA-detail,,FGXJ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,1,12,Government,FGZA,false,GBP million,F,CA-detail,,FGZA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,2,Manufacturing and maintenance services,MTN6,false,GBP million,F,CA-detail,,MTN6,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,3,Transport,FHME,false,GBP million,F,CA-detail,,FHME,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,4,Travel,APQL,false,GBP million,F,CA-detail,,APQL,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,5,Construction,FIOU,false,GBP million,F,CA-detail,,FIOU,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,6,Insurance and pension services,FIPT,false,GBP million,F,CA-detail,,FIPT,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,7,Financial,FITY,false,GBP million,F,CA-detail,,FITY,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,8,Intellectual property,FIVX,false,GBP million,F,CA-detail,,FIVX,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,9,"Telecommunication, computer and information services",FIUG,false,GBP million,F,CA-detail,,FIUG,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,10,Other business,FIWF,false,GBP million,F,CA-detail,,FIWF,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,11,"Personal, cultural and recreational services",FLQJ,false,GBP million,F,CA-detail,,FLQJ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,2,12,Government,FLSA,false,GBP million,F,CA-detail,,FLSA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,2,Manufacturing and maintenance services,MTN8,false,GBP million,F,CA-detail,,MTN8,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,3,Transport,FLYS,false,GBP million,F,CA-detail,,FLYS,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,4,Travel,FNGY,false,GBP million,F,CA-detail,,FNGY,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,5,Construction,FNJM,false,GBP million,F,CA-detail,,FNJM,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,6,Insurance and pension services,FNKF,false,GBP million,F,CA-detail,,FNKF,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,7,Financial,FNLQ,false,GBP million,F,CA-detail,,FNLQ,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,8,Intellectual property,FNMR,false,GBP million,F,CA-detail,,FNMR,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,9,"Telecommunication, computer and information services",FNLY,false,GBP million,F,CA-detail,,FNLY,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,10,Other business,FNMZ,false,GBP million,F,CA-detail,,FNMZ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,11,"Personal, cultural and recreational services",FNRB,false,GBP million,F,CA-detail,,FNRB,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_F,3,12,Government,FNRU,false,GBP million,F,CA-detail,,FNRU,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,2,Compensation of employees,IJAH,false,GBP million,G,CA-detail,,IJAH,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,3,"Investment income, Earnings on direct investment abroad",MTX2,false,GBP million,G,CA-detail,,MTX2,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,4,"Investment income, Earnings on portfolio investment abroad, Equity securities",CGDT,false,GBP million,G,CA-detail,,CGDT,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,5,"Investment income, Earnings on portfolio investment abroad, Debt securities",CGDU,false,GBP million,G,CA-detail,,CGDU,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,6,"Investment income, Earnings on portfolio investment abroad, Total",CGDV,false,GBP million,G,CA-detail,,CGDV,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,7,"Investment income, Earnings on other investment abroad",CGDW,false,GBP million,G,CA-detail,,CGDW,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,8,"Investment income, Earnings on reserve assets",HHCC,false,GBP million,G,CA-detail,,HHCC,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,1,10,Other primary income,MT5T,false,GBP million,G,CA-detail,,MT5T,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,2,Compensation of employees,IJAI,false,GBP million,G,CA-detail,,IJAI,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,3,"Investment income, Foreign earnings on direct investment in the UK",MTU7,false,GBP million,G,CA-detail,,MTU7,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,4,"Investment income, Foreign earnings on portfolio investment in the UK, Equity securities",HGOT,false,GBP million,G,CA-detail,,HGOT,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,5,"Investment income, Foreign earnings on portfolio investment in the UK, Debt securities",CGDX,false,GBP million,G,CA-detail,,CGDX,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,6,"Investment income, Foreign earnings on portfolio investment in the UK, Total",CGDZ,false,GBP million,G,CA-detail,,CGDZ,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,7,"Investment income, Earnings on other investment in the UK",CGEB,false,GBP million,G,CA-detail,,CGEB,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,2,9,Other primary income,MT5V,false,GBP million,G,CA-detail,,MT5V,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,2,Compensation of employees,IJAJ,false,GBP million,G,CA-detail,,IJAJ,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,3,"Investment income, Direct investment",MU7F,false,GBP million,G,CA-detail,,MU7F,CA.PI,,투자소득 - 직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,4,"Investment income, Portfolio investment, Earnings on equity securities",CGEC,false,GBP million,G,CA-detail,,CGEC,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,5,"Investment income, Portfolio investment, Earnings on debt securities",CGED,false,GBP million,G,CA-detail,,CGED,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,6,"Investment income, Portfolio investment, Total",CGEE,false,GBP million,G,CA-detail,,CGEE,CA.PI,,투자소득 - 증권투자 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,7,"Investment income, Other investment",CGFF,false,GBP million,G,CA-detail,,CGFF,CA.PI,,투자소득 - 기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,8,"Investment income, Reserve assets",HHCC,false,GBP million,G,CA-detail,,HHCC,CA.PI,,투자소득 - 준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_G,3,10,Other primary income,MT5X,false,GBP million,G,CA-detail,,MT5X,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,2,"General government, receipts from EU institutions Other EU receipts",GTTA,false,GBP million,H,CA-detail,,GTTA,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,3,"General government, Other receipts",CGDN,false,GBP million,H,CA-detail,,CGDN,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,4,"General government, Total",FHDM,false,GBP million,H,CA-detail,,FHDM,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,5,"Other sectors, receipts from EU institutions, Social fund",H5U3,false,GBP million,H,CA-detail,,H5U3,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,6,"Other sectors, Other receipts",CGDO,false,GBP million,H,CA-detail,,CGDO,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,1,7,"Other sectors, Total",FHIB,false,GBP million,H,CA-detail,,FHIB,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,2,"General government, Payment to EU institutions, GNI own resource",MUV7,false,GBP million,H,CA-detail,,MUV7,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,3,"General government, Payment to EU institutions, GNI adjustments",MUV8,false,GBP million,H,CA-detail,,MUV8,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,4,"General government, Payment to EU institutions, Less abatement",FKKM,true,GBP million,H,CA-detail,,-FKKM,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,5,"General government, Payment to EU institutions, Others",FLMT,false,GBP million,H,CA-detail,,FLMT,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,6,"General government, Payment to EU institutions, Withdrawal agreement",FZJA,false,GBP million,H,CA-detail,,FZJA,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,7,"General government, Other payments",CGDP,false,GBP million,H,CA-detail,,CGDP,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,8,"General government, Total",FLUD,false,GBP million,H,CA-detail,,FLUD,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,9,"Other sectors, Payment to EU institutions",CGDR,false,GBP million,H,CA-detail,,CGDR,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,10,"Other sectors, Other payments",CGDS,false,GBP million,H,CA-detail,,CGDS,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,2,11,"Other sectors, Total",FLUZ,false,GBP million,H,CA-detail,,FLUZ,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,3,2,General government,FNSV,false,GBP million,H,CA-detail,,FNSV,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,3,3,Other sectors,FNTC,false,GBP million,H,CA-detail,,FNTC,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_H,3,5,"Total balances, Of which EU institutions",GTTB,false,GBP million,H,CA-detail,,GTTB,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,2,"Capital transfers, Central government, Debt forgiveness",FHIV,false,GBP million,I,KA-FA,,FHIV,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,3,"Capital transfers, Central government, Other capital transfers",FHJA,false,GBP million,I,KA-FA,,FHJA,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,4,"Capital transfers, Central government, Total",FHIU,false,GBP million,I,KA-FA,,FHIU,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,5,"Capital transfers, Other sectors, Debt forgiveness",FHJD,false,GBP million,I,KA-FA,,FHJD,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,6,"Capital transfers, Other sectors, EU institutions, Regional development fund",GTTX,false,GBP million,I,KA-FA,,GTTX,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,7,"Capital transfers, Other sectors, EU institutions, Agricultural fund for regional development",FHJF,false,GBP million,I,KA-FA,,FHJF,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,8,"Capital transfers, Other sectors, EU institutions, Other capital transfers",EBGO,false,GBP million,I,KA-FA,,EBGO,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,9,"Capital transfers, Other sectors, EU institutions, Total",GTTY,false,GBP million,I,KA-FA,,GTTY,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,10,"Capital transfers, Other sectors, Total",FHJB,false,GBP million,I,KA-FA,,FHJB,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,11,"Capital transfers, Total",FHIT,false,GBP million,I,KA-FA,,FHIT,KA,,자본이전 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,1,12,"Disposal of non-produced, non-financial assets",FHJL,false,GBP million,I,KA-FA,,FHJL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,2,"Capital transfers, Central government, Debt forgiveness",FLWD,false,GBP million,I,KA-FA,,FLWD,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,3,"Capital transfers, Central government, Other capital transfers (project grants)",FLWH,false,GBP million,I,KA-FA,,FLWH,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,4,"Capital transfers, Central government, Total",FLWB,false,GBP million,I,KA-FA,,FLWB,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,5,"Capital transfers, Other sectors, Debt forgiveness, Monetary financial institutions",FLWL,false,GBP million,I,KA-FA,,FLWL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,6,"Capital transfers, Other sectors, Debt forgiveness, Public corporations",HMLY,false,GBP million,I,KA-FA,,HMLY,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,7,"Capital transfers, Other sectors, Debt forgiveness, Total",JCWM,false,GBP million,I,KA-FA,,JCWM,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,8,"Capital transfers, Other sectors, Other capital transfers",FLWQ,false,GBP million,I,KA-FA,,FLWQ,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,9,"Capital transfers, Other sectors, Total",FLWI,false,GBP million,I,KA-FA,,FLWI,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,10,Capital transfers Total,FLWA,false,GBP million,I,KA-FA,,FLWA,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,2,11,"Acquisitions of non-produced, non-financial assets",FLWT,false,GBP million,I,KA-FA,,FLWT,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,2,"Capital transfers, Central government, Debt forgiveness",FNTM,false,GBP million,I,KA-FA,,FNTM,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,3,"Capital transfers, Central government, Other capital transfers",FNTN,false,GBP million,I,KA-FA,,FNTN,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,4,"Capital transfers, Central government, Total",FNTL,false,GBP million,I,KA-FA,,FNTL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,5,"Capital transfers, Other sectors, Debt forgiveness",FNTQ,false,GBP million,I,KA-FA,,FNTQ,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,6,"Capital transfers, Other sectors, Other capital transfers",FNTR,false,GBP million,I,KA-FA,,FNTR,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,7,"Capital transfers, Other sectors, Total",FNTO,false,GBP million,I,KA-FA,,FNTO,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,8,"Capital transfers, Total",FNTK,false,GBP million,I,KA-FA,,FNTK,KA,,자본이전 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_I,3,9,"Non-produced, non-financial assets",FNTS,false,GBP million,I,KA-FA,,FNTS,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,1,2,"Direct investment abroad, Equity capital other than reinvestment of earnings",HJYM,true,GBP million,J,KA-FA,부호 반전 prefix,-HJYM,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,1,3,"Direct investment abroad, Reinvestment of earnings",HDNY,true,GBP million,J,KA-FA,부호 반전 prefix,-HDNY,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,1,4,"Direct investment abroad, Debt instruments",N2RN,true,GBP million,J,KA-FA,부호 반전 prefix,-N2RN,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,1,6,"Portfolio investment abroad, Equity and investment fund shares",HBVI,true,GBP million,J,KA-FA,부호 반전 prefix,-HBVI,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,1,7,"Portfolio investment abroad, Debt securities",XBMW,true,GBP million,J,KA-FA,부호 반전 prefix,-XBMW,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,2,2,"Direct investment in the UK, Equity capital other than reinvestment of earnings",HJYR,false,GBP million,J,KA-FA,부호 반전 prefix,HJYR,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,2,3,"Direct investment in the UK, Reinvestment of earnings",CYFV,false,GBP million,J,KA-FA,부호 반전 prefix,CYFV,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,2,4,"Direct investment in the UK, Debt instruments",N2R7,false,GBP million,J,KA-FA,부호 반전 prefix,N2R7,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,2,6,"Portfolio investment in the UK, Equity and investment fund shares",XBLW,false,GBP million,J,KA-FA,부호 반전 prefix,XBLW,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,2,7,"Portfolio investment in the UK, Debt securities",XBLX,false,GBP million,J,KA-FA,부호 반전 prefix,XBLX,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,3,2,"Net direct investment, Equity capital other than reinvestment of earnings",HBWN,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWN,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,3,3,"Net direct investment, Reinvestment of earnings",HBWT,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWT,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,3,4,"Net direct investment, Debt instruments",MU7L,true,GBP million,J,KA-FA,부호 반전 prefix,-MU7L,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,3,6,"Net portfolio investment, Equity and investment fund shares",HBWV,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWV,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_J,3,7,"Net portfolio investment, Debt securities",HBWX,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWX,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,1,2,"Direct investment abroad, Equity and investment fund shares",CGMO,false,GBP billion,K,IIP,,CGMO,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,1,3,"Direct investment abroad, Debt instruments",N2TT,false,GBP billion,K,IIP,,N2TT,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,1,5,"Portfolio investment abroad, Equity and investment fund shares",HEPX,false,GBP billion,K,IIP,,HEPX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,1,6,"Portfolio investment abroad, Debt securities",HHZX,false,GBP billion,K,IIP,,HHZX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,2,2,"Direct investment in the UK, Equity and investment fund shares",HBUY,false,GBP billion,K,IIP,,HBUY,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,2,3,"Direct investment in the UK, Debt instruments",N2TD,false,GBP billion,K,IIP,,N2TD,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,2,5,"Portfolio investment in the UK, Equity and investment fund shares",HLXX,false,GBP billion,K,IIP,,HLXX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,2,6,"Portfolio investment in the UK, Debt securities",HLXY,false,GBP billion,K,IIP,,HLXY,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,3,2,"Direct investment, Equity and investment fund shares",HBSH,false,GBP billion,K,IIP,,HBSH,IIP,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,3,3,"Direct investment, Debt instruments",MU7N,false,GBP billion,K,IIP,,MU7N,IIP,,직접투자 - 부채성거래,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,3,5,"Portfolio investment, Equity and investment fund shares",CGNE,false,GBP billion,K,IIP,,CGNE,IIP,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_K,3,6,"Portfolio investment, Debt securities",CGNF,false,GBP billion,K,IIP,,CGNF,IIP,,증권투자 - 부채증권,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,1,4,Total trade,IKBJ,false,GBP million,R1,revision,,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,1,5,"Primary income, Compensation of employees",IJAJ,false,GBP million,R1,revision,,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,1,7,"Primary income, Other primary income",MT5X,false,GBP million,R1,revision,,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,1,9,"Secondary income, General government",FNSV,false,GBP million,R1,revision,,FNSV,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,1,10,"Secondary income, Other sectors",FNTC,false,GBP million,R1,revision,,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,2,Trade in goods,LQCT,false,GBP million,R1,revision,,LQCT,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,3,Trade in services,KTMS,false,GBP million,R1,revision,,KTMS,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,4,Total trade,KTMY,false,GBP million,R1,revision,,KTMY,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,5,"Primary income, Compensation of employees",KTMP,false,GBP million,R1,revision,,KTMP,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,6,"Primary income, Investment income",HMBM,false,GBP million,R1,revision,,HMBM,CA,,1차소득 - 투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,7,"Primary income, Other primary income",MT5W,false,GBP million,R1,revision,,MT5W,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,8,"Primary income, Total",HMBP,false,GBP million,R1,revision,,HMBP,CA,,1차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,9,"Secondary income, General government",FJUQ,false,GBP million,R1,revision,,FJUQ,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,10,"Secondary income, Other sectors",FJUR,false,GBP million,R1,revision,,FJUR,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R1,2,11,"Secondary income, Total",KTNF,false,GBP million,R1,revision,,KTNF,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,4,Total exports,IKBH,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBH,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,7,"Primary income, Other primary income",MT5T,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,9,"Secondary income, Central government",FHDM,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,10,"Secondary income, Other sectors",FHIB,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,1,12,Total credits,HBON,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,HBON,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,4,Total imports,IKBI,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBI,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,7,"Primary income, Other primary income",MT5V,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,9,"Secondary income, Central government",FLUD,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,2,12,Total debits,HBOO,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,HBOO,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,3,4,Total trade,IKBJ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,3,7,"Primary income, Other primary income",MT5X,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,3,9,"Secondary income, Central government",FNSV,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,3,10,"Secondary income, Other sectors",FNTC,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,2,Trade in goods,D28J,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28J,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,3,Trade in services,D28K,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,4,Total trade,D28L,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28L,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,5,"Primary income,  Total",D28M,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,6,"Secondary income, Total",D28N,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R2,4,7,Current balance,AA6H,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,AA6H,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,3,2,Direct investment,N2QP,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,N2QP,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,3,3,Portfolio investment,HLYX,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLYX,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,3,4,Other investment,AIOP,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,AIOP,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,3,5,Reserve assets,HHCB,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HHCB,CA,,준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,3,6,Total investment income earnings,HMBN,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBN,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,6,2,Direct investment,N2Q4,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,N2Q4,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,6,3,Portfolio investment,HLZC,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZC,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,6,4,Other investment,HLZN,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZN,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,6,5,Total investment income,HMBO,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBO,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,9,2,Direct investment,MU7E,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,MU7E,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,9,3,Portfolio investment,HLZX,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZX,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,9,4,Other investment,CGNA,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,CGNA,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,9,5,Reserve assets,HHCB,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HHCB,CA,,준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
-Table_R3,9,6,Total net investment income earnings,HMBM,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBM,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표
+Table_A,1,4,Total trade,IKBJ,false,GBP million,A,summary,,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,1,5,"Primary income, Compensation of employees",IJAJ,false,GBP million,A,summary,,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,1,7,"Primary income, Other primary income",MT5X,false,GBP million,A,summary,,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,1,9,"Secondary income, General government",FNSV,false,GBP million,A,summary,,FNSV,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,1,10,"Secondary income, Other sectors",FNTC,false,GBP million,A,summary,,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,2,Trade in goods,LQCT,false,GBP million,A,summary,,LQCT,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,3,Trade in services,KTMS,false,GBP million,A,summary,,KTMS,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,4,Total trade,KTMY,false,GBP million,A,summary,,KTMY,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,5,"Primary income, Compensation of employees",KTMP,false,GBP million,A,summary,,KTMP,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,6,"Primary income, Investment income",HMBM,false,GBP million,A,summary,,HMBM,CA,,1차소득 - 투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,7,"Primary income, Other primary income",MT5W,false,GBP million,A,summary,,MT5W,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,8,"Primary income, Total",HMBP,false,GBP million,A,summary,,HMBP,CA,,1차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,9,"Secondary income, General government",FJUQ,false,GBP million,A,summary,,FJUQ,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,10,"Secondary income, Other sectors",FJUR,false,GBP million,A,summary,,FJUR,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_A,2,11,"Secondary income, Total",KTNF,false,GBP million,A,summary,,KTNF,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·25·26·27·28(전체 잔액 요약 — 모든 분류 cross-reference)
+Table_B,1,4,Total exports,IKBH,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBH,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,1,7,"Primary income, Other primary income",MT5T,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,1,9,"Secondary income, Central government",FHDM,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,1,10,"Secondary income, Other sectors",FHIB,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,1,12,Total credits,HBON,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,HBON,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,4,Total imports,IKBI,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBI,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,7,"Primary income, Other primary income",MT5V,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,9,"Secondary income, Central government",FLUD,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,2,12,Total debits,HBOO,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,HBOO,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,3,4,Trade total,IKBJ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IKBJ,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,3,7,"Primary income, Other primary income",MT5X,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,3,9,"Secondary income, Central government",FNSV,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,3,10,"Secondary income, Other sectors",FNTC,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,2,Trade in goods,D28J,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28J,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,3,Trade in services,D28K,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,4,"Trade, Total",D28L,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28L,CA,,경상수지 본표,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,5,"Primary income,  Total",D28M,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,6,"Secondary income, Total",D28N,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_B,4,7,Current balance,AA6H,false,GBP million (1-3) / % of GDP (4),B,CA-main,4번째 부표는 % of GDP,AA6H,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 12분류 서비스 + SITC 상품·BPM6 §10 Goods)
+Table_BX,1,2,"Exports of goods, excl. precious metals",FUS7,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS7,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,4,"Total exports, excl. precious metals",FUS8,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS8,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,7,"Primary income, Other primary income",MT5T,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,9,"Secondary income, Central government",FHDM,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,10,"Secondary income, Other sectors",FHIB,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,1,12,"Total credits, excl. precious metals",FUS9,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUS9,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,2,"Imports of goods, excl. precious metals",FUT2,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT2,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,4,"Total imports, excl. precious metals",FUT3,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT3,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,7,"Primary income, Other primary income",MT5V,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,9,"Secondary income, Central government",FLUD,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,2,12,"Total debits, excl. precious metals",FUT4,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT4,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,2,"Trade in goods, excl. precious metals",FUT5,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT5,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,4,"Trade total, excl. precious metals",FUT6,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT6,CA,,경상수지 본표(귀금속 제외),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,7,"Primary income, Other primary income",MT5X,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,9,"Secondary income, Central government",FNSV,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,10,"Secondary income, Other sectors",FNTC,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,3,12,"Current balance, excl. precious metals",FUT7,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT7,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,2,"Trade in goods, excl. precious metals",FUT8,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT8,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,3,Trade in services,D28K,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,4,"Total trade, excl. precious metals",FUT9,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUT9,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,5,"Primary income,  Total",D28M,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,6,"Secondary income, Total",D28N,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_BX,4,7,"Current balance, excl. precious metals",FUU2,false,GBP million / % of GDP,BX,CA-main,4번째 부표는 % of GDP,FUU2,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC + BPM6 비통화용 금 §10.13~§10.16)
+Table_C,1,2,Exports of goods,L87S,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87S,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,1,3,Exports of services,L854,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L854,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,1,4,Total exports,L84Y,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84Y,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,1,5,"Primary income, credits",L872,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L872,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,1,6,"Secondary income, credits",L84S,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84S,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,1,7,Total credits,L873,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L873,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,2,Imports of goods,L87U,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87U,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,3,Imports of services,L868,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L868,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,4,Total imports,L864,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L864,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,5,"Primary income, debits",L874,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L874,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,6,"Secondary income, debits",L85W,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L85W,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,2,7,Total debits,L875,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L875,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,2,Trade in goods,L87Q,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87Q,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,3,Trade in services,L86M,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86M,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,4,Total trade,L86I,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86I,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,5,"Primary income, balance",L876,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L876,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,6,"Secondary income, balance",L86E,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86E,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,3,7,Total balance,L877,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L877,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,2,Exports of goods,L87M,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87M,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,3,Exports of services,L855,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L855,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,4,Total exports,L84Z,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84Z,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,5,"Primary income, credits",L87D,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87D,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,6,"Secondary income, credits",L84T,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L84T,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,4,7,Total credits,L87E,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87E,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,2,Imports of goods,L87O,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87O,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,3,Imports of services,L869,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L869,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,4,Total imports,L865,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L865,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,5,"Primary income, debits",L87F,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87F,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,6,"Secondary income, debits",L85X,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L85X,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,5,7,Total debits,L87G,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87G,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,2,Trade in goods,L87K,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87K,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,3,Trade in services,L86N,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86N,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,4,Total trade,L86J,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86J,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,5,"Primary income, balance",L87H,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87H,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,6,"Secondary income, balance",L86F,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L86F,CA,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_C,6,7,Total balance,L87I,false,GBP million,C,CA-main,1997-1998 EU 결측 x,L87I,CA,,경상수지(EU/non-EU 분해),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24·26(EBOPS 서비스 + SITC 상품 EU/non-EU 분해)
+Table_D1_3,3,2,"Investment income earnings, Direct investment",N2QP,false,GBP billion,D1.3,IIP,,N2QP,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D1_3,3,3,"Investment income earnings, Portfolio investment",HLYX,false,GBP billion,D1.3,IIP,,HLYX,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D1_3,3,4,"Investment income earnings, Other investment",AIOP,false,GBP billion,D1.3,IIP,,AIOP,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D1_3,3,5,"Investment income earnings, Reserve assets",HHCB,false,GBP billion,D1.3,IIP,,HHCB,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D1_3,3,6,"Investment income earnings, Total",HMBN,false,GBP billion,D1.3,IIP,,HMBN,CA,,대외투자(자산),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D4_6,3,2,"Investment income earnings, Direct investment",N2Q4,false,GBP billion,D4.6,IIP,,N2Q4,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D4_6,3,3,"Investment income earnings, Portfolio investment",HLZC,false,GBP billion,D4.6,IIP,,HLZC,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D4_6,3,4,"Investment income earnings, Other investment",HLZN,false,GBP billion,D4.6,IIP,,HLZN,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D4_6,3,5,"Investment income earnings, Total",HMBO,false,GBP billion,D4.6,IIP,,HMBO,CA,,대내투자(부채),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D7_9,3,2,"Investment income earnings, Direct investment",MU7E,false,GBP billion,D7.9,IIP,,MU7E,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D7_9,3,3,"Investment income earnings, Portfolio investment",HLZX,false,GBP billion,D7.9,IIP,,HLZX,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D7_9,3,4,"Investment income earnings, Other investment",CGNA,false,GBP billion,D7.9,IIP,,CGNA,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D7_9,3,5,"Investment income earnings, Reserve assets",HHCB,false,GBP billion,D7.9,IIP,,HHCB,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_D7_9,3,6,"Investment income earnings, Net earnings",HMBM,false,GBP billion,D7.9,IIP,,HMBM,CA,,순대외투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(FA 5분류 IIP+FA+투자소득 — BPM6 §6 + Appendix 4)
+Table_E,1,2,"Food, beverages and tobacco",BOPL,false,GBP million,E,CA-detail,,BOPL,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,3,Basic materials,BOPM,false,GBP million,E,CA-detail,,BOPM,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,4,Oil,ELBL,false,GBP million,E,CA-detail,,ELBL,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,5,Other fuels,BOQI,false,GBP million,E,CA-detail,,BOQI,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,6,Semi-manufactured goods,BOPO,false,GBP million,E,CA-detail,,BOPO,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,7,Finished manufactured goods,BOPP,false,GBP million,E,CA-detail,,BOPP,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,1,8,Unspecified goods,BOQL,false,GBP million,E,CA-detail,,BOQL,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,2,"Food, beverages and tobacco",BQAR,false,GBP million,E,CA-detail,,BQAR,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,3,Basic materials,BQAS,false,GBP million,E,CA-detail,,BQAS,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,4,Oil,ENXO,false,GBP million,E,CA-detail,,ENXO,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,5,Other fuels,BPBI,false,GBP million,E,CA-detail,,BPBI,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,6,Semi-manufactured goods,BQAU,false,GBP million,E,CA-detail,,BQAU,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,7,Finished manufactured goods,BQAV,false,GBP million,E,CA-detail,,BQAV,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,2,8,Unspecified goods,BQAW,false,GBP million,E,CA-detail,,BQAW,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,2,"Food, beverages and tobacco",ELBE,false,GBP million,E,CA-detail,,ELBE,CA.G,,식료품·음료·담배,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,3,Basic materials,ELBF,false,GBP million,E,CA-detail,,ELBF,CA.G,,기초 원자재,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,4,Oil,ENXQ,false,GBP million,E,CA-detail,,ENXQ,CA.G,,석유,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,5,Other fuels,ENIW,false,GBP million,E,CA-detail,,ENIW,CA.G,,기타 연료,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,6,Semi-manufactured goods,ELBH,false,GBP million,E,CA-detail,,ELBH,CA.G,,반제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,7,Finished manufactured goods,ELBI,false,GBP million,E,CA-detail,,ELBI,CA.G,,완제품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_E,3,8,Unspecified goods,BQKX,false,GBP million,E,CA-detail,,BQKX,CA.G,,미분류 상품,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/26(SITC Rev.4 + BPM6 §10 + CIF/FOB 조정)
+Table_F,1,2,Manufacturing and maintenance services,MTN7,false,GBP million,F,CA-detail,,MTN7,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,3,Transport,FKOA,false,GBP million,F,CA-detail,,FKOA,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,4,Travel,FAPO,false,GBP million,F,CA-detail,,FAPO,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,5,Construction,FDSG,false,GBP million,F,CA-detail,,FDSG,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,6,Insurance and pension services,FDTF,false,GBP million,F,CA-detail,,FDTF,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,7,Financial,FDYI,false,GBP million,F,CA-detail,,FDYI,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,8,Intellectual property,FEBA,false,GBP million,F,CA-detail,,FEBA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,9,"Telecommunication, computer and information services",FDYQ,false,GBP million,F,CA-detail,,FDYQ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,10,Other business,FEHH,false,GBP million,F,CA-detail,,FEHH,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,11,"Personal, cultural and recreational services",FGXJ,false,GBP million,F,CA-detail,,FGXJ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,1,12,Government,FGZA,false,GBP million,F,CA-detail,,FGZA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,2,Manufacturing and maintenance services,MTN6,false,GBP million,F,CA-detail,,MTN6,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,3,Transport,FHME,false,GBP million,F,CA-detail,,FHME,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,4,Travel,APQL,false,GBP million,F,CA-detail,,APQL,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,5,Construction,FIOU,false,GBP million,F,CA-detail,,FIOU,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,6,Insurance and pension services,FIPT,false,GBP million,F,CA-detail,,FIPT,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,7,Financial,FITY,false,GBP million,F,CA-detail,,FITY,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,8,Intellectual property,FIVX,false,GBP million,F,CA-detail,,FIVX,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,9,"Telecommunication, computer and information services",FIUG,false,GBP million,F,CA-detail,,FIUG,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,10,Other business,FIWF,false,GBP million,F,CA-detail,,FIWF,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,11,"Personal, cultural and recreational services",FLQJ,false,GBP million,F,CA-detail,,FLQJ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,2,12,Government,FLSA,false,GBP million,F,CA-detail,,FLSA,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,2,Manufacturing and maintenance services,MTN8,false,GBP million,F,CA-detail,,MTN8,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,3,Transport,FLYS,false,GBP million,F,CA-detail,,FLYS,CA.S,,운송,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,4,Travel,FNGY,false,GBP million,F,CA-detail,,FNGY,CA.S,,여행,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,5,Construction,FNJM,false,GBP million,F,CA-detail,,FNJM,CA.S,,건설,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,6,Insurance and pension services,FNKF,false,GBP million,F,CA-detail,,FNKF,CA.S,,보험·연금 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,7,Financial,FNLQ,false,GBP million,F,CA-detail,,FNLQ,CA.S,,금융 서비스,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,8,Intellectual property,FNMR,false,GBP million,F,CA-detail,,FNMR,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,9,"Telecommunication, computer and information services",FNLY,false,GBP million,F,CA-detail,,FNLY,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,10,Other business,FNMZ,false,GBP million,F,CA-detail,,FNMZ,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,11,"Personal, cultural and recreational services",FNRB,false,GBP million,F,CA-detail,,FNRB,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_F,3,12,Government,FNRU,false,GBP million,F,CA-detail,,FNRU,CA.S,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)
+Table_G,1,2,Compensation of employees,IJAH,false,GBP million,G,CA-detail,,IJAH,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,3,"Investment income, Earnings on direct investment abroad",MTX2,false,GBP million,G,CA-detail,,MTX2,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,4,"Investment income, Earnings on portfolio investment abroad, Equity securities",CGDT,false,GBP million,G,CA-detail,,CGDT,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,5,"Investment income, Earnings on portfolio investment abroad, Debt securities",CGDU,false,GBP million,G,CA-detail,,CGDU,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,6,"Investment income, Earnings on portfolio investment abroad, Total",CGDV,false,GBP million,G,CA-detail,,CGDV,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,7,"Investment income, Earnings on other investment abroad",CGDW,false,GBP million,G,CA-detail,,CGDW,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,8,"Investment income, Earnings on reserve assets",HHCC,false,GBP million,G,CA-detail,,HHCC,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,1,10,Other primary income,MT5T,false,GBP million,G,CA-detail,,MT5T,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,2,Compensation of employees,IJAI,false,GBP million,G,CA-detail,,IJAI,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,3,"Investment income, Foreign earnings on direct investment in the UK",MTU7,false,GBP million,G,CA-detail,,MTU7,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,4,"Investment income, Foreign earnings on portfolio investment in the UK, Equity securities",HGOT,false,GBP million,G,CA-detail,,HGOT,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,5,"Investment income, Foreign earnings on portfolio investment in the UK, Debt securities",CGDX,false,GBP million,G,CA-detail,,CGDX,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,6,"Investment income, Foreign earnings on portfolio investment in the UK, Total",CGDZ,false,GBP million,G,CA-detail,,CGDZ,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,7,"Investment income, Earnings on other investment in the UK",CGEB,false,GBP million,G,CA-detail,,CGEB,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,2,9,Other primary income,MT5V,false,GBP million,G,CA-detail,,MT5V,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,2,Compensation of employees,IJAJ,false,GBP million,G,CA-detail,,IJAJ,CA.PI,,노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,3,"Investment income, Direct investment",MU7F,false,GBP million,G,CA-detail,,MU7F,CA.PI,,투자소득 - 직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,4,"Investment income, Portfolio investment, Earnings on equity securities",CGEC,false,GBP million,G,CA-detail,,CGEC,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,5,"Investment income, Portfolio investment, Earnings on debt securities",CGED,false,GBP million,G,CA-detail,,CGED,CA.PI,,투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,6,"Investment income, Portfolio investment, Total",CGEE,false,GBP million,G,CA-detail,,CGEE,CA.PI,,투자소득 - 증권투자 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,7,"Investment income, Other investment",CGFF,false,GBP million,G,CA-detail,,CGFF,CA.PI,,투자소득 - 기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,8,"Investment income, Reserve assets",HHCC,false,GBP million,G,CA-detail,,HHCC,CA.PI,,투자소득 - 준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_G,3,10,Other primary income,MT5X,false,GBP million,G,CA-detail,,MT5X,CA.PI,,기타 1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(1차소득 — BPM6 §11/§13: COE + 투자소득 3분해 + 준비자산수익 + 기타)
+Table_H,1,2,"General government, receipts from EU institutions Other EU receipts",GTTA,false,GBP million,H,CA-detail,,GTTA,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,1,3,"General government, Other receipts",CGDN,false,GBP million,H,CA-detail,,CGDN,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,1,4,"General government, Total",FHDM,false,GBP million,H,CA-detail,,FHDM,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,1,5,"Other sectors, receipts from EU institutions, Social fund",H5U3,false,GBP million,H,CA-detail,,H5U3,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,1,6,"Other sectors, Other receipts",CGDO,false,GBP million,H,CA-detail,,CGDO,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,1,7,"Other sectors, Total",FHIB,false,GBP million,H,CA-detail,,FHIB,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,2,"General government, Payment to EU institutions, GNI own resource",MUV7,false,GBP million,H,CA-detail,,MUV7,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,3,"General government, Payment to EU institutions, GNI adjustments",MUV8,false,GBP million,H,CA-detail,,MUV8,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,4,"General government, Payment to EU institutions, Less abatement",FKKM,true,GBP million,H,CA-detail,,-FKKM,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,5,"General government, Payment to EU institutions, Others",FLMT,false,GBP million,H,CA-detail,,FLMT,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,6,"General government, Payment to EU institutions, Withdrawal agreement",FZJA,false,GBP million,H,CA-detail,,FZJA,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,7,"General government, Other payments",CGDP,false,GBP million,H,CA-detail,,CGDP,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,8,"General government, Total",FLUD,false,GBP million,H,CA-detail,,FLUD,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,9,"Other sectors, Payment to EU institutions",CGDR,false,GBP million,H,CA-detail,,CGDR,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,10,"Other sectors, Other payments",CGDS,false,GBP million,H,CA-detail,,CGDS,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,2,11,"Other sectors, Total",FLUZ,false,GBP million,H,CA-detail,,FLUZ,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,3,2,General government,FNSV,false,GBP million,H,CA-detail,,FNSV,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,3,3,Other sectors,FNTC,false,GBP million,H,CA-detail,,FNTC,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_H,3,5,"Total balances, Of which EU institutions",GTTB,false,GBP million,H,CA-detail,,GTTB,CA.SI,,2차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(2차소득 — BPM6 §12/§14: 일반정부·기타 부문 무상이전)
+Table_I,1,2,"Capital transfers, Central government, Debt forgiveness",FHIV,false,GBP million,I,KA-FA,,FHIV,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,3,"Capital transfers, Central government, Other capital transfers",FHJA,false,GBP million,I,KA-FA,,FHJA,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,4,"Capital transfers, Central government, Total",FHIU,false,GBP million,I,KA-FA,,FHIU,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,5,"Capital transfers, Other sectors, Debt forgiveness",FHJD,false,GBP million,I,KA-FA,,FHJD,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,6,"Capital transfers, Other sectors, EU institutions, Regional development fund",GTTX,false,GBP million,I,KA-FA,,GTTX,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,7,"Capital transfers, Other sectors, EU institutions, Agricultural fund for regional development",FHJF,false,GBP million,I,KA-FA,,FHJF,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,8,"Capital transfers, Other sectors, EU institutions, Other capital transfers",EBGO,false,GBP million,I,KA-FA,,EBGO,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,9,"Capital transfers, Other sectors, EU institutions, Total",GTTY,false,GBP million,I,KA-FA,,GTTY,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,10,"Capital transfers, Other sectors, Total",FHJB,false,GBP million,I,KA-FA,,FHJB,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,11,"Capital transfers, Total",FHIT,false,GBP million,I,KA-FA,,FHIT,KA,,자본이전 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,1,12,"Disposal of non-produced, non-financial assets",FHJL,false,GBP million,I,KA-FA,,FHJL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,2,"Capital transfers, Central government, Debt forgiveness",FLWD,false,GBP million,I,KA-FA,,FLWD,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,3,"Capital transfers, Central government, Other capital transfers (project grants)",FLWH,false,GBP million,I,KA-FA,,FLWH,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,4,"Capital transfers, Central government, Total",FLWB,false,GBP million,I,KA-FA,,FLWB,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,5,"Capital transfers, Other sectors, Debt forgiveness, Monetary financial institutions",FLWL,false,GBP million,I,KA-FA,,FLWL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,6,"Capital transfers, Other sectors, Debt forgiveness, Public corporations",HMLY,false,GBP million,I,KA-FA,,HMLY,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,7,"Capital transfers, Other sectors, Debt forgiveness, Total",JCWM,false,GBP million,I,KA-FA,,JCWM,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,8,"Capital transfers, Other sectors, Other capital transfers",FLWQ,false,GBP million,I,KA-FA,,FLWQ,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,9,"Capital transfers, Other sectors, Total",FLWI,false,GBP million,I,KA-FA,,FLWI,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,10,Capital transfers Total,FLWA,false,GBP million,I,KA-FA,,FLWA,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,2,11,"Acquisitions of non-produced, non-financial assets",FLWT,false,GBP million,I,KA-FA,,FLWT,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,2,"Capital transfers, Central government, Debt forgiveness",FNTM,false,GBP million,I,KA-FA,,FNTM,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,3,"Capital transfers, Central government, Other capital transfers",FNTN,false,GBP million,I,KA-FA,,FNTN,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,4,"Capital transfers, Central government, Total",FNTL,false,GBP million,I,KA-FA,,FNTL,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,5,"Capital transfers, Other sectors, Debt forgiveness",FNTQ,false,GBP million,I,KA-FA,,FNTQ,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,6,"Capital transfers, Other sectors, Other capital transfers",FNTR,false,GBP million,I,KA-FA,,FNTR,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,7,"Capital transfers, Other sectors, Total",FNTO,false,GBP million,I,KA-FA,,FNTO,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,8,"Capital transfers, Total",FNTK,false,GBP million,I,KA-FA,,FNTK,KA,,자본이전 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_I,3,9,"Non-produced, non-financial assets",FNTS,false,GBP million,I,KA-FA,,FNTS,KA,,자본수지,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/27(자본계정 — BPM6 §13/§15: 자본이전 + NPNFA)
+Table_J,1,2,"Direct investment abroad, Equity capital other than reinvestment of earnings",HJYM,true,GBP million,J,KA-FA,부호 반전 prefix,-HJYM,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,1,3,"Direct investment abroad, Reinvestment of earnings",HDNY,true,GBP million,J,KA-FA,부호 반전 prefix,-HDNY,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,1,4,"Direct investment abroad, Debt instruments",N2RN,true,GBP million,J,KA-FA,부호 반전 prefix,-N2RN,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,1,6,"Portfolio investment abroad, Equity and investment fund shares",HBVI,true,GBP million,J,KA-FA,부호 반전 prefix,-HBVI,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,1,7,"Portfolio investment abroad, Debt securities",XBMW,true,GBP million,J,KA-FA,부호 반전 prefix,-XBMW,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,2,2,"Direct investment in the UK, Equity capital other than reinvestment of earnings",HJYR,false,GBP million,J,KA-FA,부호 반전 prefix,HJYR,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,2,3,"Direct investment in the UK, Reinvestment of earnings",CYFV,false,GBP million,J,KA-FA,부호 반전 prefix,CYFV,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,2,4,"Direct investment in the UK, Debt instruments",N2R7,false,GBP million,J,KA-FA,부호 반전 prefix,N2R7,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,2,6,"Portfolio investment in the UK, Equity and investment fund shares",XBLW,false,GBP million,J,KA-FA,부호 반전 prefix,XBLW,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,2,7,"Portfolio investment in the UK, Debt securities",XBLX,false,GBP million,J,KA-FA,부호 반전 prefix,XBLX,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,3,2,"Net direct investment, Equity capital other than reinvestment of earnings",HBWN,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWN,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,3,3,"Net direct investment, Reinvestment of earnings",HBWT,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWT,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,3,4,"Net direct investment, Debt instruments",MU7L,true,GBP million,J,KA-FA,부호 반전 prefix,-MU7L,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,3,6,"Net portfolio investment, Equity and investment fund shares",HBWV,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWV,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_J,3,7,"Net portfolio investment, Debt securities",HBWX,true,GBP million,J,KA-FA,부호 반전 prefix,-HBWX,FA,,금융계정 거래(flow),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(금융계정 NSA — BPM6 §6 FA 5분류 + sign_prefix 운영 규칙)
+Table_K,1,2,"Direct investment abroad, Equity and investment fund shares",CGMO,false,GBP billion,K,IIP,,CGMO,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,1,3,"Direct investment abroad, Debt instruments",N2TT,false,GBP billion,K,IIP,,N2TT,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,1,5,"Portfolio investment abroad, Equity and investment fund shares",HEPX,false,GBP billion,K,IIP,,HEPX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,1,6,"Portfolio investment abroad, Debt securities",HHZX,false,GBP billion,K,IIP,,HHZX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,2,2,"Direct investment in the UK, Equity and investment fund shares",HBUY,false,GBP billion,K,IIP,,HBUY,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,2,3,"Direct investment in the UK, Debt instruments",N2TD,false,GBP billion,K,IIP,,N2TD,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,2,5,"Portfolio investment in the UK, Equity and investment fund shares",HLXX,false,GBP billion,K,IIP,,HLXX,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,2,6,"Portfolio investment in the UK, Debt securities",HLXY,false,GBP billion,K,IIP,,HLXY,IIP,,국제투자대조표(stock),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,3,2,"Direct investment, Equity and investment fund shares",HBSH,false,GBP billion,K,IIP,,HBSH,IIP,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,3,3,"Direct investment, Debt instruments",MU7N,false,GBP billion,K,IIP,,MU7N,IIP,,직접투자 - 부채성거래,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,3,5,"Portfolio investment, Equity and investment fund shares",CGNE,false,GBP billion,K,IIP,,CGNE,IIP,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_K,3,6,"Portfolio investment, Debt securities",CGNF,false,GBP billion,K,IIP,,CGNF,IIP,,증권투자 - 부채증권,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/25(IIP — BPM6 §6 + Reserve Assets EEA/HMT)
+Table_R1,1,4,Total trade,IKBJ,false,GBP million,R1,revision,,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,1,5,"Primary income, Compensation of employees",IJAJ,false,GBP million,R1,revision,,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,1,7,"Primary income, Other primary income",MT5X,false,GBP million,R1,revision,,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,1,9,"Secondary income, General government",FNSV,false,GBP million,R1,revision,,FNSV,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,1,10,"Secondary income, Other sectors",FNTC,false,GBP million,R1,revision,,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,2,Trade in goods,LQCT,false,GBP million,R1,revision,,LQCT,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,3,Trade in services,KTMS,false,GBP million,R1,revision,,KTMS,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,4,Total trade,KTMY,false,GBP million,R1,revision,,KTMY,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,5,"Primary income, Compensation of employees",KTMP,false,GBP million,R1,revision,,KTMP,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,6,"Primary income, Investment income",HMBM,false,GBP million,R1,revision,,HMBM,CA,,1차소득 - 투자소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,7,"Primary income, Other primary income",MT5W,false,GBP million,R1,revision,,MT5W,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,8,"Primary income, Total",HMBP,false,GBP million,R1,revision,,HMBP,CA,,1차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,9,"Secondary income, General government",FJUQ,false,GBP million,R1,revision,,FJUQ,CA,,2차소득 - 일반정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,10,"Secondary income, Other sectors",FJUR,false,GBP million,R1,revision,,FJUR,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R1,2,11,"Secondary income, Total",KTNF,false,GBP million,R1,revision,,KTNF,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS National Accounts Revisions Policy — Summary balances)
+Table_R2,1,4,Total exports,IKBH,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBH,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,1,5,"Primary income, Compensation of employees",IJAH,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAH,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,1,7,"Primary income, Other primary income",MT5T,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5T,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,1,9,"Secondary income, Central government",FHDM,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FHDM,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,1,10,"Secondary income, Other sectors",FHIB,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FHIB,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,1,12,Total credits,HBON,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,HBON,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,4,Total imports,IKBI,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBI,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,5,"Primary income, Compensation of employees",IJAI,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAI,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,7,"Primary income, Other primary income",MT5V,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5V,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,9,"Secondary income, Central government",FLUD,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FLUD,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,10,"Secondary income, Other sectors",FLUZ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FLUZ,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,2,12,Total debits,HBOO,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,HBOO,CA,,경상수지 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,3,4,Total trade,IKBJ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IKBJ,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,3,5,"Primary income, Compensation of employees",IJAJ,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,IJAJ,CA,,1차소득 - 노동소득(보수),,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,3,7,"Primary income, Other primary income",MT5X,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,MT5X,CA,,1차소득 - 기타,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,3,9,"Secondary income, Central government",FNSV,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FNSV,CA,,2차소득 - 중앙정부,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,3,10,"Secondary income, Other sectors",FNTC,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,FNTC,CA,,2차소득 - 기타부문,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,2,Trade in goods,D28J,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28J,CA,,상품무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,3,Trade in services,D28K,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28K,CA,,서비스무역,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,4,Total trade,D28L,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28L,CA,,상품·서비스 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,5,"Primary income,  Total",D28M,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28M,CA,,1차소득,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,6,"Secondary income, Total",D28N,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,D28N,CA,,2차소득 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R2,4,7,Current balance,AA6H,false,GBP million / % of GDP,R2,revision,4번째 부표는 % of GDP,AA6H,CA,,경상수지 합계,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — Current account 4 sub-tables)
+Table_R3,3,2,Direct investment,N2QP,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,N2QP,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,3,3,Portfolio investment,HLYX,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLYX,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,3,4,Other investment,AIOP,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,AIOP,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,3,5,Reserve assets,HHCB,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HHCB,CA,,준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,3,6,Total investment income earnings,HMBN,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBN,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,6,2,Direct investment,N2Q4,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,N2Q4,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,6,3,Portfolio investment,HLZC,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZC,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,6,4,Other investment,HLZN,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZN,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,6,5,Total investment income,HMBO,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBO,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,9,2,Direct investment,MU7E,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,MU7E,CA,,직접투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,9,3,Portfolio investment,HLZX,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HLZX,CA,,증권투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,9,4,Other investment,CGNA,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,CGNA,CA,,기타투자,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,9,5,Reserve assets,HHCB,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HHCB,CA,,준비자산,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
+Table_R3,9,6,Total net investment income earnings,HMBM,false,GBP billion,R3,revision,9개 부표 단일 시트 적층,HMBM,CA,,국제투자 개정,,13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/28(ONS Revisions Policy — IIP 9 sub-tables)
