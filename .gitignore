@@ -24,3 +24,7 @@ NOTE.md
 
 # 임시 산출물
 db/data/_tmp/
+
+# Phase 4 sqlite RDB — init/build 스크립트로 멱등 재현 가능, 바이너리 commit 회피
+db/data/_db/*.sqlite
+db/data/_db/*.backup_*.sqlite
