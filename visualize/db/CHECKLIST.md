@@ -30,7 +30,7 @@
 - [x] 강의 시연용 캔드 쿼리 후보 목록을 작성한다 (헤드라인 5건, 대표 CDID 시계열, 항등식 잔차 등) — `visualize/db/metadata.yaml`에 9 종 캔드 쿼리 등재(헤드라인 5: q01~q05, 대표 시계열 2: q06·q07, 항등식 잔차 1: q08, 시범 CDID 카드 1: q09). 9건 모두 SQLite에서 정상 실행 확인.
 - [x] 각 캔드 쿼리의 의미·기대 결과·강의 슬라이드 매핑을 한국어로 정리한다 — 각 쿼리 `description_html`에 강의 슬라이드 회차(슬라이드 5·14·21·26 등)·예상 결과(2025Q4 정확값)·해석 포인트를 한국어로 부기.
 - [x] 한국어 라벨·단위·출처·라이선스 표기를 메타데이터 1차 초안으로 작성한다 — `metadata.yaml` 최상위·database·tables·queries 4 계층 모두에 한국어 title·description·단위·source·license 필드 채움.
-- [ ] 한국어 라벨의 1차 출처를 기존 사용자 가이드와 CDID 사전으로 고정하고, 임의 라벨 도입을 차단한다
+- [x] 한국어 라벨의 1차 출처를 기존 사용자 가이드와 CDID 사전으로 고정하고, 임의 라벨 도입을 차단한다 — `visualize/db/check_label_provenance.py` 신설(3 검사 자동화: 캔드 쿼리 SQL의 한국어 리터럴 0 건 / CDID 사전 512 행 로드 / USER_GUIDE 시범 CDID 표 존재). 회귀 방지 가능하도록 종료코드 0/1로 PASS·FAIL 보고
 - [x] 메타데이터에 강의 보고서·강의 슬라이드의 출처 표기와 라이선스(영국 ONS·OGL v3) 안내를 포함한다 — 최상위·database 두 계층에 ONS BoP Statistical Bulletin Tables URL + OGL v3 라이선스 URL 명기, description에 `db/REPORT.md`·`db/USER_GUIDE.md`·`background/BoP.pptx` 1차 출처 인용.
 - [ ] 메타데이터·캔드 쿼리를 datasette가 읽을 수 있는 형식으로 정렬·검수한다
 
