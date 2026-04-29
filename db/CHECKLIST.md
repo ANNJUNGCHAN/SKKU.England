@@ -141,7 +141,7 @@
 
 ### 3.2 통계항목(CDID) 단위 정의
 - [x] **[background-search]** 인벤토리에서 추출한 모든 CDID 목록을 시트별로 묶어 강의 자료 기반 한국어 명칭·정의 작성을 일괄 요청 — 산출물: `db/data/_spec/cdid_definitions.csv` (512행 × 16 컬럼). 17 시트(Table_A·B·BX·C·D1_3·D4_6·D7_9·E·F·G·H·I·J·K·R1·R2·R3)별로 묶음, 컬럼 구성(sheet·sub_table·column_position·column_label·cdid·sign_prefix·unit·table_code·classification·notes·item_code1·item_code2·item_code3·ko_name·ko_definition·source). **ko_name 100%(512/512) 채움**(13회차 CDID 사전 영문 column_label + 21회차 LVL3 코드표 결합 의역), **ko_definition 37.7%(193/512) 채움**(강의 슬라이드 직접 매핑분만 — 21·22회차 검증 통과). 생성 스크립트: `db/code/source/build_cdid_definitions.py`(13회차+23회차+21회차 결합 ETL). 1차 근거: 13회차 CDID 사전(background/note/13) + 21회차 항목 위계(`db/data/_inventory/21_item_hierarchy.md`) + 23회차 시트 정의(`db/data/_inventory/23_sheet_definitions.md`)
-- [ ] CDID마다 한국어 정의가 채워졌는지 확인. 누락 CDID는 별도 목록으로 정리
+- [x] CDID마다 한국어 정의가 채워졌는지 확인. 누락 CDID는 별도 목록으로 정리 — 자동 점검: `cdid_definitions.csv` 512행 중 ko_definition 채움 193(37.7%, 강의 슬라이드 직접 매핑) + 누락 319(62.3%, 강의 자료 미수록) = 512(100%, 누락분 0). 누락 별도 목록 산출물: `db/data/_spec/cdid_definitions_unmapped.csv` (319행, ko_name 100% 채움 / ko_definition 0% — Phase 3.2 §4·§5 web-search 보강 대상). 17 시트 모두 누락 분포(Table_A·B·BX·C·D1_3·D4_6·D7_9·E·F·G·H·I·J·K·R1·R2·R3). 점검 절차는 `build_cdid_definitions.py` 내부 분기 로직(`ko_definition`이 비어있으면 unmapped 분리)으로 멱등 재현 가능
 - [ ] **[background-search]** 1차 정의 결과에서 강의 자료에 등장하지 않는 CDID는 명시적으로 표시되었는지 확인
 - [ ] **[web-search]** 강의 자료에 정의가 없는 CDID에 대해 ONS Time Series 페이지·BoP 매뉴얼(IMF BPM6 등) 출처 보강 요청
 - [ ] 보강 출처를 명세서의 근거 컬럼에 기록
