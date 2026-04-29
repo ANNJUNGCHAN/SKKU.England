@@ -147,7 +147,7 @@
 - [x] 보강 출처를 명세서의 근거 컬럼에 기록 — ETL 산출물: `db/code/source/supplement_cdid_sources.py`(시트 → 노트 24~28 매핑 사전 적용, 멱등 동작). 실행 결과: `cdid_definitions.csv` 512행 중 319 unmapped 행 source 컬럼 보강(강의 슬라이드 직접 매핑 193건은 변경하지 않음 — 강의 자료 우선 원칙) + `cdid_definitions_unmapped.csv` 319/319 모두 보강. 시트별 노트 매핑 17 시트(Table_A·B·BX·C·D1_3·D4_6·D7_9·E·F·G·H·I·J·K·R1·R2·R3) 100%. source 컬럼 형식 예: `13회차 CDID 사전(영문 column_label) + 21회차 LVL3 코드표 + background/note/24(EBOPS 2010 12분류 SA~SL)`. Phase 3.4 명세서 작성 시 본 source 컬럼이 근거 컬럼 1차 입력으로 직접 사용 가능
 
 ### 3.3 도메인 맥락 정리
-- [ ] **[background-search]** 단위 혼재(£ million·£ billion·% of GDP)의 강의 자료 표현 방식 확인 요청
+- [x] **[background-search]** 단위 혼재(£ million·£ billion·% of GDP)의 강의 자료 표현 방식 확인 요청 — 산출물: `background/note/29_domain_context.md` §1. 강의 자료는 **단위 격차(£m vs £bn)를 직접 다루지 않으며**, (a) 슬라이드 4 stock/flow 일반론, (b) 슬라이드 9 한국 BoP "단위: 백만 달러" 표기, (c) 슬라이드 15 한국 CA/GDP·FA/GDP 그래프 % of GDP 정규화, (d) 슬라이드 25 BoP(flow)↔IIP(stock) 시간 차원 구분으로 단위 개념을 간접 노출. 영국 ONS 적용은 **stock = £billion(D1.3·D4.6·D7.9·K·R3 22 부표) / flow = £million(A·B·BX·C·E~J·R1·R2 35 부표)** 분리 + 부표 4 % of GDP(B·BX·R2)로 슬라이드 15와 직결. 1차 근거: BoP.pptx 슬라이드 4·9·15·25 + background/note/08·12·15
 - [ ] 단위 정리 표 별도 작성
 - [ ] **[background-search]** 결측 표기 분류('x' = 비공개·미산출 / 빈 셀 = 계열 시작 이전 또는 자료 없음)의 강의 자료 또는 통계 일반론적 근거 요청
 - [ ] **[background-search]** BoP 항등식의 거시경제학적 의의(경상수지 적자의 자금조달 측면 해석)를 명세서 도입부에 인용할 한국어 문장으로 작성 요청
