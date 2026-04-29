@@ -1,0 +1,220 @@
+title: "영국 BoP 인터랙티브 탐색기 (datasette)"
+description_html: |-
+  <p>본 인터페이스는 SKKU 거시경제학 강의용 영국 국제수지(Balance of Payments) RDB를 datasette 0.65.2로 노출한 강의실 시연 전용 페이지입니다. 강사 노트북의 로컬 루프백에서만 기동되며, 외부 네트워크에는 노출되지 않습니다.</p>
+  <p>데이터 원본은 영국 통계청(ONS) <em>Balance of Payments Statistical Bulletin Tables</em> (분기 발표) 2025 Q4 회차이며, 모든 값은 원본 셀을 그대로 복제했습니다. 메타데이터·캔드 쿼리·라벨은 저장소의 <code>db/USER_GUIDE.md</code>·<code>db/REPORT.md</code>·<code>db/data/_spec/cdid_definitions.csv</code>·강의 슬라이드(<code>background/BoP.pptx</code>)를 1차 출처로 삼아 구성하였습니다.</p>
+license: "Open Government Licence v3.0 (OGL v3) — 영국 ONS 발행물에 적용"
+license_url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+source: "ONS, Balance of Payments Statistical Bulletin Tables (2026-03-31 발표분, 2025 Q4 자료)"
+source_url: "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsstatisticalbulletintables"
+
+databases:
+  ecos_uk_bop:
+    title: "영국 BoP ECOS 스타일 RDB"
+    description_html: |-
+      <p>한국은행 ECOS Open API의 4 주요 서비스(통계 자료 검색·통계표 목록·통계 항목 목록·계열 내보내기)에 대응하는 5 테이블 구조를 따른다.</p>
+      <ul>
+        <li><code>stat_table_meta</code> 63 행 — 표 단위 메타(시트→부표 단위로 분리)</li>
+        <li><code>stat_item_meta</code> 512 행 — 항목 단위 메타(CDID·한국어 라벨·단위·기간·부호 규약)</li>
+        <li><code>observation</code> 74,006 행 — 항목별 시점 관측치(원본 셀 RAW_CELL + 수치 DATA_VALUE)</li>
+        <li><code>missing_dict</code> 6 행 — 결측·특수 표기 사전(<code>x</code>·<code>(empty)</code>·<code>..</code>·<code>[c]</code>·<code>[z]</code>·<code>[low]</code>)</li>
+        <li><code>term_dict</code> 30 행 — 강의 용어 사전(BoP·IIP·BPM6 등)</li>
+      </ul>
+    source: "ONS, Balance of Payments Statistical Bulletin Tables (Q 발표)"
+    source_url: "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/balanceofpaymentsstatisticalbulletintables"
+    license: "Open Government Licence v3.0"
+    license_url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    tables:
+      stat_table_meta:
+        title: "통계표 메타 (63 행)"
+        description: "원본 시트→부표 단위로 분리한 통계표 카탈로그. STAT_CODE는 ECOS 통계표 코드와 동일 역할을 한다."
+        sortable_columns:
+          - STAT_CODE
+          - CYCLE
+          - START_TIME
+          - END_TIME
+      stat_item_meta:
+        title: "통계항목 메타 (512 행)"
+        description: "표 내 항목 단위 메타. ITEM_CODE1 = ONS CDID. ITEM_NAME_KR = 한국어 라벨(USER_GUIDE.md·CDID 사전 단일 출처)."
+        sortable_columns:
+          - STAT_CODE
+          - ITEM_CODE1
+          - LVL
+          - START_TIME
+      observation:
+        title: "관측치 (74,006 행)"
+        description: "(item_id, TIME) 복합 키. RAW_CELL은 원본 셀 문자열, DATA_VALUE는 수치 변환값(결측·문자 표기는 NULL)."
+        sortable_columns:
+          - item_id
+          - TIME
+      missing_dict:
+        title: "결측 사전 (6 행)"
+        description: "원본 셀 특수 표기에 대한 한국어 의미 매핑. ONS 표준(`x`·`..`·`[c]`·`[z]`·`[low]`)과 빈 셀 규약을 모두 포함."
+      term_dict:
+        title: "용어 사전 (30 행)"
+        description: "BoP·IIP·BPM6 등 강의에서 등장하는 핵심 용어의 한·영 정의."
+    queries:
+      q01_headline_goods:
+        title: "[헤드라인 1/5] 상품무역 수지 (2025 Q4 = −£65.5bn)"
+        description_html: |-
+          <p>강의 슬라이드 5·21 대응. ONS Records 시트 기준 <strong>2025 Q4 상품무역 수지가 사상 최대 적자(−£65,496m)</strong> 를 갱신했다. 비통화용 금(SITC 9) 등 대형 귀금속 거래의 일회성 영향이 포함되어 있어 보조표 <code>Table_BX</code>(귀금속 제외)와 비교가 필요하다.</p>
+          <p>예상 결과: 2025Q4 행에 RAW_CELL = <code>-65496</code>, DATA_VALUE = <code>-65496.0</code>.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.RAW_CELL AS 원본_셀,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_A_sub1'
+             AND m.ITEM_CODE1 = 'BOKI'
+             AND o.TIME LIKE '2025Q%'
+           ORDER BY o.TIME
+      q02_headline_services:
+        title: "[헤드라인 2/5] 서비스무역 수지 (2025 Q4 = +£53.3bn)"
+        description_html: |-
+          <p>강의 슬라이드 5 대응. 2025 Q4 서비스무역 흑자 = <strong>+£53,335m</strong>. 영국의 만성적 상품 적자를 상쇄하는 주된 원천이며, 금융·기타 비즈니스 서비스·지식재산권이 핵심 수출.</p>
+          <p>예상 결과: 2025Q4 행에 RAW_CELL = <code>53335</code>, DATA_VALUE = <code>53335.0</code>.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.RAW_CELL AS 원본_셀,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_A_sub1'
+             AND m.ITEM_CODE1 = 'IKBD'
+             AND o.TIME LIKE '2025Q%'
+           ORDER BY o.TIME
+      q03_headline_current_account:
+        title: "[헤드라인 3/5] 경상수지 합계 (2025 Q4 = −£18.4bn)"
+        description_html: |-
+          <p>강의 슬라이드 5·14 대응. 항등식 <code>CA = G + S + PI + SI</code>의 좌변. 2025 Q4 경상수지 = <strong>−£18,392m</strong>으로 2025 Q2 이후 최대 적자.</p>
+          <p>예상 결과: 2025Q4 행에 RAW_CELL = <code>-18392</code>, DATA_VALUE = <code>-18392.0</code>.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.RAW_CELL AS 원본_셀,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_A_sub1'
+             AND m.ITEM_CODE1 = 'HBOP'
+             AND o.TIME LIKE '2025Q%'
+           ORDER BY o.TIME
+      q04_headline_ca_gdp_ratio:
+        title: "[헤드라인 4/5] 경상수지 / GDP 비율 (2025 Q4 = −2.4%)"
+        description_html: |-
+          <p>강의 슬라이드 5·14 대응. <code>Table_B_sub4</code>(경상수지 본표 부표 4 = % of GDP). CDID = <code>AA6H</code>. 2025 Q4 = <strong>−2.4%</strong>.</p>
+          <p>예상 결과: 2025Q4 행에 DATA_VALUE = <code>-2.4</code>. 단위는 % of GDP.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.RAW_CELL AS 원본_셀,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_B_sub4'
+             AND m.ITEM_CODE1 = 'AA6H'
+             AND o.TIME LIKE '2025Q%'
+           ORDER BY o.TIME
+      q05_headline_niip:
+        title: "[헤드라인 5/5] 순대외투자(NIIP) 분기말 잔액 (2025 Q4 = −£199.8bn)"
+        description_html: |-
+          <p>강의 슬라이드 6·26 대응. <code>Table_K_sub3</code> CDID = <code>HBQC</code> (Total net investment, GBP billion). 2025 Q4 = <strong>−£199.8bn</strong>으로 영국이 만성적 순부채국임을 보여 준다.</p>
+          <p>예상 결과: 2025Q4 행에 DATA_VALUE = <code>-199.8</code>. 단위는 GBP billion (Table_A·B의 GBP million과 다르므로 비교 시 주의).</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.RAW_CELL AS 원본_셀,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_K_sub3'
+             AND m.ITEM_CODE1 = 'HBQC'
+             AND o.TIME LIKE '2025Q%'
+           ORDER BY o.TIME
+      q06_ts_current_account_quarterly:
+        title: "[대표 시계열 1] 경상수지 분기 시계열 (1997 Q1– , HBOP)"
+        description_html: |-
+          <p>강의 슬라이드 14 항등식 좌변(<code>HBOP</code>) 의 분기 전체 시계열. datasette-vega 차트 플러그인의 라인 차트(축: TIME × DATA_VALUE)로 시연하여 2008–2010 글로벌 금융위기·2020 팬데믹·2025 귀금속 충격이 만든 적자 변동을 한눈에 보여 준다.</p>
+          <p>예상 결과: 1997Q1부터 2025Q4까지 분기 행이 행 단위로 출력된다(연간 합계 행은 별도 TIME = '연도'로 함께 출력되며 Q 패턴 필터로 분리 가능).</p>
+        sql: |-
+          SELECT o.TIME AS 시점,
+                 o.DATA_VALUE AS 경상수지_GBP_million,
+                 o.RAW_CELL AS 원본_셀
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_A_sub1'
+             AND m.ITEM_CODE1 = 'HBOP'
+             AND o.TIME LIKE '%Q%'
+           ORDER BY o.TIME
+      q07_ts_goods_vs_services_quarterly:
+        title: "[대표 시계열 2] 상품 vs 서비스 분기 비교 (BOKI / IKBD)"
+        description_html: |-
+          <p>강의 슬라이드 5 대응. 영국 무역 수지를 구성하는 두 축(상품·서비스)이 분기별로 서로 어떻게 상쇄되는지 시연한다. 차트 플러그인에서 두 시리즈를 색상으로 구분해 라인으로 시연하면 적합.</p>
+          <p>예상 결과: 1997Q1– 분기별 두 항목이 long-form으로 나란히 출력. 같은 시점에서 BOKI(−)와 IKBD(+) 부호가 명확히 갈리는 패턴 관찰 가능.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.DATA_VALUE AS 값_GBP_million
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE m.STAT_CODE = 'UK_BoP_Table_A_sub1'
+             AND m.ITEM_CODE1 IN ('BOKI', 'IKBD')
+             AND o.TIME LIKE '%Q%'
+           ORDER BY o.TIME, m.ITEM_CODE1
+      q08_identity_residual_quarterly:
+        title: "[항등식 잔차] CA + KA + FA + NEO 분기별 검증"
+        description_html: |-
+          <p>강의 슬라이드 13(복식부기 항등성)·14(<code>CA = FA(broad)</code> 단순화)·USER_GUIDE.md §6 대응. 이상적인 BoP 항등식은 <code>CA + KA + FA + NEO ≡ 0</code>이지만, 실측 ONS Table_A_sub3 부호 규약에서는 잔차가 정확히 0이 아니다. 본 쿼리는 분기마다 4 개 항목을 한 행에 모아 잔차(<code>residual</code>)를 표시하여, 강의 슬라이드 13·14의 항등식 단순화가 실측과 어떻게 어긋나는지 직접 보여 준다.</p>
+          <p>표기: CA = HBOP(Table_A_sub1), KA = FNVQ(Table_A_sub1), FA = <code>-HBNT</code> (Table_A_sub3, ONS Table_A 표시 부호), NEO = HHDH(Table_A_sub3). 단위는 모두 GBP million.</p>
+        sql: |-
+          SELECT t.TIME AS 시점,
+                 (SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                    WHERE m.STAT_CODE='UK_BoP_Table_A_sub1' AND m.ITEM_CODE1='HBOP' AND o.TIME=t.TIME) AS CA,
+                 (SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                    WHERE m.STAT_CODE='UK_BoP_Table_A_sub1' AND m.ITEM_CODE1='FNVQ' AND o.TIME=t.TIME) AS KA,
+                 (SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                    WHERE m.STAT_CODE='UK_BoP_Table_A_sub3' AND m.ITEM_CODE1='-HBNT' AND o.TIME=t.TIME) AS FA,
+                 (SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                    WHERE m.STAT_CODE='UK_BoP_Table_A_sub3' AND m.ITEM_CODE1='HHDH' AND o.TIME=t.TIME) AS NEO,
+                 (
+                   IFNULL((SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                            WHERE m.STAT_CODE='UK_BoP_Table_A_sub1' AND m.ITEM_CODE1='HBOP' AND o.TIME=t.TIME),0)
+                 + IFNULL((SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                            WHERE m.STAT_CODE='UK_BoP_Table_A_sub1' AND m.ITEM_CODE1='FNVQ' AND o.TIME=t.TIME),0)
+                 + IFNULL((SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                            WHERE m.STAT_CODE='UK_BoP_Table_A_sub3' AND m.ITEM_CODE1='-HBNT' AND o.TIME=t.TIME),0)
+                 + IFNULL((SELECT o.DATA_VALUE FROM stat_item_meta m JOIN observation o ON m.item_id=o.item_id
+                            WHERE m.STAT_CODE='UK_BoP_Table_A_sub3' AND m.ITEM_CODE1='HHDH' AND o.TIME=t.TIME),0)
+                 ) AS residual
+            FROM (SELECT DISTINCT TIME FROM observation WHERE TIME LIKE '%Q%') t
+           ORDER BY t.TIME
+      q09_demo_cdids:
+        title: "[학습용] 시범 CDID 9 종 한 화면 시연"
+        description_html: |-
+          <p>USER_GUIDE.md §4 시범 CDID 추천 표 대응. 한 쿼리로 9 종 CDID(HBOP / LQCT·BOKI / IKBD / HBOJ / IKBP / FNVQ / HBNT / HHDH / LTEB)의 최근 분기(2025 Q4) 값을 한 화면에 모아, 강의 첫 시연용 카드를 만든다.</p>
+          <p>예상 결과: 9–10 행. 단위가 표마다 다르므로(<code>GBP million</code> vs <code>GBP billion</code>) 학생이 단위를 혼동하지 않도록 단위 컬럼을 함께 노출.</p>
+        sql: |-
+          SELECT m.ITEM_CODE1 AS CDID,
+                 m.STAT_CODE AS 표,
+                 m.ITEM_NAME_KR AS 항목,
+                 o.TIME AS 시점,
+                 o.DATA_VALUE AS 값,
+                 m.UNIT_NAME AS 단위
+            FROM stat_item_meta m
+            JOIN observation o ON m.item_id = o.item_id
+           WHERE o.TIME = '2025Q4'
+             AND m.ITEM_CODE1 IN ('HBOP','LQCT','BOKI','IKBD','HBOJ','IKBP','FNVQ','HBNT','HHDH','LTEB')
+           ORDER BY m.ITEM_CODE1, m.STAT_CODE
