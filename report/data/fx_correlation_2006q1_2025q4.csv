@@ -1,0 +1,13 @@
+fx_series,fx_key,bop_series,bop_key,n_level,corr_level,n_diff_qoq,corr_diff_qoq,n_diff_yoy,corr_diff_yoy
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,80,0.1327,79,-0.0135,76,-0.0395
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,80,0.5829,79,-0.0746,76,-0.1265
+GBP/USD,gbp_usd,"CA / GDP (%, 합성)",ca_gdp,80,-0.1853,79,0.0088,76,-0.0209
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,80,-0.0552,79,0.0448,76,-0.0476
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,80,0.3345,79,0.0596,76,-0.0125
+GBP/EUR,gbp_eur,"CA / GDP (%, 합성)",ca_gdp,80,-0.2622,79,0.0562,76,-0.0497
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,80,-0.0247,79,0.0283,76,-0.0835
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,80,0.2811,79,0.0154,76,-0.0614
+Sterling ERI (BoE),sterling_eri_jan2005_100,"CA / GDP (%, 합성)",ca_gdp,80,-0.2139,79,0.0422,76,-0.0776
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,80,-0.1098,79,-0.0064,76,-0.1107
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,80,0.0433,79,0.0073,76,-0.0452
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"CA / GDP (%, 합성)",ca_gdp,80,-0.1895,79,0.0068,76,-0.1001

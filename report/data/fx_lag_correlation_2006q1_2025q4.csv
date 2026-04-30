@@ -1,0 +1,41 @@
+fx_series,fx_key,bop_series,bop_key,lag_quarters,n,corr_qoq_diff
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,0,79,-0.0135
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,1,78,-0.0964
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,2,77,0.0613
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,4,75,-0.1585
+GBP/USD,gbp_usd,"경상수지(CA, £m, HBOP)",HBOP,8,71,-0.0399
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,0,79,-0.0746
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,1,78,-0.1101
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,2,77,0.1246
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,4,75,-0.1644
+GBP/USD,gbp_usd,"상품수지(£m, BOKI)",BOKI,8,71,0.0219
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,0,79,0.0448
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,1,78,-0.0532
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,2,77,-0.0229
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,4,75,-0.0928
+GBP/EUR,gbp_eur,"경상수지(CA, £m, HBOP)",HBOP,8,71,-0.0378
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,0,79,0.0596
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,1,78,-0.0355
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,2,77,0.1130
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,4,75,-0.1026
+GBP/EUR,gbp_eur,"상품수지(£m, BOKI)",BOKI,8,71,-0.0514
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,0,79,0.0283
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,1,78,-0.1060
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,2,77,0.0058
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,4,75,-0.1421
+Sterling ERI (BoE),sterling_eri_jan2005_100,"경상수지(CA, £m, HBOP)",HBOP,8,71,-0.0260
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,0,79,0.0154
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,1,78,-0.1006
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,2,77,0.1391
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,4,75,-0.1473
+Sterling ERI (BoE),sterling_eri_jan2005_100,"상품수지(£m, BOKI)",BOKI,8,71,-0.0248
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,0,79,-0.0064
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,1,78,-0.1220
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,2,77,-0.0020
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,4,75,-0.1412
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"경상수지(CA, £m, HBOP)",HBOP,8,71,-0.0109
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,0,79,0.0073
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,1,78,-0.1114
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,2,77,0.1153
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,4,75,-0.1511
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"상품수지(£m, BOKI)",BOKI,8,71,-0.0192

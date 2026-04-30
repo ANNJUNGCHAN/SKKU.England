@@ -1,0 +1,9 @@
+fx_series,fx_key,y_series,y_key,n,alpha,beta,se_beta,t_beta,r2
+GBP/USD,gbp_usd,"|CA| (£m, HBOP)",HBOP,79,0.006397,0.442033,1.947156,0.2270,0.0007
+GBP/USD,gbp_usd,|BOKI| (£m),BOKI,79,0.016495,0.579420,0.686727,0.8437,0.0092
+GBP/EUR,gbp_eur,"|CA| (£m, HBOP)",HBOP,79,-0.000824,-1.844426,2.803759,-0.6578,0.0056
+GBP/EUR,gbp_eur,|BOKI| (£m),BOKI,79,0.012482,-0.645946,0.993126,-0.6504,0.0055
+Sterling ERI (BoE),sterling_eri_jan2005_100,"|CA| (£m, HBOP)",HBOP,79,0.002960,-0.932374,3.004663,-0.3103,0.0012
+Sterling ERI (BoE),sterling_eri_jan2005_100,|BOKI| (£m),BOKI,79,0.013990,-0.236285,1.064547,-0.2220,0.0006
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,"|CA| (£m, HBOP)",HBOP,79,0.004897,0.045605,3.038246,0.0150,0.0000
+Eurostat REER IC42 (CPI),eurostat_reer_ic42_cpi_2015_100,|BOKI| (£m),BOKI,79,0.014242,-0.229463,1.075801,-0.2133,0.0006

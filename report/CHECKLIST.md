@@ -61,11 +61,11 @@
 
 ### 4.3 환율–경상수지 검증 (단계 3 산출물 결합)
 
-- [ ] 분기 평균 환율(양자 + 실효) 시계열을 단계 4.1 시계열과 동일 시점 키로 결합한 결합 표 산출
-- [ ] 환율 레벨 vs CA 레벨 단순 상관계수 + 환율 차분 vs CA 차분 단순 상관계수 산출
-- [ ] 시차 0/1/2/4/8 분기 시차 상관계수 산출 (J-curve 검증)
-- [ ] 단순 차분 회귀(Δlog CA = α + β · Δlog ER) 의 β 추정·R²·표준오차 산출
-- [ ] 사례 분석용 표: 2008·2016·2022 파운드 약세 직후 4·8 분기 동안 상품수지가 실제로 개선되었는가의 분기 표
+- [x] 분기 평균 환율(양자 + 실효) 시계열을 단계 4.1 시계열과 동일 시점 키로 결합한 결합 표 산출 — `report/data/exchange_rates_quarterly_2006q1_2025q4.csv` (80 행 × 5 컬럼). BoE 3시리즈(XUDLUSS·XUDLERS·XUDLBK67) 일별 영업일 평균(방법 B), Eurostat REER_IC42_CPI 월평균→분기 단순평균(방법 A). BIS RB.M.GB 4 endpoint 모두 timeout 차단 → Eurostat 대체 (단계 5 §7 한계 명시 후보). raw 4 CSV 는 `db/data/_external/exchange_rates/` 적재 (OGL v3.0 + © European Union)
+- [x] 환율 레벨 vs CA 레벨 단순 상관계수 + 환율 차분 vs CA 차분 단순 상관계수 산출 — `report/data/fx_correlation_2006q1_2025q4.csv` (12 행). BOKI vs GBP/USD 레벨 +0.58 (공통 추세 동시성), CA vs 4환율 |r|<0.27, QoQ 차분 모두 |r|<0.13 — 분기 단위 동시성 거의 없음
+- [x] 시차 0/1/2/4/8 분기 시차 상관계수 산출 (J-curve 검증) — `report/data/fx_lag_correlation_2006q1_2025q4.csv` (40 행). lag 4(1년 후) 음 상관 −0.10~−0.16 — J-curve 가설 부호와 반대, |r| 모두 95% 임계 미달 → J-curve 통계적 미검출
+- [x] 단순 차분 회귀(Δlog CA = α + β · Δlog ER) 의 β 추정·R²·표준오차 산출 — `report/data/fx_regression_2006q1_2025q4.csv` (8 행). R² 모두 0.01 미만, |t|<1 — 환율 단독으로 BoP 분기 변동의 1% 미만만 설명. 보고서 §7 핵심 결론
+- [x] 사례 분석용 표: 2008·2016·2022 파운드 약세 직후 4·8 분기 동안 상품수지가 실제로 개선되었는가의 분기 표 — `report/data/fx_case_study_2006q1_2025q4.csv` (45 행, 사건 5건). 5건 중 환율–BoP 부호 일관 **1건만** 검출: Brexit 2016Q3 직후 8 분기 BOKI 누적 +£6.9bn (ONS 2017 제조업 수출 +9% 와 정합). GFC·COVID·Mini-Budget 비일관. 마크다운 메모 `report/research/12_quantitative_4_3.md` (7절·20KB) + 스크립트 2건 동시 산출
 
 ### 4.4 그래프 산출 (1건당 데이터 표 1:1 대응)
 
