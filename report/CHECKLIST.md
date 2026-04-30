@@ -69,13 +69,13 @@
 
 ### 4.4 그래프 산출 (1건당 데이터 표 1:1 대응)
 
-- [ ] CA 합계 분기 시계열 라인 차트 산출 (PNG 또는 SVG)
-- [ ] CA 4 세부항목 분기 시계열 라인 차트 산출 (한 화면 4 시리즈 비교)
-- [ ] FA 합계 + 5 세부항목 분기 누적 면적/막대 차트 산출
-- [ ] BoP 항등식 잔차 분기 라인 차트 산출 (충격 시기 강조)
-- [ ] 환율 vs CA 산점도 산출 (양자환율 + 실효환율 각각, 시차 0·4 두 종류)
-- [ ] 환율 시계열 + 상품수지 시계열 이중축 라인 차트 산출
-- [ ] 그래프 1건당 데이터 source 평면 표를 같은 묶음 폴더에 함께 저장하여 추적성 확보
+- [x] CA 합계 분기 시계열 라인 차트 산출 (PNG 또는 SVG) — `report/figures/fig01_ca_quarterly.png` (HBOP 80 분기 라인 + 0선 + 충격 5건 빨강 점: 2008Q4 −16,236 / 2016Q3 −32,707 / 2020Q2 −8,224 / 2022Q3 −2,431 / 2025Q4 −18,392 GBP million) + `fig01_data.csv` (80 행)
+- [x] CA 4 세부항목 분기 시계열 라인 차트 산출 (한 화면 4 시리즈 비교) — `report/figures/fig02_ca_components.png` (BOKI·IKBD·HBOJ·IKBP 색상 구분 라인) + `fig02_data.csv` (80 행)
+- [x] FA 합계 + 5 세부항목 분기 누적 면적/막대 차트 산출 — `report/figures/fig03_fa_components.png` (5 세부항목 부호 분리 누적 막대 + −HBNT 합계 라인 오버레이) + `fig03_data.csv` (80 행)
+- [x] BoP 항등식 잔차 분기 라인 차트 산출 (충격 시기 강조) — `report/figures/fig04_identity_residual.png` (잔차 라인 + ±1σ·±2σ 점선 + |z|>2 분기 3건 강조: 2011Q1 z=+2.179 / 2016Q3 z=−2.609 / 2022Q4 z=+2.232. 사용자 사양 2분기 vs 실측 3분기 차이는 데이터 무수정 원칙 따라 마크다운 §2.4 에 명시) + `fig04_data.csv` (80 행)
+- [x] 환율 vs CA 산점도 산출 (양자환율 + 실효환율 각각, 시차 0·4 두 종류) — `report/figures/fig05_fx_ca_scatter.png` (2×2 grid: GBP/USD vs HBOP lag 0·4 / Sterling ERI vs HBOP lag 0·4, 패널별 r 표기) + `fig05_data.csv` (156 행)
+- [x] 환율 시계열 + 상품수지 시계열 이중축 라인 차트 산출 — `report/figures/fig06_fx_boki_dual_axis.png` (상·하 2 패널: A=BOKI×GBP/USD / B=BOKI×Sterling ERI, 변곡점 4 수직 점선) + `fig06_data.csv` (80 행). 초안의 ERI ÷50 스케일링은 데이터 변형 우려로 2 패널 분리 재구성
+- [x] 그래프 1건당 데이터 source 평면 표를 같은 묶음 폴더에 함께 저장하여 추적성 확보 — `report/figures/README.md` 신설(6 그래프 ↔ 6 source CSV 매핑 + 출처 표). matplotlib 3.10.9 + 9 의존성 `requirements.txt` 동기화 완료. 마크다운 메모 `report/research/13_quantitative_4_4.md` (4 절) + 스크립트 `report/code/quantitative_4_4.py` 동시 산출
 
 ### 4.5 단계 마감
 
